@@ -1,0 +1,37 @@
+site_name: StateService Documentation
+
+site_url: https://sitename.example
+
+theme:
+  name: material
+  palette:
+    - scheme: slate 
+      toggle:
+        icon: material/toggle-switch
+        name: Switch to light mode    
+      primary: blue
+      accent: light blue
+    - scheme: default
+      toggle:
+        icon: material/toggle-switch-off-outline 
+        name: Switch to dark mode
+      primary: red
+      accent: red
+
+nav:
+  - Home: index.md
+  - Downloads: Downloads.md
+  - Tutorial:
+    - Setting Up: Tutorial/Setting Up.md
+    - Basic Example: Tutorial/Basic Example.md
+  - API: API.md
+
+markdown_extensions:
+  - admonition
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.details
+  - pymdownx.snippets
+  - pymdownx.highlight
+  - pymdownx.superfences
+  - pymdownx.inlinehilite
