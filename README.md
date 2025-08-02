@@ -12,8 +12,6 @@ Most preferably: ReplicatedStorage, ReplicatedFirst, ServerStorage, ServerScript
 **Server:**
 ```luau
 --!strict
-local RunService = game:GetService("RunService")
-
 local Players = game:GetService("Players")
 local ReplicatedStorage = game:GetService("ReplicatedStorage")
 
@@ -53,27 +51,25 @@ Players.PlayerAdded:Connect(
 					Value,
 					ExpiredByLifespan
 				): ()
-					print(Player.Name .. "'s data removed:", ExpiredByLifespan and "expired" or "manual")
+					print(`{Player.Name}'s data removed: {ExpiredByLifespan and "expired" or "manual"}`)
 
-					print("Saving coins:", Value.coins, "Level:", Value.level)
+					print(`Saving Example: {Value}`)
+
+					-- Saving stuff here
 				end,
 				OnEdited = function(
 					OldValue,
 					NewValue
 				): ()
-					if OldValue.coins ~= NewValue.coins then
-						print(Player.Name .. "'s coins changed from", OldValue.coins, "to", NewValue.coins)
-					end
-
-					if OldValue.level ~= NewValue.level then
-						print(Player.Name .. " leveled up to", NewValue.level)
+					if OldValue.Example ~= NewValue.Example then
+						print(`{Player.Name}'s Example changed from {OldValue.Example} to {NewValue.Example}`)
 					end
 				end,
 				OnCalled = function(
 					Caller,
 					...
 				): ()
-					print("Player data accessed via:", Caller, "for player:", Player.Name)
+					print(`Player data accessed via: {Caller}, for player: {Player.Name}`)
 				end
 			},
 			{
