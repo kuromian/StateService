@@ -2,7 +2,7 @@
 	<Meta name="ExplicitAutoJoints">true</Meta>
 	<External>null</External>
 	<External>nil</External>
-	<Item class="Folder" referent="RBX961BC84C0335439D9FC9E72087BEACFF">
+	<Item class="Folder" referent="RBX71C4849B04D143B8BD6157476B9AFD67">
 		<Properties>
 			<BinaryString name="AttributesSerialize"></BinaryString>
 			<SecurityCapabilities name="Capabilities">0</SecurityCapabilities>
@@ -11,7 +11,7 @@
 			<int64 name="SourceAssetId">-1</int64>
 			<BinaryString name="Tags"></BinaryString>
 		</Properties>
-		<Item class="Folder" referent="RBX160B69DB082E4C87A8F2AEED88D8286A">
+		<Item class="Folder" referent="RBX2920ECB391AB49BE969AC699A97FC23B">
 			<Properties>
 				<BinaryString name="AttributesSerialize"></BinaryString>
 				<SecurityCapabilities name="Capabilities">0</SecurityCapabilities>
@@ -20,7 +20,7 @@
 				<int64 name="SourceAssetId">-1</int64>
 				<BinaryString name="Tags"></BinaryString>
 			</Properties>
-			<Item class="Folder" referent="RBX2C6AFB3050734466A28988E93BE2F840">
+			<Item class="Folder" referent="RBXBEEBF753A458402D9880295707FB936C">
 				<Properties>
 					<BinaryString name="AttributesSerialize"></BinaryString>
 					<SecurityCapabilities name="Capabilities">0</SecurityCapabilities>
@@ -29,14 +29,14 @@
 					<int64 name="SourceAssetId">-1</int64>
 					<BinaryString name="Tags"></BinaryString>
 				</Properties>
-				<Item class="ModuleScript" referent="RBXA85452E4E1AD460BB1BE908C79D0506C">
+				<Item class="ModuleScript" referent="RBXA363C53DB12C4263BCC262B1B8B0D240">
 					<Properties>
 						<BinaryString name="AttributesSerialize"></BinaryString>
 						<SecurityCapabilities name="Capabilities">0</SecurityCapabilities>
 						<bool name="DefinesCapabilities">false</bool>
 						<Content name="LinkedSource"><null></null></Content>
 						<string name="Name">StateService</string>
-						<string name="ScriptGuid">{09C7CF7D-E206-4629-AF0C-DB5BD9424E2A}</string>
+						<string name="ScriptGuid">{1166D4A9-261D-47B0-823F-77529D377C80}</string>
 						<ProtectedString name="Source"><![CDATA[--!optimize 2
 --!strict
 
@@ -58,7 +58,7 @@
 		- Performance optimized w/ lazy cleanup
 
 	You can find the documentation of this module here:
-		https://www.website.com/
+		https://kuromian.github.io/StateService
 ]]
 
 -- Program written by @Kuromi69 on Roblox's Developer Forum.
@@ -1406,7 +1406,7 @@ return StateService]]></ProtectedString>
 						<int64 name="SourceAssetId">-1</int64>
 						<BinaryString name="Tags"></BinaryString>
 					</Properties>
-					<Item class="PackageLink" referent="RBX26B2EEE2F9274CFEA5CBFE2F2CB3208E">
+					<Item class="PackageLink" referent="RBX32A39A8A429241E8B2A3A2A012D666CF">
 						<Properties>
 							<BinaryString name="AttributesSerialize"></BinaryString>
 							<bool name="AutoUpdate">false</bool>
@@ -1419,13 +1419,13 @@ return StateService]]></ProtectedString>
 							<BinaryString name="SerializedDefaultAttributes"></BinaryString>
 							<int64 name="SourceAssetId">-1</int64>
 							<BinaryString name="Tags"></BinaryString>
-							<int64 name="VersionIdSerialize">3</int64>
+							<int64 name="VersionIdSerialize">4</int64>
 						</Properties>
 					</Item>
 				</Item>
 			</Item>
 		</Item>
-		<Item class="Folder" referent="RBX76B6C6CA86C84A5CAFC76EA08CEEA942">
+		<Item class="Folder" referent="RBX9684B82E98F94B5DA690DC4C059DCAD6">
 			<Properties>
 				<BinaryString name="AttributesSerialize"></BinaryString>
 				<SecurityCapabilities name="Capabilities">0</SecurityCapabilities>
@@ -1434,7 +1434,7 @@ return StateService]]></ProtectedString>
 				<int64 name="SourceAssetId">-1</int64>
 				<BinaryString name="Tags"></BinaryString>
 			</Properties>
-			<Item class="Folder" referent="RBXB9171A0297FB490CA9243EB98DFAD405">
+			<Item class="Folder" referent="RBX73D6BA109DF74CFC9106E40D6D312A9D">
 				<Properties>
 					<BinaryString name="AttributesSerialize"></BinaryString>
 					<SecurityCapabilities name="Capabilities">0</SecurityCapabilities>
@@ -1443,7 +1443,7 @@ return StateService]]></ProtectedString>
 					<int64 name="SourceAssetId">-1</int64>
 					<BinaryString name="Tags"></BinaryString>
 				</Properties>
-				<Item class="Script" referent="RBX405E6CD085624F7EBC42B695FBA60EF8">
+				<Item class="Script" referent="RBX2A09BD64650E43008CBBCE917E8D03F1">
 					<Properties>
 						<BinaryString name="AttributesSerialize"></BinaryString>
 						<SecurityCapabilities name="Capabilities">0</SecurityCapabilities>
@@ -1493,27 +1493,25 @@ Players.PlayerAdded:Connect(
 					Value,
 					ExpiredByLifespan
 				): ()
-					print(Player.Name .. "'s data removed:", ExpiredByLifespan and "expired" or "manual")
+					print(`{Player.Name}'s data removed: {ExpiredByLifespan and "expired" or "manual"}`)
 
-					print("Saving coins:", Value.coins, "Level:", Value.level)
+					print(`Saving Example: {Value}`)
+
+					-- Saving stuff here
 				end,
 				OnEdited = function(
 					OldValue,
 					NewValue
 				): ()
-					if OldValue.coins ~= NewValue.coins then
-						print(Player.Name .. "'s coins changed from", OldValue.coins, "to", NewValue.coins)
-					end
-
-					if OldValue.level ~= NewValue.level then
-						print(Player.Name .. " leveled up to", NewValue.level)
+					if OldValue.Example ~= NewValue.Example then
+						print(`{Player.Name}'s Example changed from {OldValue.Example} to {NewValue.Example}`)
 					end
 				end,
 				OnCalled = function(
 					Caller,
 					...
 				): ()
-					print("Player data accessed via:", Caller, "for player:", Player.Name)
+					print(`Player data accessed via: {Caller}, for player: {Player.Name}`)
 				end
 			},
 			{
@@ -1582,7 +1580,7 @@ Players.PlayerRemoving:Connect(
 				</Item>
 			</Item>
 		</Item>
-		<Item class="Folder" referent="RBXBBFCC434FFA84D29A6B1DDD85876744A">
+		<Item class="Folder" referent="RBX94BAD7EA6F6140DB8A28D2E701D96A0B">
 			<Properties>
 				<BinaryString name="AttributesSerialize"></BinaryString>
 				<SecurityCapabilities name="Capabilities">0</SecurityCapabilities>
@@ -1591,7 +1589,7 @@ Players.PlayerRemoving:Connect(
 				<int64 name="SourceAssetId">-1</int64>
 				<BinaryString name="Tags"></BinaryString>
 			</Properties>
-			<Item class="Folder" referent="RBX32D40D2F88D74D54BED1B930DF177A88">
+			<Item class="Folder" referent="RBX05599AF56236474EB3BBA2693538C09E">
 				<Properties>
 					<BinaryString name="AttributesSerialize"></BinaryString>
 					<SecurityCapabilities name="Capabilities">0</SecurityCapabilities>
@@ -1600,7 +1598,7 @@ Players.PlayerRemoving:Connect(
 					<int64 name="SourceAssetId">-1</int64>
 					<BinaryString name="Tags"></BinaryString>
 				</Properties>
-				<Item class="LocalScript" referent="RBXDB61EB820B0B45EFB7244610A9CCD06C">
+				<Item class="LocalScript" referent="RBXC0B1DD331B8B4A3699668B2BDDDBC0C4">
 					<Properties>
 						<BinaryString name="AttributesSerialize"></BinaryString>
 						<SecurityCapabilities name="Capabilities">0</SecurityCapabilities>
@@ -1633,7 +1631,7 @@ print(StateService:GetState(Player, "PlayerData"))
 				</Item>
 			</Item>
 		</Item>
-		<Item class="Script" referent="RBXFD7AB7FA810C42728451EBAD743DD8CB">
+		<Item class="Script" referent="RBX45AB8044818740B9AED4333B017E0077">
 			<Properties>
 				<BinaryString name="AttributesSerialize"></BinaryString>
 				<SecurityCapabilities name="Capabilities">0</SecurityCapabilities>

@@ -7,6 +7,9 @@ Enterprise-grade state management for Roblox with server/client architecture, au
 Place the module anywhere to reference it later.\
 Most preferably: ReplicatedStorage, ReplicatedFirst, ServerStorage, ServerScriptService, Workspace
 
+You can find the official model on the Roblox Creator Marketplace here: [https://create.roblox.com/store/asset/121946448234703](https://create.roblox.com/store/asset/121946448234703)
+You can find the official example place on Roblox here: [https://www.roblox.com/games/76942703791553/StateService-Example](https://www.roblox.com/games/76942703791553)
+
 ## Example
 
 **Server:**
@@ -156,4 +159,4 @@ print(StateService:GetState(Player, "PlayerData"))
 
 ## Documentation
 
-**[https://github.io/advanced-state-manager](https://github.io/advanced-state-manager)**
+**[https://kuromian.github.io/StateService](https://kuromian.github.io/StateService)**

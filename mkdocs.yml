@@ -1,6 +1,6 @@
 site_name: StateService Documentation
 
-site_url: https://sitename.example
+site_url: https://kuromian.github.io/StateService
 
 theme:
   name: material
