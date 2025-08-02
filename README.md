@@ -5,7 +5,7 @@ Enterprise-grade state management for Roblox with server/client architecture, au
 ## Installation
 
 Place the module anywhere to reference it later.\
-Most preferably: ReplicatedStorage, ReplicatedFirst, ServerStoraage, ServerScriptService, Workspace
+Most preferably: ReplicatedStorage, ReplicatedFirst, ServerStorage, ServerScriptService, Workspace
 
 ## Example
 
