@@ -328,7 +328,7 @@ local function ValidateInstance(Instance: any): (boolean)
 end
 
 local function ValidateStateName(StateName: any): (boolean)
-	return type(StateName) == "string"and StateName ~= ""
+	return type(StateName) == "string" and StateName ~= ""
 end
 
 local function IsPlayerAuthorized(
@@ -483,7 +483,7 @@ function StateService:AddState(
 		return false
 	end
 
-	if Lifespan and (type(Lifespan) ~= "number"or Lifespan <= 0) then
+	if Lifespan and (type(Lifespan) ~= "number" or Lifespan <= 0) then
 		_Debug_Message(
 			"Warn",
 			"AddState - Lifespan must be a positive number",
@@ -803,10 +803,10 @@ function StateService:EditState(
 
 	local OldValue = DeepCopy(StateData.Value)
 
-	if Override == true or type(StateData.Value) ~= "table"or type(NewValue) ~= "table"then
+	if Override == true or type(StateData.Value) ~= "table" or type(NewValue) ~= "table" then
 		StateData.Value = DeepCopy(NewValue)
 	else
-		if type(StateData.Value) == "table"and type(NewValue) == "table"then
+		if type(StateData.Value) == "table" and type(NewValue) == "table"then
 			for Key, Value in NewValue do
 				StateData.Value[Key] = DeepCopy(Value)
 			end
