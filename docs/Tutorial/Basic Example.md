@@ -145,4 +145,4 @@ local StateService = require(
 print(StateService:GetState(Player, "PlayerData"))
 ```
 
-**API Reference:** [API](/API)
+**API Reference:** [API](/StateService/API)

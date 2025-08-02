@@ -26,5 +26,5 @@ Basically: It's another way to explain how to setup the module safely without th
 
 ---
 
-**Basic Example Reference:** [Basic Example](/Tutorial/Basic%20Example)<br>
-**API Reference:** [API](/API)
+**Basic Example Reference:** [Basic Example](/StateService/Tutorial/Basic%20Example)<br>
+**API Reference:** [API](/StateService/API)
