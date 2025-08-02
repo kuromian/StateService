@@ -1,0 +1,5534 @@
+<roblox xmlns:xmime="http://www.w3.org/2005/05/xmlmime" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.roblox.com/roblox.xsd" version="4">
+	<External>null</External>
+	<External>nil</External>
+	<Item class="Workspace" referent="RBXF870E0DA9658466A9E4592551D9637A6">
+		<Properties>
+			<float name="AirDensity">0.00120000006</float>
+			<bool name="AllowThirdPartySales">false</bool>
+			<BinaryString name="AttributesSerialize"></BinaryString>
+			<token name="AuthorityMode">1</token>
+			<token name="AvatarUnificationMode">0</token>
+			<SecurityCapabilities name="Capabilities">0</SecurityCapabilities>
+			<token name="ClientAnimatorThrottling">0</token>
+			<BinaryString name="CollisionGroupData">AQEABP////8HRGVmYXVsdA==</BinaryString>
+			<Ref name="CurrentCamera">RBX8CECD5E5545F441984C7A9F612BB28FF</Ref>
+			<bool name="DefinesCapabilities">false</bool>
+			<double name="DistributedGameTime">0</double>
+			<bool name="ExplicitAutoJoints">true</bool>
+			<bool name="FallHeightEnabled">true</bool>
+			<float name="FallenPartsDestroyHeight">-500</float>
+			<token name="FluidForces">0</token>
+			<Vector3 name="GlobalWind">
+				<X>0</X>
+				<Y>0</Y>
+				<Z>0</Z>
+			</Vector3>
+			<float name="Gravity">196.199997</float>
+			<UniqueId name="HistoryId">00000000000000000000000000000000</UniqueId>
+			<token name="IKControlConstraintSupport">0</token>
+			<token name="LevelOfDetail">0</token>
+			<token name="LuauTypeCheckMode">0</token>
+			<token name="MeshPartHeadsAndAccessories">0</token>
+			<CoordinateFrame name="ModelMeshCFrame">
+				<X>0</X>
+				<Y>0</Y>
+				<Z>0</Z>
+				<R00>1</R00>
+				<R01>0</R01>
+				<R02>0</R02>
+				<R10>0</R10>
+				<R11>1</R11>
+				<R12>0</R12>
+				<R20>0</R20>
+				<R21>0</R21>
+				<R22>1</R22>
+			</CoordinateFrame>
+			<SharedString name="ModelMeshData">yuZpQdnvvUBOTYh1jqZ2cA==</SharedString>
+			<Vector3 name="ModelMeshSize">
+				<X>0</X>
+				<Y>0</Y>
+				<Z>0</Z>
+			</Vector3>
+			<token name="ModelStreamingBehavior">0</token>
+			<token name="ModelStreamingMode">0</token>
+			<token name="MoverConstraintRootBehavior">0</token>
+			<string name="Name">Workspace</string>
+			<bool name="NeedsPivotMigration">false</bool>
+			<token name="PathfindingUseImprovedSearch">0</token>
+			<token name="PhysicsImprovedSleep">0</token>
+			<token name="PhysicsSteppingMethod">0</token>
+			<token name="PlayerCharacterDestroyBehavior">0</token>
+			<token name="PrimalPhysicsSolver">0</token>
+			<Ref name="PrimaryPart">null</Ref>
+			<token name="RejectCharacterDeletions">0</token>
+			<token name="RenderingCacheOptimizations">0</token>
+			<token name="ReplicateInstanceDestroySetting">0</token>
+			<token name="Retargeting">0</token>
+			<token name="SandboxedInstanceMode">0</token>
+			<float name="ScaleFactor">1</float>
+			<token name="SignalBehavior2">2</token>
+			<int64 name="SourceAssetId">-1</int64>
+			<token name="StreamOutBehavior">2</token>
+			<bool name="StreamingEnabled">true</bool>
+			<token name="StreamingIntegrityMode">3</token>
+			<int name="StreamingMinRadius">64</int>
+			<int name="StreamingTargetRadius">1024</int>
+			<BinaryString name="Tags"></BinaryString>
+			<bool name="TerrainWeldsFixed">true</bool>
+			<token name="TouchEventsUseCollisionGroups">0</token>
+			<bool name="TouchesUseCollisionGroups">false</bool>
+			<UniqueId name="UniqueId">21f360a667af9968089e011800000002</UniqueId>
+			<token name="UseImprovedModelLod">0</token>
+			<token name="UseNewLuauTypeSolver">0</token>
+			<OptionalCoordinateFrame name="WorldPivotData">
+				<CFrame>
+					<X>0</X>
+					<Y>0</Y>
+					<Z>0</Z>
+					<R00>1</R00>
+					<R01>0</R01>
+					<R02>0</R02>
+					<R10>0</R10>
+					<R11>1</R11>
+					<R12>0</R12>
+					<R20>0</R20>
+					<R21>0</R21>
+					<R22>1</R22>
+				</CFrame>
+			</OptionalCoordinateFrame>
+		</Properties>
+		<Item class="Camera" referent="RBX8CECD5E5545F441984C7A9F612BB28FF">
+			<Properties>
+				<BinaryString name="AttributesSerialize"></BinaryString>
+				<CoordinateFrame name="CFrame">
+					<X>-19.6960945</X>
+					<Y>14.0916166</Y>
+					<Z>-19.3038864</Z>
+					<R00>-0.706150353</R00>
+					<R01>0.312965572</R01>
+					<R02>-0.635141134</R02>
+					<R10>-0</R10>
+					<R11>0.897013545</R11>
+					<R12>0.442003101</R12>
+					<R20>0.708061934</R20>
+					<R21>0.312120646</R21>
+					<R22>-0.633426428</R22>
+				</CoordinateFrame>
+				<Ref name="CameraSubject">null</Ref>
+				<token name="CameraType">0</token>
+				<SecurityCapabilities name="Capabilities">0</SecurityCapabilities>
+				<bool name="DefinesCapabilities">false</bool>
+				<float name="FieldOfView">70</float>
+				<token name="FieldOfViewMode">0</token>
+				<CoordinateFrame name="Focus">
+					<X>-18.4258118</X>
+					<Y>13.2076101</Y>
+					<Z>-18.0370331</Z>
+					<R00>1</R00>
+					<R01>0</R01>
+					<R02>0</R02>
+					<R10>0</R10>
+					<R11>1</R11>
+					<R12>0</R12>
+					<R20>0</R20>
+					<R21>0</R21>
+					<R22>1</R22>
+				</CoordinateFrame>
+				<bool name="HeadLocked">true</bool>
+				<float name="HeadScale">1</float>
+				<UniqueId name="HistoryId">00000000000000000000000000000000</UniqueId>
+				<string name="Name">Camera</string>
+				<int64 name="SourceAssetId">-1</int64>
+				<BinaryString name="Tags"></BinaryString>
+				<UniqueId name="UniqueId">21f360a667af9968089e01180000039c</UniqueId>
+				<bool name="VRTiltAndRollEnabled">false</bool>
+			</Properties>
+		</Item>
+		<Item class="Terrain" referent="RBX37A9157FC9964865B16518BD20B22859">
+			<Properties>
+				<token name="AcquisitionMethod">0</token>
+				<bool name="Anchored">true</bool>
+				<BinaryString name="AttributesSerialize"></BinaryString>
+				<bool name="AudioCanCollide">true</bool>
+				<float name="BackParamA">-0.5</float>
+				<float name="BackParamB">0.5</float>
+				<token name="BackSurface">0</token>
+				<token name="BackSurfaceInput">0</token>
+				<float name="BottomParamA">-0.5</float>
+				<float name="BottomParamB">0.5</float>
+				<token name="BottomSurface">4</token>
+				<token name="BottomSurfaceInput">0</token>
+				<CoordinateFrame name="CFrame">
+					<X>0</X>
+					<Y>0</Y>
+					<Z>0</Z>
+					<R00>1</R00>
+					<R01>0</R01>
+					<R02>0</R02>
+					<R10>0</R10>
+					<R11>1</R11>
+					<R12>0</R12>
+					<R20>0</R20>
+					<R21>0</R21>
+					<R22>1</R22>
+				</CoordinateFrame>
+				<bool name="CanCollide">true</bool>
+				<bool name="CanQuery">true</bool>
+				<bool name="CanTouch">true</bool>
+				<SecurityCapabilities name="Capabilities">0</SecurityCapabilities>
+				<bool name="CastShadow">true</bool>
+				<string name="CollisionGroup">Default</string>
+				<int name="CollisionGroupId">0</int>
+				<Color3uint8 name="Color3uint8">4288914085</Color3uint8>
+				<PhysicalProperties name="CustomPhysicalProperties">
+					<CustomPhysics>false</CustomPhysics>
+				</PhysicalProperties>
+				<bool name="Decoration">false</bool>
+				<bool name="DefinesCapabilities">false</bool>
+				<bool name="EnableFluidForces">true</bool>
+				<float name="FrontParamA">-0.5</float>
+				<float name="FrontParamB">0.5</float>
+				<token name="FrontSurface">0</token>
+				<token name="FrontSurfaceInput">0</token>
+				<float name="GrassLength">0.100000001</float>
+				<UniqueId name="HistoryId">00000000000000000000000000000000</UniqueId>
+				<float name="LeftParamA">-0.5</float>
+				<float name="LeftParamB">0.5</float>
+				<token name="LeftSurface">0</token>
+				<token name="LeftSurfaceInput">0</token>
+				<bool name="Locked">true</bool>
+				<bool name="Massless">false</bool>
+				<token name="Material">256</token>
+				<BinaryString name="MaterialColors"><![CDATA[AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAA]]></BinaryString>
+				<string name="MaterialVariantSerialized"></string>
+				<string name="Name">Terrain</string>
+				<BinaryString name="PhysicsGrid">AgMAAAAAAAAAAAAAAAA=</BinaryString>
+				<CoordinateFrame name="PivotOffset">
+					<X>0</X>
+					<Y>0</Y>
+					<Z>0</Z>
+					<R00>1</R00>
+					<R01>0</R01>
+					<R02>0</R02>
+					<R10>0</R10>
+					<R11>1</R11>
+					<R12>0</R12>
+					<R20>0</R20>
+					<R21>0</R21>
+					<R22>1</R22>
+				</CoordinateFrame>
+				<float name="Reflectance">0</float>
+				<float name="RightParamA">-0.5</float>
+				<float name="RightParamB">0.5</float>
+				<token name="RightSurface">0</token>
+				<token name="RightSurfaceInput">0</token>
+				<int name="RootPriority">0</int>
+				<Vector3 name="RotVelocity">
+					<X>0</X>
+					<Y>0</Y>
+					<Z>0</Z>
+				</Vector3>
+				<BinaryString name="SmoothGrid">AQU=</BinaryString>
+				<bool name="SmoothVoxelsUpgraded">false</bool>
+				<int64 name="SourceAssetId">-1</int64>
+				<BinaryString name="Tags"></BinaryString>
+				<float name="TopParamA">-0.5</float>
+				<float name="TopParamB">0.5</float>
+				<token name="TopSurface">3</token>
+				<token name="TopSurfaceInput">0</token>
+				<float name="Transparency">0</float>
+				<UniqueId name="UniqueId">21f360a667af9968089e01180000039f</UniqueId>
+				<Vector3 name="Velocity">
+					<X>0</X>
+					<Y>0</Y>
+					<Z>0</Z>
+				</Vector3>
+				<Color3 name="WaterColor">
+					<R>0</R>
+					<G>0</G>
+					<B>0</B>
+				</Color3>
+				<float name="WaterReflectance">0</float>
+				<float name="WaterTransparency">0</float>
+				<float name="WaterWaveSize">0</float>
+				<float name="WaterWaveSpeed">0</float>
+				<Vector3 name="size">
+					<X>2044</X>
+					<Y>252</Y>
+					<Z>2044</Z>
+				</Vector3>
+			</Properties>
+		</Item>
+		<Item class="Folder" referent="RBXF32B0C4E67B043CF96FDAA3A1E01DEF7">
+			<Properties>
+				<BinaryString name="AttributesSerialize"></BinaryString>
+				<SecurityCapabilities name="Capabilities">0</SecurityCapabilities>
+				<bool name="DefinesCapabilities">false</bool>
+				<UniqueId name="HistoryId">00000000000000000000000000000000</UniqueId>
+				<string name="Name">Main</string>
+				<int64 name="SourceAssetId">-1</int64>
+				<BinaryString name="Tags"></BinaryString>
+				<UniqueId name="UniqueId">56e1d4cbe674c98e089ed9e60000228f</UniqueId>
+			</Properties>
+			<Item class="Folder" referent="RBXF46BFE2DDFA24841AE77B20DA7EF5B74">
+				<Properties>
+					<BinaryString name="AttributesSerialize"></BinaryString>
+					<SecurityCapabilities name="Capabilities">0</SecurityCapabilities>
+					<bool name="DefinesCapabilities">false</bool>
+					<UniqueId name="HistoryId">00000000000000000000000000000000</UniqueId>
+					<string name="Name">Network Examples</string>
+					<int64 name="SourceAssetId">-1</int64>
+					<BinaryString name="Tags"></BinaryString>
+					<UniqueId name="UniqueId">56e1d4cbe674c98e089ed9e6000011bc</UniqueId>
+				</Properties>
+				<Item class="Part" referent="RBX495C6CCC32D24522BD5F231FB7887DF0">
+					<Properties>
+						<bool name="Anchored">true</bool>
+						<BinaryString name="AttributesSerialize"></BinaryString>
+						<bool name="AudioCanCollide">true</bool>
+						<float name="BackParamA">-0.5</float>
+						<float name="BackParamB">0.5</float>
+						<token name="BackSurface">0</token>
+						<token name="BackSurfaceInput">0</token>
+						<float name="BottomParamA">-0.5</float>
+						<float name="BottomParamB">0.5</float>
+						<token name="BottomSurface">0</token>
+						<token name="BottomSurfaceInput">0</token>
+						<CoordinateFrame name="CFrame">
+							<X>-4</X>
+							<Y>0</Y>
+							<Z>0</Z>
+							<R00>1</R00>
+							<R01>0</R01>
+							<R02>0</R02>
+							<R10>0</R10>
+							<R11>1</R11>
+							<R12>0</R12>
+							<R20>0</R20>
+							<R21>0</R21>
+							<R22>1</R22>
+						</CoordinateFrame>
+						<bool name="CanCollide">false</bool>
+						<bool name="CanQuery">false</bool>
+						<bool name="CanTouch">true</bool>
+						<SecurityCapabilities name="Capabilities">0</SecurityCapabilities>
+						<bool name="CastShadow">false</bool>
+						<string name="CollisionGroup">Default</string>
+						<int name="CollisionGroupId">0</int>
+						<Color3uint8 name="Color3uint8">4278190080</Color3uint8>
+						<PhysicalProperties name="CustomPhysicalProperties">
+							<CustomPhysics>false</CustomPhysics>
+						</PhysicalProperties>
+						<bool name="DefinesCapabilities">false</bool>
+						<bool name="EnableFluidForces">false</bool>
+						<float name="FrontParamA">-0.5</float>
+						<float name="FrontParamB">0.5</float>
+						<token name="FrontSurface">0</token>
+						<token name="FrontSurfaceInput">0</token>
+						<UniqueId name="HistoryId">00000000000000000000000000000000</UniqueId>
+						<float name="LeftParamA">-0.5</float>
+						<float name="LeftParamB">0.5</float>
+						<token name="LeftSurface">0</token>
+						<token name="LeftSurfaceInput">0</token>
+						<bool name="Locked">false</bool>
+						<bool name="Massless">true</bool>
+						<token name="Material">288</token>
+						<string name="MaterialVariantSerialized"></string>
+						<string name="Name">Client</string>
+						<CoordinateFrame name="PivotOffset">
+							<X>0</X>
+							<Y>0</Y>
+							<Z>0</Z>
+							<R00>1</R00>
+							<R01>0</R01>
+							<R02>0</R02>
+							<R10>0</R10>
+							<R11>1</R11>
+							<R12>0</R12>
+							<R20>0</R20>
+							<R21>0</R21>
+							<R22>1</R22>
+						</CoordinateFrame>
+						<float name="Reflectance">0</float>
+						<float name="RightParamA">-0.5</float>
+						<float name="RightParamB">0.5</float>
+						<token name="RightSurface">0</token>
+						<token name="RightSurfaceInput">0</token>
+						<int name="RootPriority">0</int>
+						<Vector3 name="RotVelocity">
+							<X>0</X>
+							<Y>0</Y>
+							<Z>0</Z>
+						</Vector3>
+						<int64 name="SourceAssetId">-1</int64>
+						<BinaryString name="Tags"></BinaryString>
+						<float name="TopParamA">-0.5</float>
+						<float name="TopParamB">0.5</float>
+						<token name="TopSurface">0</token>
+						<token name="TopSurfaceInput">0</token>
+						<float name="Transparency">0.5</float>
+						<UniqueId name="UniqueId">56e1d4cbe674c98e089ed9e600000c14</UniqueId>
+						<Vector3 name="Velocity">
+							<X>0</X>
+							<Y>0</Y>
+							<Z>0</Z>
+						</Vector3>
+						<token name="formFactorRaw">1</token>
+						<token name="shape">1</token>
+						<Vector3 name="size">
+							<X>4</X>
+							<Y>1</Y>
+							<Z>4</Z>
+						</Vector3>
+					</Properties>
+					<Item class="Script" referent="RBX0856F084013244C69B5E013FD0B946EB">
+						<Properties>
+							<BinaryString name="AttributesSerialize"></BinaryString>
+							<SecurityCapabilities name="Capabilities">0</SecurityCapabilities>
+							<bool name="DefinesCapabilities">false</bool>
+							<bool name="Disabled">false</bool>
+							<UniqueId name="HistoryId">00000000000000000000000000000000</UniqueId>
+							<Content name="LinkedSource"><null></null></Content>
+							<string name="Name">Client</string>
+							<token name="RunContext">2</token>
+							<string name="ScriptGuid">{271BE5FD-F738-4363-ABF4-A23CA7B85939}</string>
+							<ProtectedString name="Source"><![CDATA[--!strict
+local Players = game:GetService("Players")
+local ReplicatedStorage = game:GetService("ReplicatedStorage")
+
+local Modules_RS = ReplicatedStorage.Modules
+
+local StateService = require(Modules_RS.StateService)
+
+local Part = script:FindFirstAncestorWhichIsA("BasePart")
+
+Part.Touched:Connect(
+	function(otherPart: BasePart): ()
+		local Character = otherPart.Parent
+
+		local Humanoid = Character and Character:FindFirstChildWhichIsA("Humanoid")
+
+		local Player = Players:GetPlayerFromCharacter(Character)
+
+		if Humanoid and Player then
+			local State = StateService:GetState(
+				Player,
+				"PlayerData"
+			) -- The server has access to all states. No authorization required.
+
+			if State then
+				print(State.Value)
+			end
+		end
+	end
+)]]></ProtectedString>
+							<int64 name="SourceAssetId">-1</int64>
+							<BinaryString name="Tags"></BinaryString>
+							<UniqueId name="UniqueId">56e1d4cbe674c98e089ed9e600000c79</UniqueId>
+						</Properties>
+					</Item>
+				</Item>
+				<Item class="Part" referent="RBXCD2F6A37BCB34147ACAAEB6EE4EA1107">
+					<Properties>
+						<bool name="Anchored">true</bool>
+						<BinaryString name="AttributesSerialize"></BinaryString>
+						<bool name="AudioCanCollide">true</bool>
+						<float name="BackParamA">-0.5</float>
+						<float name="BackParamB">0.5</float>
+						<token name="BackSurface">0</token>
+						<token name="BackSurfaceInput">0</token>
+						<float name="BottomParamA">-0.5</float>
+						<float name="BottomParamB">0.5</float>
+						<token name="BottomSurface">0</token>
+						<token name="BottomSurfaceInput">0</token>
+						<CoordinateFrame name="CFrame">
+							<X>4</X>
+							<Y>0</Y>
+							<Z>0</Z>
+							<R00>1</R00>
+							<R01>0</R01>
+							<R02>0</R02>
+							<R10>0</R10>
+							<R11>1</R11>
+							<R12>0</R12>
+							<R20>0</R20>
+							<R21>0</R21>
+							<R22>1</R22>
+						</CoordinateFrame>
+						<bool name="CanCollide">false</bool>
+						<bool name="CanQuery">false</bool>
+						<bool name="CanTouch">true</bool>
+						<SecurityCapabilities name="Capabilities">0</SecurityCapabilities>
+						<bool name="CastShadow">false</bool>
+						<string name="CollisionGroup">Default</string>
+						<int name="CollisionGroupId">0</int>
+						<Color3uint8 name="Color3uint8">4294967295</Color3uint8>
+						<PhysicalProperties name="CustomPhysicalProperties">
+							<CustomPhysics>false</CustomPhysics>
+						</PhysicalProperties>
+						<bool name="DefinesCapabilities">false</bool>
+						<bool name="EnableFluidForces">false</bool>
+						<float name="FrontParamA">-0.5</float>
+						<float name="FrontParamB">0.5</float>
+						<token name="FrontSurface">0</token>
+						<token name="FrontSurfaceInput">0</token>
+						<UniqueId name="HistoryId">56e1d4cbe674c98e089ed9e600000c14</UniqueId>
+						<float name="LeftParamA">-0.5</float>
+						<float name="LeftParamB">0.5</float>
+						<token name="LeftSurface">0</token>
+						<token name="LeftSurfaceInput">0</token>
+						<bool name="Locked">false</bool>
+						<bool name="Massless">true</bool>
+						<token name="Material">288</token>
+						<string name="MaterialVariantSerialized"></string>
+						<string name="Name">Server</string>
+						<CoordinateFrame name="PivotOffset">
+							<X>0</X>
+							<Y>0</Y>
+							<Z>0</Z>
+							<R00>1</R00>
+							<R01>0</R01>
+							<R02>0</R02>
+							<R10>0</R10>
+							<R11>1</R11>
+							<R12>0</R12>
+							<R20>0</R20>
+							<R21>0</R21>
+							<R22>1</R22>
+						</CoordinateFrame>
+						<float name="Reflectance">0</float>
+						<float name="RightParamA">-0.5</float>
+						<float name="RightParamB">0.5</float>
+						<token name="RightSurface">0</token>
+						<token name="RightSurfaceInput">0</token>
+						<int name="RootPriority">0</int>
+						<Vector3 name="RotVelocity">
+							<X>0</X>
+							<Y>0</Y>
+							<Z>0</Z>
+						</Vector3>
+						<int64 name="SourceAssetId">-1</int64>
+						<BinaryString name="Tags"></BinaryString>
+						<float name="TopParamA">-0.5</float>
+						<float name="TopParamB">0.5</float>
+						<token name="TopSurface">0</token>
+						<token name="TopSurfaceInput">0</token>
+						<float name="Transparency">0.5</float>
+						<UniqueId name="UniqueId">56e1d4cbe674c98e089ed9e6000015fc</UniqueId>
+						<Vector3 name="Velocity">
+							<X>0</X>
+							<Y>0</Y>
+							<Z>0</Z>
+						</Vector3>
+						<token name="formFactorRaw">1</token>
+						<token name="shape">1</token>
+						<Vector3 name="size">
+							<X>4</X>
+							<Y>1</Y>
+							<Z>4</Z>
+						</Vector3>
+					</Properties>
+					<Item class="Script" referent="RBX5E65194116E9441092E0749141E2FDE8">
+						<Properties>
+							<BinaryString name="AttributesSerialize"></BinaryString>
+							<SecurityCapabilities name="Capabilities">0</SecurityCapabilities>
+							<bool name="DefinesCapabilities">false</bool>
+							<bool name="Disabled">false</bool>
+							<UniqueId name="HistoryId">00000000000000000000000000000000</UniqueId>
+							<Content name="LinkedSource"><null></null></Content>
+							<string name="Name">Server</string>
+							<token name="RunContext">1</token>
+							<string name="ScriptGuid">{D8D9E41C-5354-4DF0-BEAF-4565F38973AE}</string>
+							<ProtectedString name="Source"><![CDATA[--!strict
+local Players = game:GetService("Players")
+local ReplicatedStorage = game:GetService("ReplicatedStorage")
+
+local Modules_RS = ReplicatedStorage.Modules
+
+local StateService = require(Modules_RS.StateService)
+
+local Part = script:FindFirstAncestorWhichIsA("BasePart")
+
+Part.Touched:Connect(
+	function(otherPart: BasePart): ()
+		local Character = otherPart.Parent
+
+		local Humanoid = Character and Character:FindFirstChildWhichIsA("Humanoid")
+
+		local Player = Players:GetPlayerFromCharacter(Character)
+
+		if Humanoid and Player then
+			local State = StateService:GetState(
+				Player,
+				"PlayerData"
+			) -- The server has access to all states. No authorization required.
+
+			if State then
+				print(State.Value)
+			end
+		end
+	end
+)]]></ProtectedString>
+							<int64 name="SourceAssetId">-1</int64>
+							<BinaryString name="Tags"></BinaryString>
+							<UniqueId name="UniqueId">56e1d4cbe674c98e089ed9e6000016d0</UniqueId>
+						</Properties>
+					</Item>
+				</Item>
+			</Item>
+			<Item class="Folder" referent="RBX6589719AD202496C88AF22DDE89B68D4">
+				<Properties>
+					<BinaryString name="AttributesSerialize"></BinaryString>
+					<SecurityCapabilities name="Capabilities">0</SecurityCapabilities>
+					<bool name="DefinesCapabilities">false</bool>
+					<UniqueId name="HistoryId">00000000000000000000000000000000</UniqueId>
+					<string name="Name">Map</string>
+					<int64 name="SourceAssetId">-1</int64>
+					<BinaryString name="Tags"></BinaryString>
+					<UniqueId name="UniqueId">56e1d4cbe674c98e089ed9e600002372</UniqueId>
+				</Properties>
+				<Item class="Part" referent="RBX012D4D446FF44EDEA73A23A288872563">
+					<Properties>
+						<bool name="Anchored">true</bool>
+						<BinaryString name="AttributesSerialize"></BinaryString>
+						<bool name="AudioCanCollide">true</bool>
+						<float name="BackParamA">-0.5</float>
+						<float name="BackParamB">0.5</float>
+						<token name="BackSurface">0</token>
+						<token name="BackSurfaceInput">0</token>
+						<float name="BottomParamA">-0.5</float>
+						<float name="BottomParamB">0.5</float>
+						<token name="BottomSurface">0</token>
+						<token name="BottomSurfaceInput">0</token>
+						<CoordinateFrame name="CFrame">
+							<X>0</X>
+							<Y>-1.00100708</Y>
+							<Z>10</Z>
+							<R00>1</R00>
+							<R01>0</R01>
+							<R02>0</R02>
+							<R10>0</R10>
+							<R11>1</R11>
+							<R12>0</R12>
+							<R20>0</R20>
+							<R21>0</R21>
+							<R22>1</R22>
+						</CoordinateFrame>
+						<bool name="CanCollide">true</bool>
+						<bool name="CanQuery">false</bool>
+						<bool name="CanTouch">false</bool>
+						<SecurityCapabilities name="Capabilities">0</SecurityCapabilities>
+						<bool name="CastShadow">false</bool>
+						<string name="CollisionGroup">Default</string>
+						<int name="CollisionGroupId">0</int>
+						<Color3uint8 name="Color3uint8">4284177243</Color3uint8>
+						<PhysicalProperties name="CustomPhysicalProperties">
+							<CustomPhysics>false</CustomPhysics>
+						</PhysicalProperties>
+						<bool name="DefinesCapabilities">false</bool>
+						<bool name="EnableFluidForces">false</bool>
+						<float name="FrontParamA">-0.5</float>
+						<float name="FrontParamB">0.5</float>
+						<token name="FrontSurface">0</token>
+						<token name="FrontSurfaceInput">0</token>
+						<UniqueId name="HistoryId">00000000000000000000000000000000</UniqueId>
+						<float name="LeftParamA">-0.5</float>
+						<float name="LeftParamB">0.5</float>
+						<token name="LeftSurface">0</token>
+						<token name="LeftSurfaceInput">0</token>
+						<bool name="Locked">true</bool>
+						<bool name="Massless">true</bool>
+						<token name="Material">256</token>
+						<string name="MaterialVariantSerialized"></string>
+						<string name="Name">Baseplate</string>
+						<CoordinateFrame name="PivotOffset">
+							<X>0</X>
+							<Y>0</Y>
+							<Z>0</Z>
+							<R00>1</R00>
+							<R01>0</R01>
+							<R02>0</R02>
+							<R10>0</R10>
+							<R11>1</R11>
+							<R12>0</R12>
+							<R20>0</R20>
+							<R21>0</R21>
+							<R22>1</R22>
+						</CoordinateFrame>
+						<float name="Reflectance">0</float>
+						<float name="RightParamA">-0.5</float>
+						<float name="RightParamB">0.5</float>
+						<token name="RightSurface">0</token>
+						<token name="RightSurfaceInput">0</token>
+						<int name="RootPriority">0</int>
+						<Vector3 name="RotVelocity">
+							<X>0</X>
+							<Y>0</Y>
+							<Z>0</Z>
+						</Vector3>
+						<int64 name="SourceAssetId">-1</int64>
+						<BinaryString name="Tags"></BinaryString>
+						<float name="TopParamA">-0.5</float>
+						<float name="TopParamB">0.5</float>
+						<token name="TopSurface">0</token>
+						<token name="TopSurfaceInput">0</token>
+						<float name="Transparency">0</float>
+						<UniqueId name="UniqueId">21f360a667af9968089e01180000039d</UniqueId>
+						<Vector3 name="Velocity">
+							<X>0</X>
+							<Y>0</Y>
+							<Z>0</Z>
+						</Vector3>
+						<token name="formFactorRaw">0</token>
+						<token name="shape">1</token>
+						<Vector3 name="size">
+							<X>28</X>
+							<Y>1</Y>
+							<Z>40</Z>
+						</Vector3>
+					</Properties>
+					<Item class="Texture" referent="RBXEF6F87E50C35433DBB3BAA8E980C13AA">
+						<Properties>
+							<BinaryString name="AttributesSerialize"></BinaryString>
+							<SecurityCapabilities name="Capabilities">0</SecurityCapabilities>
+							<Color3 name="Color3">
+								<R>0</R>
+								<G>0</G>
+								<B>0</B>
+							</Color3>
+							<bool name="DefinesCapabilities">false</bool>
+							<token name="Face">1</token>
+							<UniqueId name="HistoryId">00000000000000000000000000000000</UniqueId>
+							<Content name="MetalnessMap"><null></null></Content>
+							<string name="Name">Texture</string>
+							<Content name="NormalMap"><null></null></Content>
+							<float name="OffsetStudsU">0</float>
+							<float name="OffsetStudsV">0</float>
+							<Content name="RoughnessMap"><null></null></Content>
+							<int64 name="SourceAssetId">-1</int64>
+							<float name="StudsPerTileU">8</float>
+							<float name="StudsPerTileV">8</float>
+							<BinaryString name="Tags"></BinaryString>
+							<Content name="Texture"><url>rbxassetid://6372755229</url></Content>
+							<float name="Transparency">0.800000012</float>
+							<Vector2 name="UVOffset">
+								<X>0</X>
+								<Y>0</Y>
+							</Vector2>
+							<Vector2 name="UVScale">
+								<X>1</X>
+								<Y>1</Y>
+							</Vector2>
+							<UniqueId name="UniqueId">21f360a667af9968089e01180000039e</UniqueId>
+							<int name="ZIndex">1</int>
+						</Properties>
+					</Item>
+					<Item class="SpawnLocation" referent="RBX7E869CCE3E304F698C7BE41610B36340">
+						<Properties>
+							<bool name="AllowTeamChangeOnTouch">false</bool>
+							<bool name="Anchored">false</bool>
+							<BinaryString name="AttributesSerialize"></BinaryString>
+							<bool name="AudioCanCollide">true</bool>
+							<float name="BackParamA">-0.5</float>
+							<float name="BackParamB">0.5</float>
+							<token name="BackSurface">0</token>
+							<token name="BackSurfaceInput">0</token>
+							<float name="BottomParamA">-0.5</float>
+							<float name="BottomParamB">0.5</float>
+							<token name="BottomSurface">0</token>
+							<token name="BottomSurfaceInput">0</token>
+							<CoordinateFrame name="CFrame">
+								<X>-2.38418579e-07</X>
+								<Y>-0.500507116</Y>
+								<Z>16</Z>
+								<R00>1</R00>
+								<R01>0</R01>
+								<R02>0</R02>
+								<R10>0</R10>
+								<R11>1</R11>
+								<R12>0</R12>
+								<R20>0</R20>
+								<R21>0</R21>
+								<R22>1</R22>
+							</CoordinateFrame>
+							<bool name="CanCollide">false</bool>
+							<bool name="CanQuery">false</bool>
+							<bool name="CanTouch">false</bool>
+							<SecurityCapabilities name="Capabilities">0</SecurityCapabilities>
+							<bool name="CastShadow">false</bool>
+							<string name="CollisionGroup">Default</string>
+							<int name="CollisionGroupId">0</int>
+							<Color3uint8 name="Color3uint8">4278190080</Color3uint8>
+							<PhysicalProperties name="CustomPhysicalProperties">
+								<CustomPhysics>false</CustomPhysics>
+							</PhysicalProperties>
+							<bool name="DefinesCapabilities">false</bool>
+							<int name="Duration">0</int>
+							<bool name="EnableFluidForces">false</bool>
+							<bool name="Enabled">true</bool>
+							<float name="FrontParamA">-0.5</float>
+							<float name="FrontParamB">0.5</float>
+							<token name="FrontSurface">0</token>
+							<token name="FrontSurfaceInput">0</token>
+							<UniqueId name="HistoryId">00000000000000000000000000000000</UniqueId>
+							<float name="LeftParamA">-0.5</float>
+							<float name="LeftParamB">0.5</float>
+							<token name="LeftSurface">0</token>
+							<token name="LeftSurfaceInput">0</token>
+							<bool name="Locked">true</bool>
+							<bool name="Massless">true</bool>
+							<token name="Material">272</token>
+							<string name="MaterialVariantSerialized"></string>
+							<string name="Name">Spawn</string>
+							<bool name="Neutral">true</bool>
+							<CoordinateFrame name="PivotOffset">
+								<X>0</X>
+								<Y>0</Y>
+								<Z>0</Z>
+								<R00>1</R00>
+								<R01>0</R01>
+								<R02>0</R02>
+								<R10>0</R10>
+								<R11>1</R11>
+								<R12>0</R12>
+								<R20>0</R20>
+								<R21>0</R21>
+								<R22>1</R22>
+							</CoordinateFrame>
+							<float name="Reflectance">0</float>
+							<float name="RightParamA">-0.5</float>
+							<float name="RightParamB">0.5</float>
+							<token name="RightSurface">0</token>
+							<token name="RightSurfaceInput">0</token>
+							<int name="RootPriority">0</int>
+							<Vector3 name="RotVelocity">
+								<X>0</X>
+								<Y>0</Y>
+								<Z>0</Z>
+							</Vector3>
+							<int64 name="SourceAssetId">-1</int64>
+							<BinaryString name="Tags"></BinaryString>
+							<int name="TeamColor">194</int>
+							<float name="TopParamA">-0.5</float>
+							<float name="TopParamB">0.5</float>
+							<token name="TopSurface">0</token>
+							<token name="TopSurfaceInput">0</token>
+							<float name="Transparency">1</float>
+							<UniqueId name="UniqueId">21f360a667af9968089e0118000003a0</UniqueId>
+							<Vector3 name="Velocity">
+								<X>0</X>
+								<Y>0</Y>
+								<Z>0</Z>
+							</Vector3>
+							<token name="formFactorRaw">1</token>
+							<token name="shape">1</token>
+							<Vector3 name="size">
+								<X>4</X>
+								<Y>0.00100000005</Y>
+								<Z>4</Z>
+							</Vector3>
+						</Properties>
+						<Item class="Motor6D" referent="RBX9BE77F5297C44FE4BF038E74C2E02B85">
+							<Properties>
+								<BinaryString name="AttributesSerialize"></BinaryString>
+								<CoordinateFrame name="C0">
+									<X>2.38418579e-07</X>
+									<Y>-0.500499964</Y>
+									<Z>-6</Z>
+									<R00>1</R00>
+									<R01>0</R01>
+									<R02>0</R02>
+									<R10>0</R10>
+									<R11>1</R11>
+									<R12>0</R12>
+									<R20>0</R20>
+									<R21>0</R21>
+									<R22>1</R22>
+								</CoordinateFrame>
+								<CoordinateFrame name="C1">
+									<X>0</X>
+									<Y>0</Y>
+									<Z>0</Z>
+									<R00>1</R00>
+									<R01>0</R01>
+									<R02>0</R02>
+									<R10>0</R10>
+									<R11>1</R11>
+									<R12>0</R12>
+									<R20>0</R20>
+									<R21>0</R21>
+									<R22>1</R22>
+								</CoordinateFrame>
+								<SecurityCapabilities name="Capabilities">0</SecurityCapabilities>
+								<bool name="DefinesCapabilities">false</bool>
+								<float name="DesiredAngle">0</float>
+								<bool name="Enabled">true</bool>
+								<UniqueId name="HistoryId">00000000000000000000000000000000</UniqueId>
+								<float name="MaxVelocity">0</float>
+								<string name="Name">Baseplate</string>
+								<Ref name="Part0">RBX7E869CCE3E304F698C7BE41610B36340</Ref>
+								<Ref name="Part1">RBX012D4D446FF44EDEA73A23A288872563</Ref>
+								<int64 name="SourceAssetId">-1</int64>
+								<BinaryString name="Tags"></BinaryString>
+								<UniqueId name="UniqueId">56e1d4cbe674c98e089ed9e600002257</UniqueId>
+							</Properties>
+						</Item>
+					</Item>
+				</Item>
+			</Item>
+		</Item>
+	</Item>
+	<Item class="TimerService" referent="RBX9F314380570F4E648D7350BC4CD9A048">
+		<Properties>
+			<BinaryString name="AttributesSerialize"></BinaryString>
+			<SecurityCapabilities name="Capabilities">0</SecurityCapabilities>
+			<bool name="DefinesCapabilities">false</bool>
+			<UniqueId name="HistoryId">00000000000000000000000000000000</UniqueId>
+			<string name="Name">Instance</string>
+			<int64 name="SourceAssetId">-1</int64>
+			<BinaryString name="Tags"></BinaryString>
+			<UniqueId name="UniqueId">21f360a667af9968089e011800000325</UniqueId>
+		</Properties>
+	</Item>
+	<Item class="SoundService" referent="RBX46D09691E91A4358A8593EA23DCC174E">
+		<Properties>
+			<token name="AmbientReverb">0</token>
+			<BinaryString name="AttributesSerialize"></BinaryString>
+			<token name="AudioApiByDefault">0</token>
+			<SecurityCapabilities name="Capabilities">0</SecurityCapabilities>
+			<token name="CharacterSoundsUseNewApi">0</token>
+			<token name="DefaultListenerLocation">3</token>
+			<bool name="DefinesCapabilities">false</bool>
+			<float name="DistanceFactor">3.32999992</float>
+			<float name="DopplerScale">1</float>
+			<UniqueId name="HistoryId">00000000000000000000000000000000</UniqueId>
+			<bool name="IsNewExpForAudioApiByDefault">false</bool>
+			<string name="Name">SoundService</string>
+			<bool name="RespectFilteringEnabled">true</bool>
+			<float name="RolloffScale">1</float>
+			<int64 name="SourceAssetId">-1</int64>
+			<BinaryString name="Tags"></BinaryString>
+			<UniqueId name="UniqueId">21f360a667af9968089e011800000326</UniqueId>
+			<token name="VolumetricAudio">1</token>
+		</Properties>
+	</Item>
+	<Item class="VideoCaptureService" referent="RBX999B59DB18424021A2E71677D1957C9F">
+		<Properties>
+			<BinaryString name="AttributesSerialize"></BinaryString>
+			<SecurityCapabilities name="Capabilities">0</SecurityCapabilities>
+			<bool name="DefinesCapabilities">false</bool>
+			<UniqueId name="HistoryId">00000000000000000000000000000000</UniqueId>
+			<string name="Name">VideoCaptureService</string>
+			<int64 name="SourceAssetId">-1</int64>
+			<BinaryString name="Tags"></BinaryString>
+			<UniqueId name="UniqueId">21f360a667af9968089e011800000332</UniqueId>
+		</Properties>
+	</Item>
+	<Item class="NonReplicatedCSGDictionaryService" referent="RBX2566EB511F9248D3888BB435D89D20D1">
+		<Properties>
+			<BinaryString name="AttributesSerialize"></BinaryString>
+			<SecurityCapabilities name="Capabilities">0</SecurityCapabilities>
+			<bool name="DefinesCapabilities">false</bool>
+			<UniqueId name="HistoryId">00000000000000000000000000000000</UniqueId>
+			<string name="Name">NonReplicatedCSGDictionaryService</string>
+			<int64 name="SourceAssetId">-1</int64>
+			<BinaryString name="Tags"></BinaryString>
+			<UniqueId name="UniqueId">21f360a667af9968089e011800000333</UniqueId>
+		</Properties>
+	</Item>
+	<Item class="CSGDictionaryService" referent="RBXE066987AA8A0492EBEAB584A269AA527">
+		<Properties>
+			<BinaryString name="AttributesSerialize"></BinaryString>
+			<SecurityCapabilities name="Capabilities">0</SecurityCapabilities>
+			<bool name="DefinesCapabilities">false</bool>
+			<UniqueId name="HistoryId">00000000000000000000000000000000</UniqueId>
+			<string name="Name">CSGDictionaryService</string>
+			<int64 name="SourceAssetId">-1</int64>
+			<BinaryString name="Tags"></BinaryString>
+			<UniqueId name="UniqueId">21f360a667af9968089e011800000334</UniqueId>
+		</Properties>
+	</Item>
+	<Item class="Chat" referent="RBX0DE30D3411C34F14B142ED5C87AEF73C">
+		<Properties>
+			<BinaryString name="AttributesSerialize"></BinaryString>
+			<bool name="BubbleChatEnabled">true</bool>
+			<SecurityCapabilities name="Capabilities">0</SecurityCapabilities>
+			<bool name="DefinesCapabilities">false</bool>
+			<UniqueId name="HistoryId">00000000000000000000000000000000</UniqueId>
+			<bool name="IsAutoMigrated">true</bool>
+			<bool name="LoadDefaultChat">true</bool>
+			<string name="Name">Chat</string>
+			<int64 name="SourceAssetId">-1</int64>
+			<BinaryString name="Tags"></BinaryString>
+			<UniqueId name="UniqueId">21f360a667af9968089e011800000339</UniqueId>
+		</Properties>
+	</Item>
+	<Item class="Players" referent="RBX6E1D7AFCC3AD4492818088F362B582B0">
+		<Properties>
+			<BinaryString name="AttributesSerialize"></BinaryString>
+			<bool name="BanningEnabled">true</bool>
+			<SecurityCapabilities name="Capabilities">0</SecurityCapabilities>
+			<bool name="CharacterAutoLoads">true</bool>
+			<bool name="DefinesCapabilities">false</bool>
+			<UniqueId name="HistoryId">00000000000000000000000000000000</UniqueId>
+			<int name="MaxPlayersInternal">60</int>
+			<string name="Name">Players</string>
+			<int name="PreferredPlayersInternal">60</int>
+			<float name="RespawnTime">3</float>
+			<int64 name="SourceAssetId">-1</int64>
+			<BinaryString name="Tags"></BinaryString>
+			<UniqueId name="UniqueId">21f360a667af9968089e01180000033b</UniqueId>
+			<bool name="UseStrafingAnimations">false</bool>
+		</Properties>
+	</Item>
+	<Item class="ReplicatedFirst" referent="RBXF0D4354C3221494294187136CC3642CD">
+		<Properties>
+			<BinaryString name="AttributesSerialize"></BinaryString>
+			<SecurityCapabilities name="Capabilities">0</SecurityCapabilities>
+			<bool name="DefinesCapabilities">false</bool>
+			<UniqueId name="HistoryId">00000000000000000000000000000000</UniqueId>
+			<string name="Name">ReplicatedFirst</string>
+			<int64 name="SourceAssetId">-1</int64>
+			<BinaryString name="Tags"></BinaryString>
+			<UniqueId name="UniqueId">21f360a667af9968089e01180000033e</UniqueId>
+		</Properties>
+	</Item>
+	<Item class="TweenService" referent="RBXD7CF388A39404B7ABDD8630257835F00">
+		<Properties>
+			<BinaryString name="AttributesSerialize"></BinaryString>
+			<SecurityCapabilities name="Capabilities">0</SecurityCapabilities>
+			<bool name="DefinesCapabilities">false</bool>
+			<UniqueId name="HistoryId">00000000000000000000000000000000</UniqueId>
+			<string name="Name">TweenService</string>
+			<int64 name="SourceAssetId">-1</int64>
+			<BinaryString name="Tags"></BinaryString>
+			<UniqueId name="UniqueId">21f360a667af9968089e011800000340</UniqueId>
+		</Properties>
+	</Item>
+	<Item class="MaterialService" referent="RBX8996D9E0E8AA45B0B581B359CB8D4F9F">
+		<Properties>
+			<string name="AsphaltName">Asphalt</string>
+			<BinaryString name="AttributesSerialize"></BinaryString>
+			<string name="BasaltName">Basalt</string>
+			<string name="BrickName">Brick</string>
+			<SecurityCapabilities name="Capabilities">0</SecurityCapabilities>
+			<string name="CardboardName">Cardboard</string>
+			<string name="CarpetName">Carpet</string>
+			<string name="CeramicTilesName">CeramicTiles</string>
+			<string name="ClayRoofTilesName">ClayRoofTiles</string>
+			<string name="CobblestoneName">Cobblestone</string>
+			<string name="ConcreteName">Concrete</string>
+			<string name="CorrodedMetalName">CorrodedMetal</string>
+			<string name="CrackedLavaName">CrackedLava</string>
+			<bool name="DefinesCapabilities">false</bool>
+			<string name="DiamondPlateName">DiamondPlate</string>
+			<string name="FabricName">Fabric</string>
+			<string name="FoilName">Foil</string>
+			<string name="GlacierName">Glacier</string>
+			<string name="GraniteName">Granite</string>
+			<string name="GrassName">Grass</string>
+			<string name="GroundName">Ground</string>
+			<UniqueId name="HistoryId">00000000000000000000000000000000</UniqueId>
+			<string name="IceName">Ice</string>
+			<string name="LeafyGrassName">LeafyGrass</string>
+			<string name="LeatherName">Leather</string>
+			<string name="LimestoneName">Limestone</string>
+			<string name="MarbleName">Marble</string>
+			<string name="MetalName">Metal</string>
+			<string name="MudName">Mud</string>
+			<string name="Name">MaterialService</string>
+			<string name="PavementName">Pavement</string>
+			<string name="PebbleName">Pebble</string>
+			<string name="PlasterName">Plaster</string>
+			<string name="PlasticName">Plastic</string>
+			<string name="RockName">Rock</string>
+			<string name="RoofShinglesName">RoofShingles</string>
+			<string name="RubberName">Rubber</string>
+			<string name="SaltName">Salt</string>
+			<string name="SandName">Sand</string>
+			<string name="SandstoneName">Sandstone</string>
+			<string name="SlateName">Slate</string>
+			<string name="SmoothPlasticName">SmoothPlastic</string>
+			<string name="SnowName">Snow</string>
+			<int64 name="SourceAssetId">-1</int64>
+			<BinaryString name="Tags"></BinaryString>
+			<UniqueId name="UniqueId">21f360a667af9968089e011800000341</UniqueId>
+			<bool name="Use2022MaterialsXml">true</bool>
+			<string name="WoodName">Wood</string>
+			<string name="WoodPlanksName">WoodPlanks</string>
+		</Properties>
+	</Item>
+	<Item class="TextChatService" referent="RBXC2CA88092E4A43AEBC080312BFF1A629">
+		<Properties>
+			<BinaryString name="AttributesSerialize"></BinaryString>
+			<SecurityCapabilities name="Capabilities">0</SecurityCapabilities>
+			<bool name="ChatTranslationFTUXShown">true</bool>
+			<bool name="ChatTranslationToggleEnabled">false</bool>
+			<token name="ChatVersion">1</token>
+			<bool name="CreateDefaultCommands">false</bool>
+			<bool name="CreateDefaultTextChannels">false</bool>
+			<bool name="DefinesCapabilities">false</bool>
+			<bool name="HasSeenDeprecationDialog">false</bool>
+			<UniqueId name="HistoryId">00000000000000000000000000000000</UniqueId>
+			<bool name="IsLegacyChatDisabled">true</bool>
+			<string name="Name">TextChatService</string>
+			<int64 name="SourceAssetId">-1</int64>
+			<BinaryString name="Tags"></BinaryString>
+			<UniqueId name="UniqueId">21f360a667af9968089e011800000342</UniqueId>
+		</Properties>
+		<Item class="ChatWindowConfiguration" referent="RBXD344A8D7EF3740FC8A68DF10D3B80F5C">
+			<Properties>
+				<BinaryString name="AttributesSerialize"></BinaryString>
+				<Color3 name="BackgroundColor3">
+					<R>0.0980392173</R>
+					<G>0.105882354</G>
+					<B>0.113725491</B>
+				</Color3>
+				<double name="BackgroundTransparency">0.2999999999999999889</double>
+				<SecurityCapabilities name="Capabilities">0</SecurityCapabilities>
+				<bool name="DefinesCapabilities">false</bool>
+				<bool name="Enabled">false</bool>
+				<Font name="FontFace">
+					<Family><url>rbxasset://fonts/families/BuilderSans.json</url></Family>
+					<Weight>500</Weight>
+					<Style>Normal</Style>
+					<CachedFaceId><url>rbxasset://fonts/BuilderSans-Medium.otf</url></CachedFaceId>
+				</Font>
+				<float name="HeightScale">1</float>
+				<UniqueId name="HistoryId">00000000000000000000000000000000</UniqueId>
+				<token name="HorizontalAlignment">1</token>
+				<string name="Name">ChatWindowConfiguration</string>
+				<int64 name="SourceAssetId">-1</int64>
+				<BinaryString name="Tags"></BinaryString>
+				<Color3 name="TextColor3">
+					<R>1</R>
+					<G>1</G>
+					<B>1</B>
+				</Color3>
+				<int64 name="TextSize">18</int64>
+				<Color3 name="TextStrokeColor3">
+					<R>0</R>
+					<G>0</G>
+					<B>0</B>
+				</Color3>
+				<double name="TextStrokeTransparency">0.5</double>
+				<UniqueId name="UniqueId">21f360a667af9968089e0118000003ab</UniqueId>
+				<token name="VerticalAlignment">1</token>
+				<float name="WidthScale">1</float>
+			</Properties>
+		</Item>
+		<Item class="ChatInputBarConfiguration" referent="RBXC4E15306198C42C0A5034C6826C9BB35">
+			<Properties>
+				<BinaryString name="AttributesSerialize"></BinaryString>
+				<bool name="AutocompleteEnabled">true</bool>
+				<Color3 name="BackgroundColor3">
+					<R>0.0980392173</R>
+					<G>0.105882354</G>
+					<B>0.113725491</B>
+				</Color3>
+				<double name="BackgroundTransparency">0.2000000000000000111</double>
+				<SecurityCapabilities name="Capabilities">0</SecurityCapabilities>
+				<bool name="DefinesCapabilities">false</bool>
+				<bool name="Enabled">false</bool>
+				<Font name="FontFace">
+					<Family><url>rbxasset://fonts/families/BuilderSans.json</url></Family>
+					<Weight>500</Weight>
+					<Style>Normal</Style>
+					<CachedFaceId><url>rbxasset://fonts/BuilderSans-Medium.otf</url></CachedFaceId>
+				</Font>
+				<UniqueId name="HistoryId">00000000000000000000000000000000</UniqueId>
+				<token name="KeyboardKeyCode">47</token>
+				<string name="Name">ChatInputBarConfiguration</string>
+				<Color3 name="PlaceholderColor3">
+					<R>0.698039234</R>
+					<G>0.698039234</G>
+					<B>0.698039234</B>
+				</Color3>
+				<int64 name="SourceAssetId">-1</int64>
+				<BinaryString name="Tags"></BinaryString>
+				<Ref name="TargetTextChannel">null</Ref>
+				<Color3 name="TextColor3">
+					<R>1</R>
+					<G>1</G>
+					<B>1</B>
+				</Color3>
+				<int64 name="TextSize">18</int64>
+				<Color3 name="TextStrokeColor3">
+					<R>0</R>
+					<G>0</G>
+					<B>0</B>
+				</Color3>
+				<double name="TextStrokeTransparency">0.5</double>
+				<UniqueId name="UniqueId">21f360a667af9968089e0118000003ac</UniqueId>
+			</Properties>
+		</Item>
+		<Item class="BubbleChatConfiguration" referent="RBXBD5D6C1275CE4B768A34A175259D937B">
+			<Properties>
+				<string name="AdorneeName">HumanoidRootPart</string>
+				<BinaryString name="AttributesSerialize"></BinaryString>
+				<Color3 name="BackgroundColor3">
+					<R>0.980392158</R>
+					<G>0.980392158</G>
+					<B>0.980392158</B>
+				</Color3>
+				<double name="BackgroundTransparency">0.10000000000000000555</double>
+				<float name="BubbleDuration">15</float>
+				<float name="BubblesSpacing">6</float>
+				<SecurityCapabilities name="Capabilities">0</SecurityCapabilities>
+				<bool name="DefinesCapabilities">false</bool>
+				<bool name="Enabled">false</bool>
+				<token name="Font">47</token>
+				<Font name="FontFace">
+					<Family><url>rbxasset://fonts/families/BuilderSans.json</url></Family>
+					<Weight>500</Weight>
+					<Style>Normal</Style>
+					<CachedFaceId><url>rbxasset://fonts/BuilderSans-Medium.otf</url></CachedFaceId>
+				</Font>
+				<UniqueId name="HistoryId">00000000000000000000000000000000</UniqueId>
+				<Vector3 name="LocalPlayerStudsOffset">
+					<X>0</X>
+					<Y>0</Y>
+					<Z>0</Z>
+				</Vector3>
+				<float name="MaxBubbles">3</float>
+				<float name="MaxDistance">100</float>
+				<float name="MinimizeDistance">40</float>
+				<string name="Name">BubbleChatConfiguration</string>
+				<int64 name="SourceAssetId">-1</int64>
+				<BinaryString name="Tags"></BinaryString>
+				<bool name="TailVisible">true</bool>
+				<Color3 name="TextColor3">
+					<R>0.223529413</R>
+					<G>0.23137255</G>
+					<B>0.239215687</B>
+				</Color3>
+				<int64 name="TextSize">20</int64>
+				<UniqueId name="UniqueId">21f360a667af9968089e0118000003ad</UniqueId>
+				<float name="VerticalStudsOffset">0</float>
+			</Properties>
+			<Item class="UIGradient" referent="RBXE090448E9A194C618A0B4A1B85C6CC1C">
+				<Properties>
+					<BinaryString name="AttributesSerialize"></BinaryString>
+					<SecurityCapabilities name="Capabilities">0</SecurityCapabilities>
+					<ColorSequence name="Color">0 1 1 1 0 1 1 1 1 0 </ColorSequence>
+					<bool name="DefinesCapabilities">false</bool>
+					<bool name="Enabled">false</bool>
+					<UniqueId name="HistoryId">00000000000000000000000000000000</UniqueId>
+					<string name="Name">UIGradient</string>
+					<Vector2 name="Offset">
+						<X>0</X>
+						<Y>0</Y>
+					</Vector2>
+					<float name="Rotation">0</float>
+					<int64 name="SourceAssetId">-1</int64>
+					<BinaryString name="Tags"></BinaryString>
+					<NumberSequence name="Transparency">0 0 0 1 0 0 </NumberSequence>
+					<UniqueId name="UniqueId">21f360a667af9968089e0118000003ae</UniqueId>
+				</Properties>
+			</Item>
+			<Item class="ImageLabel" referent="RBX90C588223C004EDA8830A1CA30C837B5">
+				<Properties>
+					<bool name="Active">false</bool>
+					<Vector2 name="AnchorPoint">
+						<X>0</X>
+						<Y>0</Y>
+					</Vector2>
+					<BinaryString name="AttributesSerialize"></BinaryString>
+					<bool name="AutoLocalize">true</bool>
+					<token name="AutomaticSize">0</token>
+					<Color3 name="BackgroundColor3">
+						<R>1</R>
+						<G>1</G>
+						<B>1</B>
+					</Color3>
+					<float name="BackgroundTransparency">0</float>
+					<Color3 name="BorderColor3">
+						<R>0.105882362</R>
+						<G>0.164705887</G>
+						<B>0.207843155</B>
+					</Color3>
+					<token name="BorderMode">0</token>
+					<int name="BorderSizePixel">1</int>
+					<SecurityCapabilities name="Capabilities">0</SecurityCapabilities>
+					<bool name="ClipsDescendants">false</bool>
+					<bool name="DefinesCapabilities">false</bool>
+					<bool name="Draggable">false</bool>
+					<UniqueId name="HistoryId">00000000000000000000000000000000</UniqueId>
+					<Content name="Image"><null></null></Content>
+					<Color3 name="ImageColor3">
+						<R>1</R>
+						<G>1</G>
+						<B>1</B>
+					</Color3>
+					<Vector2 name="ImageRectOffset">
+						<X>0</X>
+						<Y>0</Y>
+					</Vector2>
+					<Vector2 name="ImageRectSize">
+						<X>0</X>
+						<Y>0</Y>
+					</Vector2>
+					<float name="ImageTransparency">0</float>
+					<bool name="Interactable">true</bool>
+					<int name="LayoutOrder">0</int>
+					<string name="Name">ImageLabel</string>
+					<Ref name="NextSelectionDown">null</Ref>
+					<Ref name="NextSelectionLeft">null</Ref>
+					<Ref name="NextSelectionRight">null</Ref>
+					<Ref name="NextSelectionUp">null</Ref>
+					<UDim2 name="Position">
+						<XS>0</XS>
+						<XO>0</XO>
+						<YS>0</YS>
+						<YO>0</YO>
+					</UDim2>
+					<token name="ResampleMode">0</token>
+					<Ref name="RootLocalizationTable">null</Ref>
+					<float name="Rotation">0</float>
+					<token name="ScaleType">0</token>
+					<bool name="Selectable">false</bool>
+					<token name="SelectionBehaviorDown">0</token>
+					<token name="SelectionBehaviorLeft">0</token>
+					<token name="SelectionBehaviorRight">0</token>
+					<token name="SelectionBehaviorUp">0</token>
+					<bool name="SelectionGroup">false</bool>
+					<Ref name="SelectionImageObject">null</Ref>
+					<int name="SelectionOrder">0</int>
+					<UDim2 name="Size">
+						<XS>0</XS>
+						<XO>100</XO>
+						<YS>0</YS>
+						<YO>100</YO>
+					</UDim2>
+					<token name="SizeConstraint">0</token>
+					<Rect2D name="SliceCenter">
+						<min>
+							<X>0</X>
+							<Y>0</Y>
+						</min>
+						<max>
+							<X>0</X>
+							<Y>0</Y>
+						</max>
+					</Rect2D>
+					<float name="SliceScale">1</float>
+					<int64 name="SourceAssetId">-1</int64>
+					<BinaryString name="Tags"></BinaryString>
+					<UDim2 name="TileSize">
+						<XS>1</XS>
+						<XO>0</XO>
+						<YS>1</YS>
+						<YO>0</YO>
+					</UDim2>
+					<UniqueId name="UniqueId">21f360a667af9968089e0118000003af</UniqueId>
+					<bool name="Visible">true</bool>
+					<int name="ZIndex">1</int>
+				</Properties>
+			</Item>
+			<Item class="UICorner" referent="RBXA3ABE47B913F453D86670DC74318D02E">
+				<Properties>
+					<BinaryString name="AttributesSerialize"></BinaryString>
+					<SecurityCapabilities name="Capabilities">0</SecurityCapabilities>
+					<UDim name="CornerRadius">
+						<S>0</S>
+						<O>12</O>
+					</UDim>
+					<bool name="DefinesCapabilities">false</bool>
+					<UniqueId name="HistoryId">00000000000000000000000000000000</UniqueId>
+					<string name="Name">UICorner</string>
+					<int64 name="SourceAssetId">-1</int64>
+					<BinaryString name="Tags"></BinaryString>
+					<UniqueId name="UniqueId">21f360a667af9968089e0118000003b0</UniqueId>
+				</Properties>
+			</Item>
+			<Item class="UIPadding" referent="RBXF550497AA0614B138EE492EA7C23BABA">
+				<Properties>
+					<BinaryString name="AttributesSerialize"></BinaryString>
+					<SecurityCapabilities name="Capabilities">0</SecurityCapabilities>
+					<bool name="DefinesCapabilities">false</bool>
+					<UniqueId name="HistoryId">00000000000000000000000000000000</UniqueId>
+					<string name="Name">UIPadding</string>
+					<UDim name="PaddingBottom">
+						<S>0</S>
+						<O>8</O>
+					</UDim>
+					<UDim name="PaddingLeft">
+						<S>0</S>
+						<O>8</O>
+					</UDim>
+					<UDim name="PaddingRight">
+						<S>0</S>
+						<O>8</O>
+					</UDim>
+					<UDim name="PaddingTop">
+						<S>0</S>
+						<O>8</O>
+					</UDim>
+					<int64 name="SourceAssetId">-1</int64>
+					<BinaryString name="Tags"></BinaryString>
+					<UniqueId name="UniqueId">21f360a667af9968089e0118000003b1</UniqueId>
+				</Properties>
+			</Item>
+		</Item>
+		<Item class="ChannelTabsConfiguration" referent="RBX6815858729414E34BD36376D7B0FE1EE">
+			<Properties>
+				<BinaryString name="AttributesSerialize"></BinaryString>
+				<Color3 name="BackgroundColor3">
+					<R>0.0980392173</R>
+					<G>0.105882354</G>
+					<B>0.113725491</B>
+				</Color3>
+				<double name="BackgroundTransparency">0</double>
+				<SecurityCapabilities name="Capabilities">0</SecurityCapabilities>
+				<bool name="DefinesCapabilities">false</bool>
+				<bool name="Enabled">false</bool>
+				<Font name="FontFace">
+					<Family><url>rbxasset://fonts/families/BuilderSans.json</url></Family>
+					<Weight>700</Weight>
+					<Style>Normal</Style>
+					<CachedFaceId><url>rbxasset://fonts/BuilderSans-Bold.otf</url></CachedFaceId>
+				</Font>
+				<UniqueId name="HistoryId">00000000000000000000000000000000</UniqueId>
+				<Color3 name="HoverBackgroundColor3">
+					<R>0.490196079</R>
+					<G>0.490196079</G>
+					<B>0.490196079</B>
+				</Color3>
+				<string name="Name">ChannelTabsConfiguration</string>
+				<Color3 name="SelectedTabTextColor3">
+					<R>1</R>
+					<G>1</G>
+					<B>1</B>
+				</Color3>
+				<int64 name="SourceAssetId">-1</int64>
+				<BinaryString name="Tags"></BinaryString>
+				<Color3 name="TextColor3">
+					<R>0.686274529</R>
+					<G>0.686274529</G>
+					<B>0.686274529</B>
+				</Color3>
+				<int64 name="TextSize">18</int64>
+				<Color3 name="TextStrokeColor3">
+					<R>0</R>
+					<G>0</G>
+					<B>0</B>
+				</Color3>
+				<double name="TextStrokeTransparency">1</double>
+				<UniqueId name="UniqueId">21f360a667af9968089e0118000003b2</UniqueId>
+			</Properties>
+		</Item>
+	</Item>
+	<Item class="PermissionsService" referent="RBX28ADD424F9894E58862D4580CB1839EB">
+		<Properties>
+			<BinaryString name="AttributesSerialize"></BinaryString>
+			<SecurityCapabilities name="Capabilities">0</SecurityCapabilities>
+			<bool name="DefinesCapabilities">false</bool>
+			<UniqueId name="HistoryId">00000000000000000000000000000000</UniqueId>
+			<string name="Name">PermissionsService</string>
+			<int64 name="SourceAssetId">-1</int64>
+			<BinaryString name="Tags"></BinaryString>
+			<UniqueId name="UniqueId">7648379e9a0a1da7089eda8100000ba5</UniqueId>
+		</Properties>
+	</Item>
+	<Item class="PlayerEmulatorService" referent="RBX9A608E9B5E3A4AA385202644C2EEDC3C">
+		<Properties>
+			<BinaryString name="AttributesSerialize"></BinaryString>
+			<SecurityCapabilities name="Capabilities">0</SecurityCapabilities>
+			<bool name="CustomPoliciesEnabled">false</bool>
+			<bool name="DefinesCapabilities">false</bool>
+			<string name="EmulatedCountryCode"></string>
+			<string name="EmulatedGameLocale"></string>
+			<UniqueId name="HistoryId">00000000000000000000000000000000</UniqueId>
+			<string name="Name">PlayerEmulatorService</string>
+			<bool name="PlayerEmulationEnabled">false</bool>
+			<bool name="PseudolocalizationEnabled">false</bool>
+			<BinaryString name="SerializedEmulatedPolicyInfo"></BinaryString>
+			<int64 name="SourceAssetId">-1</int64>
+			<BinaryString name="Tags"></BinaryString>
+			<int name="TextElongationFactor">0</int>
+			<UniqueId name="UniqueId">21f360a667af9968089e011800000345</UniqueId>
+		</Properties>
+	</Item>
+	<Item class="StudioData" referent="RBXDEC60B39C61B4425A5CF7E37F1062A04">
+		<Properties>
+			<BinaryString name="AttributesSerialize"></BinaryString>
+			<SecurityCapabilities name="Capabilities">0</SecurityCapabilities>
+			<bool name="DefinesCapabilities">false</bool>
+			<bool name="EnableScriptCollabByDefaultOnLoad">false</bool>
+			<UniqueId name="HistoryId">00000000000000000000000000000000</UniqueId>
+			<string name="Name">StudioData</string>
+			<int64 name="SourceAssetId">-1</int64>
+			<BinaryString name="Tags"></BinaryString>
+			<UniqueId name="UniqueId">21f360a667af9968089e011800000349</UniqueId>
+		</Properties>
+	</Item>
+	<Item class="StarterPlayer" referent="RBX4B410967DDB04A8EB2DCE9C5A2C9CBD3">
+		<Properties>
+			<bool name="AllowCustomAnimations">true</bool>
+			<BinaryString name="AttributesSerialize"></BinaryString>
+			<bool name="AutoJumpEnabled">true</bool>
+			<token name="AvatarJointUpgrade_SerializedRollout">0</token>
+			<float name="CameraMaxZoomDistance">128</float>
+			<float name="CameraMinZoomDistance">0.5</float>
+			<token name="CameraMode">0</token>
+			<SecurityCapabilities name="Capabilities">0</SecurityCapabilities>
+			<float name="CharacterJumpHeight">7.19999981</float>
+			<float name="CharacterJumpPower">50</float>
+			<float name="CharacterMaxSlopeAngle">89</float>
+			<bool name="CharacterUseJumpPower">false</bool>
+			<float name="CharacterWalkSpeed">16</float>
+			<bool name="ClassicDeath">true</bool>
+			<bool name="DefinesCapabilities">false</bool>
+			<token name="DevCameraOcclusionMode">0</token>
+			<token name="DevComputerCameraMovementMode">0</token>
+			<token name="DevComputerMovementMode">0</token>
+			<token name="DevTouchCameraMovementMode">0</token>
+			<token name="DevTouchMovementMode">0</token>
+			<token name="EnableDynamicHeads">0</token>
+			<bool name="EnableMouseLockOption">true</bool>
+			<int64 name="GameSettingsAssetIDFace">0</int64>
+			<int64 name="GameSettingsAssetIDHead">0</int64>
+			<int64 name="GameSettingsAssetIDLeftArm">0</int64>
+			<int64 name="GameSettingsAssetIDLeftLeg">0</int64>
+			<int64 name="GameSettingsAssetIDPants">0</int64>
+			<int64 name="GameSettingsAssetIDRightArm">0</int64>
+			<int64 name="GameSettingsAssetIDRightLeg">0</int64>
+			<int64 name="GameSettingsAssetIDShirt">0</int64>
+			<int64 name="GameSettingsAssetIDTeeShirt">0</int64>
+			<int64 name="GameSettingsAssetIDTorso">0</int64>
+			<token name="GameSettingsAvatar">1</token>
+			<token name="GameSettingsR15Collision">0</token>
+			<NumberRange name="GameSettingsScaleRangeBodyType">0 1 </NumberRange>
+			<NumberRange name="GameSettingsScaleRangeHead">0.95 1 </NumberRange>
+			<NumberRange name="GameSettingsScaleRangeHeight">0.9 1.05 </NumberRange>
+			<NumberRange name="GameSettingsScaleRangeProportion">0 1 </NumberRange>
+			<NumberRange name="GameSettingsScaleRangeWidth">0.7 1 </NumberRange>
+			<float name="HealthDisplayDistance">100</float>
+			<UniqueId name="HistoryId">00000000000000000000000000000000</UniqueId>
+			<bool name="LoadCharacterAppearance">true</bool>
+			<token name="LoadCharacterLayeredClothing">0</token>
+			<token name="LuaCharacterController">0</token>
+			<string name="Name">StarterPlayer</string>
+			<float name="NameDisplayDistance">100</float>
+			<bool name="RagdollDeath">true</bool>
+			<int64 name="SourceAssetId">-1</int64>
+			<BinaryString name="Tags"></BinaryString>
+			<UniqueId name="UniqueId">21f360a667af9968089e01180000034b</UniqueId>
+			<bool name="UserEmotesEnabled">true</bool>
+		</Properties>
+		<Item class="StarterPlayerScripts" referent="RBX0D258204A7F84632ACD70A8E29ECD83B">
+			<Properties>
+				<BinaryString name="AttributesSerialize"></BinaryString>
+				<SecurityCapabilities name="Capabilities">0</SecurityCapabilities>
+				<bool name="DefinesCapabilities">false</bool>
+				<UniqueId name="HistoryId">00000000000000000000000000000000</UniqueId>
+				<string name="Name">StarterPlayerScripts</string>
+				<int64 name="SourceAssetId">-1</int64>
+				<BinaryString name="Tags"></BinaryString>
+				<UniqueId name="UniqueId">21f360a667af9968089e0118000003a3</UniqueId>
+			</Properties>
+			<Item class="LocalScript" referent="RBX60AC215D3DF143B38C1DD32C77F30D10">
+				<Properties>
+					<BinaryString name="AttributesSerialize"></BinaryString>
+					<SecurityCapabilities name="Capabilities">0</SecurityCapabilities>
+					<bool name="DefinesCapabilities">false</bool>
+					<bool name="Disabled">false</bool>
+					<UniqueId name="HistoryId">00000000000000000000000000000000</UniqueId>
+					<Content name="LinkedSource"><null></null></Content>
+					<string name="Name">StateServiceClient</string>
+					<token name="RunContext">0</token>
+					<string name="ScriptGuid">{DBCB4378-B520-4A19-8537-5CD63B025ABA}</string>
+					<ProtectedString name="Source"><![CDATA[--!strict
+local Players = game:GetService("Players")
+local ReplicatedStorage = game:GetService("ReplicatedStorage")
+
+local Player = Players.LocalPlayer
+
+local Modules_RS = ReplicatedStorage:WaitForChild("Modules")
+
+local StateService = require(
+	Modules_RS:WaitForChild(
+		"StateService",
+		60
+	) -- WaitForChild is crucial for the client.
+)
+
+print(StateService:GetState(Player, "PlayerData")) 
+-- ^ Should print out the PlayerData due to being authorized by the server.]]></ProtectedString>
+					<int64 name="SourceAssetId">-1</int64>
+					<BinaryString name="Tags"></BinaryString>
+					<UniqueId name="UniqueId">21f360a667af9968089e0118000009b1</UniqueId>
+				</Properties>
+			</Item>
+		</Item>
+		<Item class="StarterCharacterScripts" referent="RBX0A899241E53041628D4735D07679FEF2">
+			<Properties>
+				<BinaryString name="AttributesSerialize"></BinaryString>
+				<SecurityCapabilities name="Capabilities">0</SecurityCapabilities>
+				<bool name="DefinesCapabilities">false</bool>
+				<UniqueId name="HistoryId">00000000000000000000000000000000</UniqueId>
+				<string name="Name">StarterCharacterScripts</string>
+				<int64 name="SourceAssetId">-1</int64>
+				<BinaryString name="Tags"></BinaryString>
+				<UniqueId name="UniqueId">21f360a667af9968089e0118000003a4</UniqueId>
+			</Properties>
+		</Item>
+	</Item>
+	<Item class="StarterPack" referent="RBX23B2CF4C65D64186A17C41DB9F9A47BF">
+		<Properties>
+			<BinaryString name="AttributesSerialize"></BinaryString>
+			<SecurityCapabilities name="Capabilities">0</SecurityCapabilities>
+			<bool name="DefinesCapabilities">false</bool>
+			<UniqueId name="HistoryId">00000000000000000000000000000000</UniqueId>
+			<string name="Name">StarterPack</string>
+			<int64 name="SourceAssetId">-1</int64>
+			<BinaryString name="Tags"></BinaryString>
+			<UniqueId name="UniqueId">21f360a667af9968089e01180000034c</UniqueId>
+		</Properties>
+	</Item>
+	<Item class="StarterGui" referent="RBX5414AFBB552047B8B287CAE1DE2907BA">
+		<Properties>
+			<BinaryString name="AttributesSerialize"></BinaryString>
+			<SecurityCapabilities name="Capabilities">0</SecurityCapabilities>
+			<bool name="DefinesCapabilities">false</bool>
+			<UniqueId name="HistoryId">00000000000000000000000000000000</UniqueId>
+			<string name="Name">StarterGui</string>
+			<bool name="ResetPlayerGuiOnSpawn">true</bool>
+			<token name="RtlTextSupport">0</token>
+			<token name="ScreenOrientation">4</token>
+			<bool name="ShowDevelopmentGui">true</bool>
+			<int64 name="SourceAssetId">-1</int64>
+			<Ref name="StudioDefaultStyleSheet">null</Ref>
+			<Ref name="StudioInsertWidgetLayerCollectorAutoLinkStyleSheet">null</Ref>
+			<BinaryString name="Tags"></BinaryString>
+			<UniqueId name="UniqueId">21f360a667af9968089e01180000034d</UniqueId>
+			<token name="VirtualCursorMode">0</token>
+		</Properties>
+	</Item>
+	<Item class="LocalizationService" referent="RBXA84CE41F67F7476CBCCD4D4357790647">
+		<Properties>
+			<BinaryString name="AttributesSerialize"></BinaryString>
+			<SecurityCapabilities name="Capabilities">0</SecurityCapabilities>
+			<bool name="DefinesCapabilities">false</bool>
+			<UniqueId name="HistoryId">00000000000000000000000000000000</UniqueId>
+			<string name="Name">LocalizationService</string>
+			<int64 name="SourceAssetId">-1</int64>
+			<BinaryString name="Tags"></BinaryString>
+			<UniqueId name="UniqueId">21f360a667af9968089e01180000034f</UniqueId>
+		</Properties>
+	</Item>
+	<Item class="TeleportService" referent="RBX848C70F9A5EF43099DB336E6475A719E">
+		<Properties>
+			<BinaryString name="AttributesSerialize"></BinaryString>
+			<SecurityCapabilities name="Capabilities">0</SecurityCapabilities>
+			<bool name="DefinesCapabilities">false</bool>
+			<UniqueId name="HistoryId">00000000000000000000000000000000</UniqueId>
+			<string name="Name">Teleport Service</string>
+			<int64 name="SourceAssetId">-1</int64>
+			<BinaryString name="Tags"></BinaryString>
+			<UniqueId name="UniqueId">21f360a667af9968089e011800000353</UniqueId>
+		</Properties>
+	</Item>
+	<Item class="CollectionService" referent="RBXB670C61C368141F1A756C644ED2A10F7">
+		<Properties>
+			<BinaryString name="AttributesSerialize"></BinaryString>
+			<SecurityCapabilities name="Capabilities">0</SecurityCapabilities>
+			<bool name="DefinesCapabilities">false</bool>
+			<UniqueId name="HistoryId">00000000000000000000000000000000</UniqueId>
+			<string name="Name">CollectionService</string>
+			<int64 name="SourceAssetId">-1</int64>
+			<BinaryString name="Tags"></BinaryString>
+			<UniqueId name="UniqueId">21f360a667af9968089e011800000355</UniqueId>
+		</Properties>
+	</Item>
+	<Item class="PhysicsService" referent="RBX5995D54A4C214160B2441213CBCED4FA">
+		<Properties>
+			<BinaryString name="AttributesSerialize"></BinaryString>
+			<SecurityCapabilities name="Capabilities">0</SecurityCapabilities>
+			<bool name="DefinesCapabilities">false</bool>
+			<UniqueId name="HistoryId">00000000000000000000000000000000</UniqueId>
+			<string name="Name">PhysicsService</string>
+			<int64 name="SourceAssetId">-1</int64>
+			<BinaryString name="Tags"></BinaryString>
+			<UniqueId name="UniqueId">21f360a667af9968089e011800000356</UniqueId>
+		</Properties>
+	</Item>
+	<Item class="InsertService" referent="RBX430C1AAE9EF047EC833D69064F25540F">
+		<Properties>
+			<bool name="AllowClientInsertModels">false</bool>
+			<bool name="AllowInsertFreeModels">false</bool>
+			<BinaryString name="AttributesSerialize"></BinaryString>
+			<SecurityCapabilities name="Capabilities">0</SecurityCapabilities>
+			<bool name="DefinesCapabilities">false</bool>
+			<UniqueId name="HistoryId">00000000000000000000000000000000</UniqueId>
+			<string name="Name">InsertService</string>
+			<int64 name="SourceAssetId">-1</int64>
+			<BinaryString name="Tags"></BinaryString>
+			<UniqueId name="UniqueId">21f360a667af9968089e011800000359</UniqueId>
+		</Properties>
+		<Item class="StringValue" referent="RBX75502FA456BF4FEFBF9595B054FC494C">
+			<Properties>
+				<BinaryString name="AttributesSerialize"></BinaryString>
+				<SecurityCapabilities name="Capabilities">0</SecurityCapabilities>
+				<bool name="DefinesCapabilities">false</bool>
+				<UniqueId name="HistoryId">00000000000000000000000000000000</UniqueId>
+				<string name="Name">InsertionHash</string>
+				<int64 name="SourceAssetId">-1</int64>
+				<BinaryString name="Tags"></BinaryString>
+				<UniqueId name="UniqueId">21f360a667af9968089e0118000003a5</UniqueId>
+				<string name="Value">{8CC95580-7C13-4701-A606-77ECCE2CB5B6}</string>
+			</Properties>
+		</Item>
+	</Item>
+	<Item class="GamePassService" referent="RBX305EFB95849344EDA8B5F7EFB3BE267F">
+		<Properties>
+			<BinaryString name="AttributesSerialize"></BinaryString>
+			<SecurityCapabilities name="Capabilities">0</SecurityCapabilities>
+			<bool name="DefinesCapabilities">false</bool>
+			<UniqueId name="HistoryId">00000000000000000000000000000000</UniqueId>
+			<string name="Name">GamePassService</string>
+			<int64 name="SourceAssetId">-1</int64>
+			<BinaryString name="Tags"></BinaryString>
+			<UniqueId name="UniqueId">21f360a667af9968089e01180000035a</UniqueId>
+		</Properties>
+	</Item>
+	<Item class="Debris" referent="RBXDD83CE0801F6409A9B616A13C892DCDB">
+		<Properties>
+			<BinaryString name="AttributesSerialize"></BinaryString>
+			<SecurityCapabilities name="Capabilities">0</SecurityCapabilities>
+			<bool name="DefinesCapabilities">false</bool>
+			<UniqueId name="HistoryId">00000000000000000000000000000000</UniqueId>
+			<int name="MaxItems">1000</int>
+			<string name="Name">Debris</string>
+			<int64 name="SourceAssetId">-1</int64>
+			<BinaryString name="Tags"></BinaryString>
+			<UniqueId name="UniqueId">21f360a667af9968089e01180000035b</UniqueId>
+		</Properties>
+	</Item>
+	<Item class="CookiesService" referent="RBX2746E31EF5D04700A8E498E7908DC35A">
+		<Properties>
+			<BinaryString name="AttributesSerialize"></BinaryString>
+			<SecurityCapabilities name="Capabilities">0</SecurityCapabilities>
+			<bool name="DefinesCapabilities">false</bool>
+			<UniqueId name="HistoryId">00000000000000000000000000000000</UniqueId>
+			<string name="Name">CookiesService</string>
+			<int64 name="SourceAssetId">-1</int64>
+			<BinaryString name="Tags"></BinaryString>
+			<UniqueId name="UniqueId">21f360a667af9968089e01180000035c</UniqueId>
+		</Properties>
+	</Item>
+	<Item class="Selection" referent="RBX0A22A0D0F85B4A0C9FBBBF5F0FDFE722">
+		<Properties>
+			<BinaryString name="AttributesSerialize"></BinaryString>
+			<SecurityCapabilities name="Capabilities">0</SecurityCapabilities>
+			<bool name="DefinesCapabilities">false</bool>
+			<UniqueId name="HistoryId">00000000000000000000000000000000</UniqueId>
+			<string name="Name">Selection</string>
+			<int64 name="SourceAssetId">-1</int64>
+			<BinaryString name="Tags"></BinaryString>
+			<UniqueId name="UniqueId">21f360a667af9968089e01180000035d</UniqueId>
+		</Properties>
+	</Item>
+	<Item class="VRService" referent="RBX290C329C66E94CC493E6CDA67DE58793">
+		<Properties>
+			<BinaryString name="AttributesSerialize"></BinaryString>
+			<token name="AutomaticScaling">0</token>
+			<bool name="AvatarGestures">false</bool>
+			<SecurityCapabilities name="Capabilities">0</SecurityCapabilities>
+			<token name="ControllerModels">1</token>
+			<bool name="DefinesCapabilities">false</bool>
+			<bool name="FadeOutViewOnCollision">true</bool>
+			<UniqueId name="HistoryId">00000000000000000000000000000000</UniqueId>
+			<token name="LaserPointer">1</token>
+			<string name="Name">VRService</string>
+			<int64 name="SourceAssetId">-1</int64>
+			<BinaryString name="Tags"></BinaryString>
+			<UniqueId name="UniqueId">21f360a667af9968089e011800000361</UniqueId>
+		</Properties>
+	</Item>
+	<Item class="ContextActionService" referent="RBX3986156A248A4C57926D9A27E116C3D2">
+		<Properties>
+			<BinaryString name="AttributesSerialize"></BinaryString>
+			<SecurityCapabilities name="Capabilities">0</SecurityCapabilities>
+			<bool name="DefinesCapabilities">false</bool>
+			<UniqueId name="HistoryId">00000000000000000000000000000000</UniqueId>
+			<string name="Name">ContextActionService</string>
+			<int64 name="SourceAssetId">-1</int64>
+			<BinaryString name="Tags"></BinaryString>
+			<UniqueId name="UniqueId">21f360a667af9968089e011800000362</UniqueId>
+		</Properties>
+	</Item>
+	<Item class="ScriptService" referent="RBX963767802D794BD3A472D5F768685E79">
+		<Properties>
+			<BinaryString name="AttributesSerialize"></BinaryString>
+			<SecurityCapabilities name="Capabilities">0</SecurityCapabilities>
+			<bool name="DefinesCapabilities">false</bool>
+			<UniqueId name="HistoryId">00000000000000000000000000000000</UniqueId>
+			<string name="Name">Instance</string>
+			<int64 name="SourceAssetId">-1</int64>
+			<BinaryString name="Tags"></BinaryString>
+			<UniqueId name="UniqueId">21f360a667af9968089e011800000363</UniqueId>
+		</Properties>
+	</Item>
+	<Item class="AssetService" referent="RBX0D281B751CAD4193B5B34D846C2CC21D">
+		<Properties>
+			<BinaryString name="AttributesSerialize"></BinaryString>
+			<SecurityCapabilities name="Capabilities">0</SecurityCapabilities>
+			<bool name="DefinesCapabilities">false</bool>
+			<UniqueId name="HistoryId">00000000000000000000000000000000</UniqueId>
+			<string name="Name">AssetService</string>
+			<int64 name="SourceAssetId">-1</int64>
+			<BinaryString name="Tags"></BinaryString>
+			<UniqueId name="UniqueId">21f360a667af9968089e011800000364</UniqueId>
+		</Properties>
+	</Item>
+	<Item class="TouchInputService" referent="RBX6F7EEF88068C488E922CEA4E8122BBA4">
+		<Properties>
+			<BinaryString name="AttributesSerialize"></BinaryString>
+			<SecurityCapabilities name="Capabilities">0</SecurityCapabilities>
+			<bool name="DefinesCapabilities">false</bool>
+			<UniqueId name="HistoryId">00000000000000000000000000000000</UniqueId>
+			<string name="Name">TouchInputService</string>
+			<int64 name="SourceAssetId">-1</int64>
+			<BinaryString name="Tags"></BinaryString>
+			<UniqueId name="UniqueId">21f360a667af9968089e011800000365</UniqueId>
+		</Properties>
+	</Item>
+	<Item class="AvatarSettings" referent="RBX7C040732CC7344A5990B5FEFA6223683">
+		<Properties>
+			<BinaryString name="AttributesSerialize"></BinaryString>
+			<SecurityCapabilities name="Capabilities">0</SecurityCapabilities>
+			<bool name="DefinesCapabilities">false</bool>
+			<UniqueId name="HistoryId">00000000000000000000000000000000</UniqueId>
+			<string name="Name">AvatarSettings</string>
+			<int64 name="SourceAssetId">-1</int64>
+			<BinaryString name="Tags"></BinaryString>
+			<UniqueId name="UniqueId">21f360a667af9968089e01180000036b</UniqueId>
+		</Properties>
+		<Item class="AvatarRules" referent="RBXB30263D188C54ACAB660789EEE9AE5CA">
+			<Properties>
+				<BinaryString name="AttributesSerialize"></BinaryString>
+				<token name="AvatarType">1</token>
+				<SecurityCapabilities name="Capabilities">0</SecurityCapabilities>
+				<bool name="DefinesCapabilities">false</bool>
+				<UniqueId name="HistoryId">00000000000000000000000000000000</UniqueId>
+				<string name="Name">DefaultAvatarRules</string>
+				<int64 name="SourceAssetId">-1</int64>
+				<BinaryString name="Tags"></BinaryString>
+				<UniqueId name="UniqueId">56e1d4cbe674c98e089ed9e6000040c2</UniqueId>
+			</Properties>
+			<Item class="AvatarBodyRules" referent="RBXF22968976C234433A22E37A95FD78D08">
+				<Properties>
+					<token name="AppearanceMode">0</token>
+					<BinaryString name="AttributesSerialize"></BinaryString>
+					<token name="BuildMode">0</token>
+					<SecurityCapabilities name="Capabilities">0</SecurityCapabilities>
+					<int64 name="CustomBodyBundleId">0</int64>
+					<token name="CustomBodyType">0</token>
+					<NumberRange name="CustomBodyTypeScale">0 1 </NumberRange>
+					<bool name="CustomEyebrowEnabled">false</bool>
+					<int64 name="CustomEyebrowId">0</int64>
+					<bool name="CustomEyelashEnabled">false</bool>
+					<int64 name="CustomEyelashId">0</int64>
+					<bool name="CustomFaceEnabled">false</bool>
+					<int64 name="CustomFaceId">0</int64>
+					<bool name="CustomHeadEnabled">false</bool>
+					<int64 name="CustomHeadId">0</int64>
+					<NumberRange name="CustomHeadScale">0.95 1 </NumberRange>
+					<NumberRange name="CustomHeight">5.5 5.5 </NumberRange>
+					<NumberRange name="CustomHeightScale">0.9 1.05 </NumberRange>
+					<bool name="CustomLeftArmEnabled">false</bool>
+					<int64 name="CustomLeftArmId">0</int64>
+					<bool name="CustomLeftLegEnabled">false</bool>
+					<int64 name="CustomLeftLegId">0</int64>
+					<bool name="CustomMoodEnabled">false</bool>
+					<int64 name="CustomMoodId">0</int64>
+					<NumberRange name="CustomProportionsScale">0 1 </NumberRange>
+					<bool name="CustomRightArmEnabled">false</bool>
+					<int64 name="CustomRightArmId">0</int64>
+					<bool name="CustomRightLegEnabled">false</bool>
+					<int64 name="CustomRightLegId">0</int64>
+					<bool name="CustomTorsoEnabled">false</bool>
+					<int64 name="CustomTorsoId">0</int64>
+					<NumberRange name="CustomWidthScale">0.7 1 </NumberRange>
+					<bool name="DefinesCapabilities">false</bool>
+					<UniqueId name="HistoryId">00000000000000000000000000000000</UniqueId>
+					<bool name="KeepPlayerHead">true</bool>
+					<string name="Name">AvatarBodyRules</string>
+					<token name="ScaleMode">1</token>
+					<int64 name="SourceAssetId">-1</int64>
+					<BinaryString name="Tags"></BinaryString>
+					<UniqueId name="UniqueId">56e1d4cbe674c98e089ed9e6000040c3</UniqueId>
+				</Properties>
+			</Item>
+			<Item class="AvatarCollisionRules" referent="RBX53AA603694F44ADB99A11753F584222D">
+				<Properties>
+					<BinaryString name="AttributesSerialize"></BinaryString>
+					<SecurityCapabilities name="Capabilities">0</SecurityCapabilities>
+					<token name="CollisionMode">1</token>
+					<bool name="DefinesCapabilities">false</bool>
+					<UniqueId name="HistoryId">00000000000000000000000000000000</UniqueId>
+					<token name="HitAndTouchDetectionMode">0</token>
+					<token name="LegacyCollisionMode">1</token>
+					<string name="Name">AvatarCollisionRules</string>
+					<Vector3 name="SingleColliderSize">
+						<X>2</X>
+						<Y>4</Y>
+						<Z>1</Z>
+					</Vector3>
+					<int64 name="SourceAssetId">-1</int64>
+					<BinaryString name="Tags"></BinaryString>
+					<UniqueId name="UniqueId">56e1d4cbe674c98e089ed9e6000040c4</UniqueId>
+				</Properties>
+			</Item>
+			<Item class="AvatarAnimationRules" referent="RBX677EC381E3D14EF49BC6518C513155E6">
+				<Properties>
+					<token name="AnimationClipsMode">0</token>
+					<token name="AnimationPacksMode">0</token>
+					<BinaryString name="AttributesSerialize"></BinaryString>
+					<SecurityCapabilities name="Capabilities">0</SecurityCapabilities>
+					<bool name="CustomClimbAnimationEnabled">false</bool>
+					<int64 name="CustomClimbAnimationId">0</int64>
+					<bool name="CustomFallAnimationEnabled">false</bool>
+					<int64 name="CustomFallAnimationId">0</int64>
+					<bool name="CustomIdleAlt1AnimationEnabled">false</bool>
+					<int64 name="CustomIdleAlt1AnimationId">0</int64>
+					<bool name="CustomIdleAlt2AnimationEnabled">false</bool>
+					<int64 name="CustomIdleAlt2AnimationId">0</int64>
+					<bool name="CustomIdleAnimationEnabled">false</bool>
+					<int64 name="CustomIdleAnimationId">0</int64>
+					<bool name="CustomJumpAnimationEnabled">false</bool>
+					<int64 name="CustomJumpAnimationId">0</int64>
+					<bool name="CustomRunAnimationEnabled">false</bool>
+					<int64 name="CustomRunAnimationId">0</int64>
+					<bool name="CustomSwimAnimationEnabled">false</bool>
+					<int64 name="CustomSwimAnimationId">0</int64>
+					<bool name="CustomSwimIdleAnimationEnabled">false</bool>
+					<int64 name="CustomSwimIdleAnimationId">0</int64>
+					<bool name="CustomWalkAnimationEnabled">false</bool>
+					<int64 name="CustomWalkAnimationId">0</int64>
+					<bool name="DefinesCapabilities">false</bool>
+					<UniqueId name="HistoryId">00000000000000000000000000000000</UniqueId>
+					<string name="Name">AvatarAnimationRules</string>
+					<int64 name="SourceAssetId">-1</int64>
+					<BinaryString name="Tags"></BinaryString>
+					<UniqueId name="UniqueId">56e1d4cbe674c98e089ed9e6000040c5</UniqueId>
+				</Properties>
+			</Item>
+			<Item class="AvatarAccessoryRules" referent="RBXD27C80AD1B3E4E2EB51CED083F784DD3">
+				<Properties>
+					<token name="AccessoryMode">0</token>
+					<BinaryString name="AttributesSerialize"></BinaryString>
+					<SecurityCapabilities name="Capabilities">0</SecurityCapabilities>
+					<token name="CustomAccessoryMode">0</token>
+					<bool name="CustomBackAccessoryEnabled">false</bool>
+					<int64 name="CustomBackAccessoryId">0</int64>
+					<bool name="CustomFaceAccessoryEnabled">false</bool>
+					<int64 name="CustomFaceAccessoryId">0</int64>
+					<bool name="CustomFrontAccessoryEnabled">false</bool>
+					<int64 name="CustomFrontAccessoryId">0</int64>
+					<bool name="CustomHairAccessoryEnabled">false</bool>
+					<int64 name="CustomHairAccessoryId">0</int64>
+					<bool name="CustomHeadAccessoryEnabled">false</bool>
+					<int64 name="CustomHeadAccessoryId">0</int64>
+					<bool name="CustomNeckAccessoryEnabled">false</bool>
+					<int64 name="CustomNeckAccessoryId">0</int64>
+					<bool name="CustomShoulderAccessoryEnabled">false</bool>
+					<int64 name="CustomShoulderAccessoryId">0</int64>
+					<bool name="CustomWaistAccessoryEnabled">false</bool>
+					<int64 name="CustomWaistAccessoryId">0</int64>
+					<bool name="DefinesCapabilities">false</bool>
+					<bool name="EnableSound">true</bool>
+					<bool name="EnableVFX">true</bool>
+					<UniqueId name="HistoryId">00000000000000000000000000000000</UniqueId>
+					<Vector3 name="LimitBounds">
+						<X>0</X>
+						<Y>0</Y>
+						<Z>0</Z>
+					</Vector3>
+					<token name="LimitMethod">1</token>
+					<string name="Name">AvatarAccessoryRules</string>
+					<int64 name="SourceAssetId">-1</int64>
+					<BinaryString name="Tags"></BinaryString>
+					<UniqueId name="UniqueId">56e1d4cbe674c98e089ed9e6000040c6</UniqueId>
+				</Properties>
+			</Item>
+			<Item class="AvatarClothingRules" referent="RBX1845AE22624A4960ACF647219D4FC9A2">
+				<Properties>
+					<BinaryString name="AttributesSerialize"></BinaryString>
+					<SecurityCapabilities name="Capabilities">0</SecurityCapabilities>
+					<token name="ClothingMode">0</token>
+					<bool name="CustomClassicPantsAccessoryEnabled">false</bool>
+					<int64 name="CustomClassicPantsAccessoryId">0</int64>
+					<bool name="CustomClassicShirtsAccessoryEnabled">false</bool>
+					<int64 name="CustomClassicShirtsAccessoryId">0</int64>
+					<bool name="CustomClassicTShirtsAccessoryEnabled">false</bool>
+					<int64 name="CustomClassicTShirtsAccessoryId">0</int64>
+					<token name="CustomClothingMode">0</token>
+					<bool name="CustomDressSkirtAccessoryEnabled">false</bool>
+					<int64 name="CustomDressSkirtAccessoryId">0</int64>
+					<bool name="CustomJacketAccessoryEnabled">false</bool>
+					<int64 name="CustomJacketAccessoryId">0</int64>
+					<bool name="CustomLeftShoesAccessoryEnabled">false</bool>
+					<int64 name="CustomLeftShoesAccessoryId">0</int64>
+					<bool name="CustomPantsAccessoryEnabled">false</bool>
+					<int64 name="CustomPantsAccessoryId">0</int64>
+					<bool name="CustomRightShoesAccessoryEnabled">false</bool>
+					<int64 name="CustomRightShoesAccessoryId">0</int64>
+					<bool name="CustomShirtAccessoryEnabled">false</bool>
+					<int64 name="CustomShirtAccessoryId">0</int64>
+					<bool name="CustomShortsAccessoryEnabled">false</bool>
+					<int64 name="CustomShortsAccessoryId">0</int64>
+					<bool name="CustomSweaterAccessoryEnabled">false</bool>
+					<int64 name="CustomSweaterAccessoryId">0</int64>
+					<bool name="CustomTShirtAccessoryEnabled">false</bool>
+					<int64 name="CustomTShirtAccessoryId">0</int64>
+					<bool name="DefinesCapabilities">false</bool>
+					<UniqueId name="HistoryId">00000000000000000000000000000000</UniqueId>
+					<Vector3 name="LimitBounds">
+						<X>0</X>
+						<Y>0</Y>
+						<Z>0</Z>
+					</Vector3>
+					<string name="Name">AvatarClothingRules</string>
+					<int64 name="SourceAssetId">-1</int64>
+					<BinaryString name="Tags"></BinaryString>
+					<UniqueId name="UniqueId">56e1d4cbe674c98e089ed9e6000040c7</UniqueId>
+				</Properties>
+			</Item>
+		</Item>
+	</Item>
+	<Item class="ServiceVisibilityService" referent="RBXE7B2606640B44CA8B0B70184A51A04A8">
+		<Properties>
+			<BinaryString name="AttributesSerialize"></BinaryString>
+			<SecurityCapabilities name="Capabilities">0</SecurityCapabilities>
+			<bool name="DefinesCapabilities">false</bool>
+			<BinaryString name="HiddenServices">AAAAAA==</BinaryString>
+			<UniqueId name="HistoryId">00000000000000000000000000000000</UniqueId>
+			<string name="Name">ServiceVisibilityService</string>
+			<int64 name="SourceAssetId">-1</int64>
+			<BinaryString name="Tags"></BinaryString>
+			<UniqueId name="UniqueId">21f360a667af9968089e01180000037d</UniqueId>
+			<BinaryString name="VisibleServices">AAAAAA==</BinaryString>
+		</Properties>
+	</Item>
+	<Item class="LuaWebService" referent="RBX3DF0C15DDFC24868BB619F5299362967">
+		<Properties>
+			<BinaryString name="AttributesSerialize"></BinaryString>
+			<SecurityCapabilities name="Capabilities">0</SecurityCapabilities>
+			<bool name="DefinesCapabilities">false</bool>
+			<UniqueId name="HistoryId">00000000000000000000000000000000</UniqueId>
+			<string name="Name">LuaWebService</string>
+			<int64 name="SourceAssetId">-1</int64>
+			<BinaryString name="Tags"></BinaryString>
+			<UniqueId name="UniqueId">7648379e9a0a1da7089eda8100000c8f</UniqueId>
+		</Properties>
+	</Item>
+	<Item class="ProcessInstancePhysicsService" referent="RBX1BE984824C604D859F3F2D5EBCFBA573">
+		<Properties>
+			<BinaryString name="AttributesSerialize"></BinaryString>
+			<SecurityCapabilities name="Capabilities">0</SecurityCapabilities>
+			<bool name="DefinesCapabilities">false</bool>
+			<UniqueId name="HistoryId">00000000000000000000000000000000</UniqueId>
+			<string name="Name">ProcessInstancePhysicsService</string>
+			<int64 name="SourceAssetId">-1</int64>
+			<BinaryString name="Tags"></BinaryString>
+			<UniqueId name="UniqueId">56e1d4cbe674c98e089ed9e60000408d</UniqueId>
+		</Properties>
+	</Item>
+	<Item class="ReplicatedStorage" referent="RBX777AA4A8097D45A9ABFCDA9A910DE82F">
+		<Properties>
+			<BinaryString name="AttributesSerialize"></BinaryString>
+			<SecurityCapabilities name="Capabilities">0</SecurityCapabilities>
+			<bool name="DefinesCapabilities">false</bool>
+			<UniqueId name="HistoryId">00000000000000000000000000000000</UniqueId>
+			<string name="Name">ReplicatedStorage</string>
+			<int64 name="SourceAssetId">-1</int64>
+			<BinaryString name="Tags"></BinaryString>
+			<UniqueId name="UniqueId">21f360a667af9968089e011800000375</UniqueId>
+		</Properties>
+		<Item class="Folder" referent="RBX39D95E6FC38D4C06B2FE089E6E521159">
+			<Properties>
+				<BinaryString name="AttributesSerialize"></BinaryString>
+				<SecurityCapabilities name="Capabilities">0</SecurityCapabilities>
+				<bool name="DefinesCapabilities">false</bool>
+				<UniqueId name="HistoryId">00000000000000000000000000000000</UniqueId>
+				<string name="Name">Modules</string>
+				<int64 name="SourceAssetId">-1</int64>
+				<BinaryString name="Tags"></BinaryString>
+				<UniqueId name="UniqueId">21f360a667af9968089e0118000017c6</UniqueId>
+			</Properties>
+			<Item class="ModuleScript" referent="RBX31886989F6B5485B88DB91C853D077F6">
+				<Properties>
+					<BinaryString name="AttributesSerialize"></BinaryString>
+					<SecurityCapabilities name="Capabilities">0</SecurityCapabilities>
+					<bool name="DefinesCapabilities">false</bool>
+					<UniqueId name="HistoryId">00000000000000000000000000000000</UniqueId>
+					<Content name="LinkedSource"><null></null></Content>
+					<string name="Name">StateService</string>
+					<string name="ScriptGuid">{85D4380F-72B3-44F4-8376-F53B1B5C3FC7}</string>
+					<ProtectedString name="Source"><![CDATA[--!optimize 2
+--!strict
+
+--[[
+	StateService - Advanced State Manager Module
+
+	A comprehensive state management system for Roblox that allows tracking and managing
+	states across any Instance with lifecycle management, callbacks, and advanced features.
+
+	Features:
+		- Server/Client architecture with proper authorization
+		- Automatic cleanup on Instance destroyed
+		- Lifespan management with automatic expiration
+		- Rich callback system (OnRemoved, OnEdited, OnCalled)
+		- Type-safe operations with proper error handling
+		- Memory leak prevention
+		- Batch operations support
+		- State inheritance and templates
+		- Performance optimized w/ lazy cleanup
+
+	You can find the documentation of this module here:
+		https://www.website.com/
+]]
+
+-- Program written by @Kuromi69 on Roblox's Developer Forum.
+-- ^ You can remove this comment, but much appreciated if kept.
+
+local StateService = {}
+StateService.__index = StateService
+
+local RunService = game:GetService("RunService")
+local TestService = game:GetService("TestService")
+
+local Players = game:GetService("Players")
+local ReplicatedStorage = game:GetService("ReplicatedStorage")
+
+local IsServer = RunService:IsServer()
+local IsStudio = RunService:IsStudio()
+local IsClient = RunService:IsClient()
+
+local RemoteEvents = {}
+
+local _Debug_Message = function(
+	Type: string,
+	Message: string,
+	Bypass: boolean?,
+	Line: number?
+): ()
+	if (Bypass or IsStudio) and (Type and Message) then
+		if Type == "Print"then
+			TestService:Message(
+				Message,
+				script,
+				Line or nil
+			)
+		elseif Type == "Warn"then
+			TestService:Warn(
+				false,
+				Message,
+				script,
+				Line or nil
+			)
+		end
+	end
+end
+
+if IsServer then
+	local StateServiceFolder = Instance.new("Folder")
+	StateServiceFolder.Name = "_StateService_Remotes"
+	StateServiceFolder.Parent = ReplicatedStorage
+
+	RemoteEvents.GetAuthorizedState = Instance.new("RemoteFunction")
+	RemoteEvents.GetAuthorizedState.Name = "GetAuthorizedState"
+	RemoteEvents.GetAuthorizedState.Parent = StateServiceFolder
+
+	RemoteEvents.HasAuthorizedState = Instance.new("RemoteFunction")
+	RemoteEvents.HasAuthorizedState.Name = "HasAuthorizedState"
+	RemoteEvents.HasAuthorizedState.Parent = StateServiceFolder
+
+	RemoteEvents.GetAuthorizedStates = Instance.new("RemoteFunction")
+	RemoteEvents.GetAuthorizedStates.Name = "GetAuthorizedStates"
+	RemoteEvents.GetAuthorizedStates.Parent = StateServiceFolder
+
+	RemoteEvents.StateChanged = Instance.new("RemoteEvent")
+	RemoteEvents.StateChanged.Name = "StateChanged"
+	RemoteEvents.StateChanged.Parent = StateServiceFolder
+
+	RemoteEvents.StateRemoved = Instance.new("RemoteEvent")
+	RemoteEvents.StateRemoved.Name = "StateRemoved"
+	RemoteEvents.StateRemoved.Parent = StateServiceFolder
+else
+	local Success, StateServiceFolder = pcall(
+		function(): (any)
+			return ReplicatedStorage:WaitForChild(
+				"_StateService_Remotes",
+				15
+			)
+		end
+	)
+
+	if Success and StateServiceFolder then
+		local function SafeWaitForChild(
+			Parent: any,
+			Name: any,
+			Timeout: number?
+		): (any)
+			local Success, Result = pcall(
+				function(): (any)
+					return Parent:WaitForChild(
+						Name,
+						Timeout or 10
+					)
+				end
+			)
+
+			return Success and Result or nil
+		end
+
+		RemoteEvents.GetAuthorizedState = SafeWaitForChild(
+			StateServiceFolder,
+			"GetAuthorizedState",
+			nil
+		)
+		RemoteEvents.HasAuthorizedState = SafeWaitForChild(
+			StateServiceFolder,
+			"HasAuthorizedState",
+			nil
+		)
+		RemoteEvents.GetAuthorizedStates = SafeWaitForChild(
+			StateServiceFolder,
+			"GetAuthorizedStates",
+			nil
+		)
+		RemoteEvents.StateChanged = SafeWaitForChild(
+			StateServiceFolder,
+			"StateChanged",
+			nil
+		)
+		RemoteEvents.StateRemoved = SafeWaitForChild(
+			StateServiceFolder,
+			"StateRemoved",
+			nil
+		)
+
+		if RemoteEvents.GetAuthorizedState then
+			_Debug_Message(
+				"Print",
+				"Client remote events loaded successfully",
+				false,
+				nil
+			)
+		else
+			_Debug_Message(
+				"Warn",
+				"Failed to load some remote events",
+				false,
+				nil
+			)
+		end
+	else
+		_Debug_Message(
+			"Warn",
+			"Failed to find StateServiceRemotes folder on client",
+			true,
+			nil
+		)
+	end
+end
+
+export type StateValue = any
+export type StateTemplate = {
+	[string]: StateValue
+}
+export type StateCallbacks = {
+	OnRemoved: (
+		(
+			Value: StateValue,
+			RemovedByLifespan: boolean
+		) -> ()
+	)?,
+	OnEdited: (
+		(
+			OldValue: StateValue,
+			NewValue: StateValue
+		) -> ()
+	)?,
+	OnCalled: (
+		(
+			Caller: string,
+			... any
+		) -> ()
+	)?
+}
+
+export type StateData = {
+	Value: StateValue,
+	CreatedAt: number,
+	Lifespan: number?,
+	ExpiresAt: number?,
+	OnRemoved: (
+		(
+			Value: StateValue,
+			RemovedByLifespan: boolean
+		) -> ()
+	)?,
+	OnEdited: (
+		(
+			OldValue: StateValue,
+			NewValue: StateValue
+		) -> ()
+	)?,
+	OnCalled: (
+		(
+			Caller: string,
+			... any
+		) -> ()
+	)?,
+	ClientReadable: boolean?,
+	AuthorizedPlayers: {
+		[Player]: boolean
+	}?
+}
+
+export type AuthorizationRule = {
+	ClientReadable: boolean?,
+	AuthorizedPlayers: {
+		Player
+	}?
+}
+
+export type StateServiceClass = {
+	AddState: (
+		self: StateServiceClass,
+		Instance: Instance,
+		StateName: string,
+		Template: StateTemplate?,
+		Lifespan: number?,
+		Callbacks: StateCallbacks?,
+		Authorization: AuthorizationRule?
+	) -> (boolean),
+	GetState: (
+		self: StateServiceClass,
+		Instance: Instance,
+		StateName: string
+	) -> (StateData?),
+	HasState: (
+		self: StateServiceClass,
+		Instance: Instance,
+		StateName: string
+	) -> (boolean),
+	EditState: (
+		self: StateServiceClass,
+		Instance: Instance,
+		StateName: string,
+		NewValue: StateValue,
+		Override: boolean?
+	) -> (boolean),
+	RemoveState: (
+		self: StateServiceClass,
+		Instance: Instance,
+		StateName: string
+	) -> (boolean),
+	GetAllStates: (
+		self: StateServiceClass,
+		Instance: Instance
+	) -> (
+		{
+			[string]: StateData
+		}
+	),
+	ClearAllStates: (
+		self: StateServiceClass,
+		Instance: Instance
+	) -> (number),
+	SetStateCallbacks: (
+		self: StateServiceClass,
+		Instance: Instance,
+		StateName: string,
+		Callbacks: StateCallbacks
+	) -> (boolean),
+	SetStateAuthorization: (
+		self: StateServiceClass,
+		Instance: Instance,
+		StateName: string,
+		Authorization: AuthorizationRule
+	) -> (boolean),
+	GetInstanceCount: (
+		self: StateServiceClass
+	) -> (number),
+	GetTotalStateCount: (
+		self: StateServiceClass
+	) -> (number)
+}
+
+local StateStorage: {
+	[Instance]: {[string]: StateData
+	}
+} = {}
+local CleanupConnections: {
+	[Instance]: RBXScriptConnection
+} = {}
+
+local LastCleanupTime = 0
+local CleanupInterval = 5
+
+local ClientStateCache: {
+	[Instance]: {
+		[string]: StateData
+	}
+} = {}
+
+local function DeepCopy(Original: any): (any)
+	if type(Original) ~= "table"then
+		return Original
+	end
+
+	local Copy = {}
+
+	for Key, Value in Original do
+		Copy[DeepCopy(Key)] = DeepCopy(Value)
+	end
+
+	return Copy
+end
+
+local function ValidateInstance(Instance: any): (boolean)
+	return typeof(Instance) == "Instance"
+end
+
+local function ValidateStateName(StateName: any): (boolean)
+	return type(StateName) == "string" and StateName ~= ""
+end
+
+local function IsPlayerAuthorized(
+	Player: Player,
+	StateData: StateData
+): (boolean)
+	if not StateData.ClientReadable then
+		return false
+	end
+
+	if not StateData.AuthorizedPlayers then
+		return true
+	end
+
+	return StateData.AuthorizedPlayers[Player] == true
+end
+
+local function CreateClientSafeStateData(StateData: StateData): (StateData)
+	return {
+		Value = DeepCopy(StateData.Value),
+		CreatedAt = StateData.CreatedAt,
+		Lifespan = StateData.Lifespan,
+		ExpiresAt = StateData.ExpiresAt,
+		OnRemoved = nil,
+		OnEdited = nil,
+		OnCalled = nil,
+		ClientReadable = nil,
+		AuthorizedPlayers = nil
+	}
+end
+
+local function SetupInstanceCleanup(Instance: Instance): ()
+	if not IsServer then 
+		return 
+	end
+
+	if CleanupConnections[Instance] then
+		return
+	end
+
+	CleanupConnections[Instance] = Instance.AncestryChanged:Connect(
+		function(): ()
+			if not Instance.Parent then
+				StateService:ClearAllStates(Instance)
+
+				if CleanupConnections[Instance] then
+					CleanupConnections[Instance]:Disconnect()
+					CleanupConnections[Instance] = nil
+				end
+			end
+		end
+	)
+end
+
+local function CleanupExpiredStates(): ()
+	if not IsServer then 
+		return 
+	end
+
+	local CurrentTime = tick()
+	if CurrentTime - LastCleanupTime < CleanupInterval then
+		return
+	end
+
+	LastCleanupTime = CurrentTime
+
+	for Instance, States in StateStorage do
+		for StateName, StateData in States do
+			if StateData.ExpiresAt and CurrentTime >= StateData.ExpiresAt then
+				if StateData.OnRemoved then
+					task.spawn(
+						function(): ()
+							local Success, Error: any = pcall(
+								StateData.OnRemoved,
+								StateData.Value,
+								true
+							)
+
+							if not Success then
+								_Debug_Message(
+									"Warn",
+									`StateService: OnRemoved callback error: {Error}`,
+									true,
+									nil
+								)
+							end
+						end
+					)
+				end
+
+				if StateData.ClientReadable and RemoteEvents.StateRemoved then
+					RemoteEvents.StateRemoved:FireAllClients(
+						Instance,
+						StateName,
+						true
+					)
+				end
+
+				States[StateName] = nil
+			end
+		end
+
+		if next(States) == nil then
+			StateStorage[Instance] = nil
+
+			if CleanupConnections[Instance] then
+				CleanupConnections[Instance]:Disconnect()
+				CleanupConnections[Instance] = nil
+			end
+		end
+	end
+end
+
+function StateService:AddState(
+	Instance: Instance, 
+	StateName: string, 
+	Template: StateTemplate?, 
+	Lifespan: number?, 
+	Callbacks: StateCallbacks?,
+	Authorization: AuthorizationRule?
+): (boolean)
+	if IsClient then
+		_Debug_Message(
+			"Warn",
+			"AddState - Cannot add states on client",
+			true,
+			nil
+		)
+
+		return false
+	end
+
+	if not ValidateInstance(Instance) then
+		_Debug_Message(
+			"Warn",
+			"AddState - Invalid instance provided",
+			true,
+			nil
+		)
+
+		return false
+	end
+
+	if not ValidateStateName(StateName) then
+		_Debug_Message(
+			"Warn",
+			"AddState - Invalid state name provided",
+			true,
+			nil
+		)
+
+		return false
+	end
+
+	if Lifespan and (type(Lifespan) ~= "number" or Lifespan <= 0) then
+		_Debug_Message(
+			"Warn",
+			"AddState - Lifespan must be a positive number",
+			true,
+			nil
+		)
+
+		return false
+	end
+
+	if not StateStorage[Instance] then
+		StateStorage[Instance] = {}
+
+		SetupInstanceCleanup(Instance)
+	end
+
+	if StateStorage[Instance][StateName] then
+		_Debug_Message(
+			"Warn",
+			`StateService:AddState - State "{StateName}"already exists for this instance`,
+			true,
+			nil
+		)
+
+		return false
+	end
+
+	local StateValue: StateValue
+
+	if Template ~= nil then
+		StateValue = DeepCopy(Template)
+	else
+		StateValue = true
+	end
+
+	local CurrentTime = tick()
+
+	local ExpiresAt: number? = nil
+
+	if Lifespan then
+		ExpiresAt = CurrentTime + Lifespan
+	end
+
+	local AuthorizedPlayersMap: {[Player]: boolean} = nil
+
+	if Authorization and Authorization.AuthorizedPlayers then
+		AuthorizedPlayersMap = {}
+
+		for _, Player in ipairs(Authorization.AuthorizedPlayers) do
+			AuthorizedPlayersMap[Player] = true
+		end
+	end
+
+	local StateData: StateData = {
+		Value = StateValue,
+		CreatedAt = CurrentTime,
+		Lifespan = Lifespan,
+		ExpiresAt = ExpiresAt,
+		OnRemoved = Callbacks and Callbacks.OnRemoved,
+		OnEdited = Callbacks and Callbacks.OnEdited,
+		OnCalled = Callbacks and Callbacks.OnCalled,
+		ClientReadable = Authorization and Authorization.ClientReadable or false,
+		AuthorizedPlayers = AuthorizedPlayersMap
+	}
+
+	StateStorage[Instance][StateName] = StateData
+
+	if StateData.OnCalled then
+		task.spawn(
+			function(): ()
+				local Success, Error: any = pcall(
+					StateData.OnCalled,
+					"AddState",
+					Instance,
+					StateName,
+					Template,
+					Lifespan,
+					Callbacks
+				)
+
+				if not Success then
+					_Debug_Message(
+						"Warn",
+						`StateService: OnCalled callback error: {Error}`,
+						true,
+						nil
+					)
+				end
+			end
+		)
+	end
+
+	return true
+end
+
+function StateService:GetState(
+	Instance: Instance, 
+	StateName: string
+): (StateData?)
+	if not ValidateInstance(Instance) then
+		_Debug_Message(
+			"Warn",
+			"GetState - Invalid instance provided",
+			true,
+			nil
+		)
+
+		return nil
+	end
+
+	if not ValidateStateName(StateName) then
+		_Debug_Message(
+			"Warn",
+			"GetState - Invalid state name provided",
+			true,
+			nil
+		)
+
+		return nil
+	end
+
+	if IsClient then
+		if not RemoteEvents.GetAuthorizedState then
+			_Debug_Message(
+				"Warn",
+				"GetState - Remote events not available on client",
+				true,
+				nil
+			)
+
+			return nil
+		end
+
+		local Success, Result = pcall(
+			function(): (any)
+				return RemoteEvents.GetAuthorizedState:InvokeServer(
+					Instance,
+					StateName
+				)
+			end
+		)
+
+		if Success then
+			return Result
+		else
+			_Debug_Message(
+				"Warn",
+				`GetState - Failed to get state from server: {Result}`,
+				true,
+				nil
+			)
+
+			return nil
+		end
+	end
+
+	CleanupExpiredStates()
+
+	if not StateStorage[Instance] then
+		return nil
+	end
+
+	local StateData = StateStorage[Instance][StateName]
+
+	if not StateData then
+		return nil
+	end
+
+	if StateData.ExpiresAt and tick() >= StateData.ExpiresAt then
+		if StateData.OnRemoved then
+			task.spawn(
+				function(): ()
+					local Success, Error: any = pcall(
+						StateData.OnRemoved,
+						StateData.Value,
+						true
+					)
+
+					if not Success then
+						_Debug_Message(
+							"Warn",
+							`StateService: OnRemoved callback error: {Error}`,
+							true,
+							nil
+						)
+					end
+				end
+			)
+		end
+
+		if StateData.ClientReadable and RemoteEvents.StateRemoved then
+			RemoteEvents.StateRemoved:FireAllClients(
+				Instance,
+				StateName,
+				true
+			)
+		end
+
+		StateStorage[Instance][StateName] = nil
+
+		return nil
+	end
+
+	if StateData.OnCalled then
+		task.spawn(
+			function(): ()
+				local Success, Error: any = pcall(
+					StateData.OnCalled,
+					"GetState",
+					Instance,
+					StateName
+				)
+
+				if not Success then
+					_Debug_Message(
+						"Warn",
+						`StateService: OnCalled callback error: {Error}`,
+						true,
+						nil
+					)
+				end
+			end
+		)
+	end
+
+	return StateData
+end
+
+function StateService:HasState(
+	Instance: Instance, 
+	StateName: string
+): (boolean)
+	if IsClient then
+		if not RemoteEvents.HasAuthorizedState then
+			_Debug_Message(
+				"Warn",
+				"HasState - Remote events not available on client",
+				true,
+				nil
+			)
+
+			return false
+		end
+
+		local Success, Result = pcall(
+			function(): (any)
+				return RemoteEvents.HasAuthorizedState:InvokeServer(
+					Instance,
+					StateName
+				)
+			end
+		)
+
+		return Success and Result or false
+	end
+
+	return self:GetState(
+		Instance,
+		StateName
+	) ~= nil
+end
+
+function StateService:EditState(
+	Instance: Instance, 
+	StateName: string, 
+	NewValue: StateValue, 
+	Override: boolean?
+): (boolean)
+	if IsClient then
+		_Debug_Message(
+			"Warn",
+			"EditState - Cannot edit states on client",
+			true,
+			nil
+		)
+
+		return false
+	end
+
+	if not ValidateInstance(Instance) then
+		_Debug_Message(
+			"Warn",
+			"EditState - Invalid instance provided",
+			true,
+			nil
+		)
+
+		return false
+	end
+
+	if not ValidateStateName(StateName) then
+		_Debug_Message(
+			"Warn",
+			"EditState - Invalid state name provided",
+			true,
+			nil
+		)
+
+		return false
+	end
+
+	local StateData = self:GetState(
+		Instance,
+		StateName
+	)
+
+	if not StateData then
+		_Debug_Message(
+			"Warn",
+			`StateService:EditState - State "{StateName}"does not exist for this instance`,
+			true,
+			nil
+		)
+
+		return false
+	end
+
+	local OldValue = DeepCopy(StateData.Value)
+
+	if Override == true or type(StateData.Value) ~= "table" or type(NewValue) ~= "table" then
+		StateData.Value = DeepCopy(NewValue)
+	else
+		if type(StateData.Value) == "table" and type(NewValue) == "table"then
+			for Key, Value in NewValue do
+				StateData.Value[Key] = DeepCopy(Value)
+			end
+		else
+			StateData.Value = DeepCopy(NewValue)
+		end
+	end
+
+	if StateData.OnEdited then
+		task.spawn(
+			function(): ()
+				local Success, Error = pcall(
+					StateData.OnEdited,
+					OldValue,
+					StateData.Value
+				)
+
+				if not Success then
+					_Debug_Message(
+						"Warn",
+						`StateService: OnEdited callback error: {Error}`,
+						true,
+						nil
+					)
+				end
+			end
+		)
+	end
+
+	if StateData.OnCalled then
+		task.spawn(
+			function(): ()
+				local Success, Error = pcall(
+					StateData.OnCalled,
+					"EditState",
+					Instance,
+					StateName,
+					NewValue,
+					Override
+				)
+
+				if not Success then
+					_Debug_Message(
+						"Warn",
+						`StateService: OnCalled callback error: {Error}`,
+						true,
+						nil
+					)
+				end
+			end
+		)
+	end
+
+	if StateData.ClientReadable and RemoteEvents.StateChanged then
+		if StateData.AuthorizedPlayers then
+			for Player, _ in StateData.AuthorizedPlayers do
+				if Player.Parent then
+					RemoteEvents.StateChanged:FireClient(
+						Player,
+						Instance,
+						StateName,
+						CreateClientSafeStateData(StateData)
+					)
+				end
+			end
+		else
+			RemoteEvents.StateChanged:FireAllClients(
+				Instance,
+				StateName,
+				CreateClientSafeStateData(StateData)
+			)
+		end
+	end
+
+	return true
+end
+
+function StateService:RemoveState(
+	Instance: Instance, 
+	StateName: string
+): (boolean)
+	if IsClient then
+		_Debug_Message(
+			"Warn",
+			"RemoveState - Cannot remove states on client",
+			true,
+			nil
+		)
+
+		return false
+	end
+
+	if not ValidateInstance(Instance) then
+		_Debug_Message(
+			"Warn",
+			"RemoveState - Invalid instance provided",
+			true,
+			nil
+		)
+
+		return false
+	end
+
+	if not ValidateStateName(StateName) then
+		_Debug_Message(
+			"Warn",
+			"RemoveState - Invalid state name provided",
+			true,
+			nil
+		)
+
+		return false
+	end
+
+	if not StateStorage[Instance] or not StateStorage[Instance][StateName] then
+		_Debug_Message(
+			"Warn",
+			`StateService:RemoveState - State "{StateName}"does not exist for this instance`,
+			true,
+			nil
+		)
+
+		return false
+	end
+
+	local StateData = StateStorage[Instance][StateName]
+
+	-- Trigger OnRemoved callback BEFORE removing the state
+	if StateData.OnRemoved then
+		task.spawn(
+			function(): ()
+				local Success, Error: any = pcall(
+					StateData.OnRemoved,
+					StateData.Value,
+					false
+				)
+
+				if not Success then
+					_Debug_Message(
+						"Warn",
+						`StateService: OnRemoved callback error: {Error}`,
+						true,
+						nil
+					)
+				end
+			end
+		)
+	end
+
+	if StateData.OnCalled then
+		task.spawn(
+			function(): ()
+				local Success, Error: any = pcall(
+					StateData.OnCalled,
+					"RemoveState",
+					Instance,
+					StateName
+				)
+
+				if not Success then
+					_Debug_Message(
+						"Warn",
+						`StateService: OnCalled callback error: {Error}`,
+						true,
+						nil
+					)
+				end
+			end
+		)
+	end
+
+	if StateData.ClientReadable and RemoteEvents.StateRemoved then
+		if StateData.AuthorizedPlayers then
+			for Player, _ in StateData.AuthorizedPlayers do
+				if Player.Parent then
+					RemoteEvents.StateRemoved:FireClient(
+						Player,
+						Instance,
+						StateName,
+						false
+					)
+				end
+			end
+		else
+			RemoteEvents.StateRemoved:FireAllClients(
+				Instance,
+				StateName,
+				false
+			)
+		end
+	end
+
+	StateStorage[Instance][StateName] = nil
+
+	if next(StateStorage[Instance]) == nil then
+		StateStorage[Instance] = nil
+
+		if CleanupConnections[Instance] then
+			CleanupConnections[Instance]:Disconnect()
+			CleanupConnections[Instance] = nil
+		end
+	end
+
+	return true
+end
+
+function StateService:GetAllStates(Instance: Instance): ({[string]: StateData})
+	if IsClient then
+		if not RemoteEvents.GetAuthorizedStates then
+			_Debug_Message(
+				"Warn",
+				"GetAllStates - Remote events not available on client",
+				true,
+				nil
+			)
+
+			return {}
+		end
+
+		local Success, Result = pcall(
+			function(): (any)
+				return RemoteEvents.GetAuthorizedStates:InvokeServer(Instance)
+			end
+		)
+
+		return Success and Result or {}
+	end
+
+	if not ValidateInstance(Instance) then
+		_Debug_Message(
+			"Warn",
+			"GetAllStates - Invalid instance provided",
+			true,
+			nil
+		)
+
+		return {}
+	end
+
+	CleanupExpiredStates()
+
+	if not StateStorage[Instance] then
+		return {}
+	end
+
+	local Result = {}
+
+	for StateName, StateData in StateStorage[Instance] do
+		if not StateData.ExpiresAt or tick() < StateData.ExpiresAt then
+			Result[StateName] = StateData
+		else
+			if StateData.OnRemoved then
+				task.spawn(
+					function(): ()
+						local Success, Error: any = pcall(
+							StateData.OnRemoved,
+							StateData.Value,
+							true
+						)
+
+						if not Success then
+							_Debug_Message(
+								"Warn",
+								`StateService: OnRemoved callback error: {Error}`,
+								true,
+								nil
+							)
+						end
+					end
+				)
+			end
+
+			StateStorage[Instance][StateName] = nil
+		end
+	end
+
+	return Result
+end
+
+function StateService:ClearAllStates(Instance: Instance): (number)
+	if IsClient then
+		_Debug_Message(
+			"Warn",
+			"ClearAllStates - Cannot clear states on client",
+			true,
+			nil
+		)
+
+		return 0
+	end
+
+	if not ValidateInstance(Instance) then
+		_Debug_Message(
+			"Warn",
+			"ClearAllStates - Invalid instance provided",
+			true,
+			nil
+		)
+
+		return 0
+	end
+
+	if not StateStorage[Instance] then
+		return 0
+	end
+
+	local RemovedCount = 0
+
+	for StateName, StateData in StateStorage[Instance] do
+		if StateData.OnRemoved then
+			task.spawn(
+				function(): ()
+					local Success, Error: any = pcall(
+						StateData.OnRemoved,
+						StateData.Value,
+						false
+					)
+
+					if not Success then
+						_Debug_Message(
+							"Warn",
+							`StateService: OnRemoved callback error: {Error}`,
+							true,
+							nil
+						)
+					end
+				end
+			)
+		end
+
+		if StateData.ClientReadable and RemoteEvents.StateRemoved then
+			if StateData.AuthorizedPlayers then
+				for Player, _ in StateData.AuthorizedPlayers do
+					if Player.Parent then
+						RemoteEvents.StateRemoved:FireClient(
+							Player,
+							Instance,
+							StateName,
+							false
+						)
+					end
+				end
+			else
+				RemoteEvents.StateRemoved:FireAllClients(
+					Instance,
+					StateName,
+					false
+				)
+			end
+		end
+
+		RemovedCount += 1
+	end
+
+	StateStorage[Instance] = nil
+
+	if CleanupConnections[Instance] then
+		CleanupConnections[Instance]:Disconnect()
+		CleanupConnections[Instance] = nil
+	end
+
+	return RemovedCount
+end
+
+function StateService:SetStateCallbacks(
+	Instance: Instance, 
+	StateName: string, 
+	Callbacks: StateCallbacks
+): (boolean)
+	if IsClient then
+		_Debug_Message(
+			"Warn",
+			"SetStateCallbacks - Cannot set callbacks on client",
+			true,
+			nil
+		)
+
+		return false
+	end
+
+	local StateData = self:GetState(
+		Instance,
+		StateName
+	)
+
+	if not StateData then
+		_Debug_Message(
+			"Warn",
+			`StateService:SetStateCallbacks - State "{StateName}"does not exist for this instance`,
+			true,
+			nil
+		)
+
+		return false
+	end
+
+	StateData.OnRemoved = Callbacks.OnRemoved
+	StateData.OnEdited = Callbacks.OnEdited
+	StateData.OnCalled = Callbacks.OnCalled
+
+	return true
+end
+
+function StateService:SetStateAuthorization(
+	Instance: Instance,
+	StateName: string,
+	Authorization: AuthorizationRule
+): (boolean)
+	if IsClient then
+		_Debug_Message(
+			"Warn",
+			"SetStateAuthorization - Cannot set authorization on client",
+			true,
+			nil
+		)
+
+		return false
+	end
+
+	local StateData = self:GetState(
+		Instance,
+		StateName
+	)
+
+	if not StateData then
+		_Debug_Message(
+			"Warn",
+			`StateService:SetStateAuthorization - State "{StateName}"does not exist for this instance`,
+			true,
+			nil
+		)
+
+		return false
+	end
+
+	StateData.ClientReadable = Authorization.ClientReadable or false
+
+	if Authorization.AuthorizedPlayers then
+		StateData.AuthorizedPlayers = {}
+
+		for _, Player in ipairs(Authorization.AuthorizedPlayers) do
+			StateData.AuthorizedPlayers[Player] = true
+		end
+	else
+		StateData.AuthorizedPlayers = nil :: any -- I hate this about --!strict sometimes.
+	end
+
+	return true
+end
+
+function StateService:GetInstanceCount(): (number)
+	if IsClient then
+		_Debug_Message(
+			"Warn",
+			"GetInstanceCount - Not available on client",
+			true,
+			nil
+		)
+
+		return 0
+	end
+
+	local Count = 0
+
+	for _ in StateStorage do
+		Count += 1
+	end
+
+	return Count
+end
+
+function StateService:GetTotalStateCount(): (number)
+	if IsClient then
+		_Debug_Message(
+			"Warn",
+			"GetTotalStateCount - Not available on client",
+			true,
+			nil
+		)
+
+		return 0
+	end
+
+	local Count = 0
+
+	for _, States in StateStorage do
+		for _ in States do
+			Count += 1
+		end
+	end
+
+	return Count
+end
+
+if IsServer and RemoteEvents.GetAuthorizedState then
+	RemoteEvents.GetAuthorizedState.OnServerInvoke = function(
+		Player: Player, 
+		Instance: Instance, 
+		StateName: string
+	): (any)
+		local StateData = StateService:GetState(
+			Instance,
+			StateName
+		)
+
+		if not StateData or not IsPlayerAuthorized(Player, StateData) then
+			return nil
+		end
+
+		return CreateClientSafeStateData(StateData)
+	end
+
+	RemoteEvents.HasAuthorizedState.OnServerInvoke = function(
+		Player: Player, 
+		Instance: Instance, 
+		StateName: string
+	): (boolean)
+		local StateData = StateService:GetState(
+			Instance,
+			StateName
+		)
+
+		return StateData ~= nil and IsPlayerAuthorized(
+			Player,
+			StateData
+		)
+	end
+
+	RemoteEvents.GetAuthorizedStates.OnServerInvoke = function(
+		Player: Player, 
+		Instance: Instance
+	): ({[any]: any})
+		local AllStates = StateService:GetAllStates(Instance)
+
+		local AuthorizedStates = {}
+
+		for StateName, StateData in AllStates do
+			if IsPlayerAuthorized(Player, StateData) then
+				AuthorizedStates[StateName] = CreateClientSafeStateData(StateData)
+			end
+		end
+
+		return AuthorizedStates
+	end
+end
+
+if IsServer then
+	RunService.Heartbeat:Connect(CleanupExpiredStates)
+
+	Players.PlayerRemoving:Connect(
+		function(Player): ()
+			StateService:ClearAllStates(Player)
+		end
+	)
+end
+
+return StateService]]></ProtectedString>
+					<int64 name="SourceAssetId">-1</int64>
+					<BinaryString name="Tags"></BinaryString>
+					<UniqueId name="UniqueId">21f360a667af9968089e011800000891</UniqueId>
+				</Properties>
+				<Item class="PackageLink" referent="RBX63E79B84A5DF4EB3AF87493545E90AB8">
+					<Properties>
+						<BinaryString name="AttributesSerialize"></BinaryString>
+						<bool name="AutoUpdate">false</bool>
+						<SecurityCapabilities name="Capabilities">0</SecurityCapabilities>
+						<string name="DefaultName"></string>
+						<bool name="DefinesCapabilities">false</bool>
+						<UniqueId name="HistoryId">00000000000000000000000000000000</UniqueId>
+						<int name="ModifiedState">-1</int>
+						<string name="Name">PackageLink</string>
+						<Content name="PackageIdSerialize"><url>rbxassetid://116221683919264</url></Content>
+						<BinaryString name="SerializedDefaultAttributes"></BinaryString>
+						<int64 name="SourceAssetId">-1</int64>
+						<BinaryString name="Tags"></BinaryString>
+						<UniqueId name="UniqueId">56e1d4cbe674c98e089ed9e6000038a2</UniqueId>
+						<int64 name="VersionIdSerialize">3</int64>
+					</Properties>
+				</Item>
+			</Item>
+		</Item>
+	</Item>
+	<Item class="ServerScriptService" referent="RBX648C9A00C3534EEC89A55EBEDD7508B4">
+		<Properties>
+			<BinaryString name="AttributesSerialize"></BinaryString>
+			<SecurityCapabilities name="Capabilities">0</SecurityCapabilities>
+			<bool name="DefinesCapabilities">false</bool>
+			<UniqueId name="HistoryId">00000000000000000000000000000000</UniqueId>
+			<bool name="LoadStringEnabled">false</bool>
+			<string name="Name">ServerScriptService</string>
+			<int64 name="SourceAssetId">-1</int64>
+			<BinaryString name="Tags"></BinaryString>
+			<UniqueId name="UniqueId">21f360a667af9968089e011800000376</UniqueId>
+		</Properties>
+		<Item class="Folder" referent="RBXE11210A16EFB461C8FD876983D21CAF1">
+			<Properties>
+				<BinaryString name="AttributesSerialize"></BinaryString>
+				<SecurityCapabilities name="Capabilities">0</SecurityCapabilities>
+				<bool name="DefinesCapabilities">false</bool>
+				<UniqueId name="HistoryId">00000000000000000000000000000000</UniqueId>
+				<string name="Name">Scripts</string>
+				<int64 name="SourceAssetId">-1</int64>
+				<BinaryString name="Tags"></BinaryString>
+				<UniqueId name="UniqueId">56e1d4cbe674c98e089ed9e6000011c0</UniqueId>
+			</Properties>
+			<Item class="Script" referent="RBXA21A9D7BF6E04A89BB996B45AE0D66BE">
+				<Properties>
+					<BinaryString name="AttributesSerialize"></BinaryString>
+					<SecurityCapabilities name="Capabilities">0</SecurityCapabilities>
+					<bool name="DefinesCapabilities">false</bool>
+					<bool name="Disabled">false</bool>
+					<UniqueId name="HistoryId">00000000000000000000000000000000</UniqueId>
+					<Content name="LinkedSource"><null></null></Content>
+					<string name="Name">StateServiceServer</string>
+					<token name="RunContext">1</token>
+					<string name="ScriptGuid">{95BD9FD5-A113-4321-86C6-C389B94D4722}</string>
+					<ProtectedString name="Source"><![CDATA[--!strict
+local Players = game:GetService("Players")
+local ReplicatedStorage = game:GetService("ReplicatedStorage")
+
+local StateService = require(ReplicatedStorage.Modules.StateService)
+
+StateService:AddState(
+	workspace,
+	"GameStats",
+	{
+		PlayersOnline = 0
+	},
+	nil,
+	{
+		OnEdited = function(
+			OldValue,
+			NewValue
+		): ()
+			print("Game stats updated - PlayersOnline:", NewValue.PlayersOnline)
+		end
+	}, {
+		ClientReadable = true
+	}
+)
+
+Players.PlayerAdded:Connect(
+	function(Player: Player): ()
+		-- Create PRIVATE player profile
+		StateService:AddState(
+			Player,
+			"PlayerData",
+			{
+				Example = "Hello World!"
+			},
+			nil,
+			{
+				OnRemoved = function(
+					Value,
+					ExpiredByLifespan
+				): ()
+					print(Player.Name .. "'s data removed:", ExpiredByLifespan and "expired" or "manual")
+
+					print("Saving coins:", Value.coins, "Level:", Value.level)
+				end,
+				OnEdited = function(
+					OldValue,
+					NewValue
+				): ()
+					if OldValue.coins ~= NewValue.coins then
+						print(Player.Name .. "'s coins changed from", OldValue.coins, "to", NewValue.coins)
+					end
+
+					if OldValue.level ~= NewValue.level then
+						print(Player.Name .. " leveled up to", NewValue.level)
+					end
+				end,
+				OnCalled = function(
+					Caller,
+					...
+				): ()
+					print("Player data accessed via:", Caller, "for player:", Player.Name)
+				end
+			},
+			{
+				ClientReadable = true,
+				AuthorizedPlayers = {
+					Player
+				}
+			}
+		)
+
+		-- Create PUBLIC player profile
+		StateService:AddState(
+			Player,
+			"PublicProfile",
+			{
+				DisplayName = Player.DisplayName
+			},
+			nil,
+			nil,
+			{
+				ClientReadable = true
+			}
+		)
+
+		local GameStats = StateService:GetState(
+			workspace,
+			"GameStats"
+		)
+
+		if GameStats then
+			(StateService :: any):EditState(
+				workspace,
+				"GameStats",
+				{
+					PlayersOnline = #Players:GetPlayers()
+				}
+			)
+		end
+	end
+)
+
+Players.PlayerRemoving:Connect(
+	function(Player: Player): ()
+		local GameStats = StateService:GetState(
+			workspace,
+			"GameStats"
+		)
+
+		if GameStats then
+			(StateService :: any):EditState(
+				workspace,
+				"GameStats",
+				{
+					PlayersOnline = math.max(
+						0,
+						#Players:GetPlayers() - 1
+					)
+				}
+			)
+		end
+	end
+)]]></ProtectedString>
+					<int64 name="SourceAssetId">-1</int64>
+					<BinaryString name="Tags"></BinaryString>
+					<UniqueId name="UniqueId">21f360a667af9968089e011800000895</UniqueId>
+				</Properties>
+			</Item>
+		</Item>
+	</Item>
+	<Item class="ServerStorage" referent="RBX216F660F9E744F3F928E934F3D7AD77A">
+		<Properties>
+			<BinaryString name="AttributesSerialize"></BinaryString>
+			<SecurityCapabilities name="Capabilities">0</SecurityCapabilities>
+			<bool name="DefinesCapabilities">false</bool>
+			<UniqueId name="HistoryId">00000000000000000000000000000000</UniqueId>
+			<string name="Name">ServerStorage</string>
+			<int64 name="SourceAssetId">-1</int64>
+			<BinaryString name="Tags"></BinaryString>
+			<UniqueId name="UniqueId">21f360a667af9968089e011800000377</UniqueId>
+		</Properties>
+		<Item class="Folder" referent="RBX961BC84C0335439D9FC9E72087BEACFF">
+			<Properties>
+				<BinaryString name="AttributesSerialize"></BinaryString>
+				<SecurityCapabilities name="Capabilities">0</SecurityCapabilities>
+				<bool name="DefinesCapabilities">false</bool>
+				<UniqueId name="HistoryId">00000000000000000000000000000000</UniqueId>
+				<string name="Name">StateService</string>
+				<int64 name="SourceAssetId">-1</int64>
+				<BinaryString name="Tags"></BinaryString>
+				<UniqueId name="UniqueId">56e1d4cbe674c98e089ed9e600004534</UniqueId>
+			</Properties>
+			<Item class="Folder" referent="RBX160B69DB082E4C87A8F2AEED88D8286A">
+				<Properties>
+					<BinaryString name="AttributesSerialize"></BinaryString>
+					<SecurityCapabilities name="Capabilities">0</SecurityCapabilities>
+					<bool name="DefinesCapabilities">false</bool>
+					<UniqueId name="HistoryId">00000000000000000000000000000000</UniqueId>
+					<string name="Name">ReplicatedStorage</string>
+					<int64 name="SourceAssetId">-1</int64>
+					<BinaryString name="Tags"></BinaryString>
+					<UniqueId name="UniqueId">56e1d4cbe674c98e089ed9e60000453d</UniqueId>
+				</Properties>
+				<Item class="Folder" referent="RBX2C6AFB3050734466A28988E93BE2F840">
+					<Properties>
+						<BinaryString name="AttributesSerialize"></BinaryString>
+						<SecurityCapabilities name="Capabilities">0</SecurityCapabilities>
+						<bool name="DefinesCapabilities">false</bool>
+						<UniqueId name="HistoryId">00000000000000000000000000000000</UniqueId>
+						<string name="Name">Modules</string>
+						<int64 name="SourceAssetId">-1</int64>
+						<BinaryString name="Tags"></BinaryString>
+						<UniqueId name="UniqueId">56e1d4cbe674c98e089ed9e60000453c</UniqueId>
+					</Properties>
+					<Item class="ModuleScript" referent="RBXA85452E4E1AD460BB1BE908C79D0506C">
+						<Properties>
+							<BinaryString name="AttributesSerialize"></BinaryString>
+							<SecurityCapabilities name="Capabilities">0</SecurityCapabilities>
+							<bool name="DefinesCapabilities">false</bool>
+							<UniqueId name="HistoryId">00000000000000000000000000000000</UniqueId>
+							<Content name="LinkedSource"><null></null></Content>
+							<string name="Name">StateService</string>
+							<string name="ScriptGuid">{09C7CF7D-E206-4629-AF0C-DB5BD9424E2A}</string>
+							<ProtectedString name="Source"><![CDATA[--!optimize 2
+--!strict
+
+--[[
+	StateService - Advanced State Manager Module
+
+	A comprehensive state management system for Roblox that allows tracking and managing
+	states across any Instance with lifecycle management, callbacks, and advanced features.
+
+	Features:
+		- Server/Client architecture with proper authorization
+		- Automatic cleanup on Instance destroyed
+		- Lifespan management with automatic expiration
+		- Rich callback system (OnRemoved, OnEdited, OnCalled)
+		- Type-safe operations with proper error handling
+		- Memory leak prevention
+		- Batch operations support
+		- State inheritance and templates
+		- Performance optimized w/ lazy cleanup
+
+	You can find the documentation of this module here:
+		https://www.website.com/
+]]
+
+-- Program written by @Kuromi69 on Roblox's Developer Forum.
+-- ^ You can remove this comment, but much appreciated if kept.
+
+local StateService = {}
+StateService.__index = StateService
+
+local RunService = game:GetService("RunService")
+local TestService = game:GetService("TestService")
+
+local Players = game:GetService("Players")
+local ReplicatedStorage = game:GetService("ReplicatedStorage")
+
+local IsServer = RunService:IsServer()
+local IsStudio = RunService:IsStudio()
+local IsClient = RunService:IsClient()
+
+local RemoteEvents = {}
+
+local _Debug_Message = function(
+	Type: string,
+	Message: string,
+	Bypass: boolean?,
+	Line: number?
+): ()
+	if (Bypass or IsStudio) and (Type and Message) then
+		if Type == "Print"then
+			TestService:Message(
+				Message,
+				script,
+				Line or nil
+			)
+		elseif Type == "Warn"then
+			TestService:Warn(
+				false,
+				Message,
+				script,
+				Line or nil
+			)
+		end
+	end
+end
+
+if IsServer then
+	local StateServiceFolder = Instance.new("Folder")
+	StateServiceFolder.Name = "_StateService_Remotes"
+	StateServiceFolder.Parent = ReplicatedStorage
+
+	RemoteEvents.GetAuthorizedState = Instance.new("RemoteFunction")
+	RemoteEvents.GetAuthorizedState.Name = "GetAuthorizedState"
+	RemoteEvents.GetAuthorizedState.Parent = StateServiceFolder
+
+	RemoteEvents.HasAuthorizedState = Instance.new("RemoteFunction")
+	RemoteEvents.HasAuthorizedState.Name = "HasAuthorizedState"
+	RemoteEvents.HasAuthorizedState.Parent = StateServiceFolder
+
+	RemoteEvents.GetAuthorizedStates = Instance.new("RemoteFunction")
+	RemoteEvents.GetAuthorizedStates.Name = "GetAuthorizedStates"
+	RemoteEvents.GetAuthorizedStates.Parent = StateServiceFolder
+
+	RemoteEvents.StateChanged = Instance.new("RemoteEvent")
+	RemoteEvents.StateChanged.Name = "StateChanged"
+	RemoteEvents.StateChanged.Parent = StateServiceFolder
+
+	RemoteEvents.StateRemoved = Instance.new("RemoteEvent")
+	RemoteEvents.StateRemoved.Name = "StateRemoved"
+	RemoteEvents.StateRemoved.Parent = StateServiceFolder
+else
+	local Success, StateServiceFolder = pcall(
+		function(): (any)
+			return ReplicatedStorage:WaitForChild(
+				"_StateService_Remotes",
+				15
+			)
+		end
+	)
+
+	if Success and StateServiceFolder then
+		local function SafeWaitForChild(
+			Parent: any,
+			Name: any,
+			Timeout: number?
+		): (any)
+			local Success, Result = pcall(
+				function(): (any)
+					return Parent:WaitForChild(
+						Name,
+						Timeout or 10
+					)
+				end
+			)
+
+			return Success and Result or nil
+		end
+
+		RemoteEvents.GetAuthorizedState = SafeWaitForChild(
+			StateServiceFolder,
+			"GetAuthorizedState",
+			nil
+		)
+		RemoteEvents.HasAuthorizedState = SafeWaitForChild(
+			StateServiceFolder,
+			"HasAuthorizedState",
+			nil
+		)
+		RemoteEvents.GetAuthorizedStates = SafeWaitForChild(
+			StateServiceFolder,
+			"GetAuthorizedStates",
+			nil
+		)
+		RemoteEvents.StateChanged = SafeWaitForChild(
+			StateServiceFolder,
+			"StateChanged",
+			nil
+		)
+		RemoteEvents.StateRemoved = SafeWaitForChild(
+			StateServiceFolder,
+			"StateRemoved",
+			nil
+		)
+
+		if RemoteEvents.GetAuthorizedState then
+			_Debug_Message(
+				"Print",
+				"Client remote events loaded successfully",
+				false,
+				nil
+			)
+		else
+			_Debug_Message(
+				"Warn",
+				"Failed to load some remote events",
+				false,
+				nil
+			)
+		end
+	else
+		_Debug_Message(
+			"Warn",
+			"Failed to find StateServiceRemotes folder on client",
+			true,
+			nil
+		)
+	end
+end
+
+export type StateValue = any
+export type StateTemplate = {
+	[string]: StateValue
+}
+export type StateCallbacks = {
+	OnRemoved: (
+		(
+			Value: StateValue,
+			RemovedByLifespan: boolean
+		) -> ()
+	)?,
+	OnEdited: (
+		(
+			OldValue: StateValue,
+			NewValue: StateValue
+		) -> ()
+	)?,
+	OnCalled: (
+		(
+			Caller: string,
+			... any
+		) -> ()
+	)?
+}
+
+export type StateData = {
+	Value: StateValue,
+	CreatedAt: number,
+	Lifespan: number?,
+	ExpiresAt: number?,
+	OnRemoved: (
+		(
+			Value: StateValue,
+			RemovedByLifespan: boolean
+		) -> ()
+	)?,
+	OnEdited: (
+		(
+			OldValue: StateValue,
+			NewValue: StateValue
+		) -> ()
+	)?,
+	OnCalled: (
+		(
+			Caller: string,
+			... any
+		) -> ()
+	)?,
+	ClientReadable: boolean?,
+	AuthorizedPlayers: {
+		[Player]: boolean
+	}?
+}
+
+export type AuthorizationRule = {
+	ClientReadable: boolean?,
+	AuthorizedPlayers: {
+		Player
+	}?
+}
+
+export type StateServiceClass = {
+	AddState: (
+		self: StateServiceClass,
+		Instance: Instance,
+		StateName: string,
+		Template: StateTemplate?,
+		Lifespan: number?,
+		Callbacks: StateCallbacks?,
+		Authorization: AuthorizationRule?
+	) -> (boolean),
+	GetState: (
+		self: StateServiceClass,
+		Instance: Instance,
+		StateName: string
+	) -> (StateData?),
+	HasState: (
+		self: StateServiceClass,
+		Instance: Instance,
+		StateName: string
+	) -> (boolean),
+	EditState: (
+		self: StateServiceClass,
+		Instance: Instance,
+		StateName: string,
+		NewValue: StateValue,
+		Override: boolean?
+	) -> (boolean),
+	RemoveState: (
+		self: StateServiceClass,
+		Instance: Instance,
+		StateName: string
+	) -> (boolean),
+	GetAllStates: (
+		self: StateServiceClass,
+		Instance: Instance
+	) -> (
+		{
+			[string]: StateData
+		}
+	),
+	ClearAllStates: (
+		self: StateServiceClass,
+		Instance: Instance
+	) -> (number),
+	SetStateCallbacks: (
+		self: StateServiceClass,
+		Instance: Instance,
+		StateName: string,
+		Callbacks: StateCallbacks
+	) -> (boolean),
+	SetStateAuthorization: (
+		self: StateServiceClass,
+		Instance: Instance,
+		StateName: string,
+		Authorization: AuthorizationRule
+	) -> (boolean),
+	GetInstanceCount: (
+		self: StateServiceClass
+	) -> (number),
+	GetTotalStateCount: (
+		self: StateServiceClass
+	) -> (number)
+}
+
+local StateStorage: {
+	[Instance]: {[string]: StateData
+	}
+} = {}
+local CleanupConnections: {
+	[Instance]: RBXScriptConnection
+} = {}
+
+local LastCleanupTime = 0
+local CleanupInterval = 5
+
+local ClientStateCache: {
+	[Instance]: {
+		[string]: StateData
+	}
+} = {}
+
+local function DeepCopy(Original: any): (any)
+	if type(Original) ~= "table"then
+		return Original
+	end
+
+	local Copy = {}
+
+	for Key, Value in Original do
+		Copy[DeepCopy(Key)] = DeepCopy(Value)
+	end
+
+	return Copy
+end
+
+local function ValidateInstance(Instance: any): (boolean)
+	return typeof(Instance) == "Instance"
+end
+
+local function ValidateStateName(StateName: any): (boolean)
+	return type(StateName) == "string" and StateName ~= ""
+end
+
+local function IsPlayerAuthorized(
+	Player: Player,
+	StateData: StateData
+): (boolean)
+	if not StateData.ClientReadable then
+		return false
+	end
+
+	if not StateData.AuthorizedPlayers then
+		return true
+	end
+
+	return StateData.AuthorizedPlayers[Player] == true
+end
+
+local function CreateClientSafeStateData(StateData: StateData): (StateData)
+	return {
+		Value = DeepCopy(StateData.Value),
+		CreatedAt = StateData.CreatedAt,
+		Lifespan = StateData.Lifespan,
+		ExpiresAt = StateData.ExpiresAt,
+		OnRemoved = nil,
+		OnEdited = nil,
+		OnCalled = nil,
+		ClientReadable = nil,
+		AuthorizedPlayers = nil
+	}
+end
+
+local function SetupInstanceCleanup(Instance: Instance): ()
+	if not IsServer then 
+		return 
+	end
+
+	if CleanupConnections[Instance] then
+		return
+	end
+
+	CleanupConnections[Instance] = Instance.AncestryChanged:Connect(
+		function(): ()
+			if not Instance.Parent then
+				StateService:ClearAllStates(Instance)
+
+				if CleanupConnections[Instance] then
+					CleanupConnections[Instance]:Disconnect()
+					CleanupConnections[Instance] = nil
+				end
+			end
+		end
+	)
+end
+
+local function CleanupExpiredStates(): ()
+	if not IsServer then 
+		return 
+	end
+
+	local CurrentTime = tick()
+	if CurrentTime - LastCleanupTime < CleanupInterval then
+		return
+	end
+
+	LastCleanupTime = CurrentTime
+
+	for Instance, States in StateStorage do
+		for StateName, StateData in States do
+			if StateData.ExpiresAt and CurrentTime >= StateData.ExpiresAt then
+				if StateData.OnRemoved then
+					task.spawn(
+						function(): ()
+							local Success, Error: any = pcall(
+								StateData.OnRemoved,
+								StateData.Value,
+								true
+							)
+
+							if not Success then
+								_Debug_Message(
+									"Warn",
+									`StateService: OnRemoved callback error: {Error}`,
+									true,
+									nil
+								)
+							end
+						end
+					)
+				end
+
+				if StateData.ClientReadable and RemoteEvents.StateRemoved then
+					RemoteEvents.StateRemoved:FireAllClients(
+						Instance,
+						StateName,
+						true
+					)
+				end
+
+				States[StateName] = nil
+			end
+		end
+
+		if next(States) == nil then
+			StateStorage[Instance] = nil
+
+			if CleanupConnections[Instance] then
+				CleanupConnections[Instance]:Disconnect()
+				CleanupConnections[Instance] = nil
+			end
+		end
+	end
+end
+
+function StateService:AddState(
+	Instance: Instance, 
+	StateName: string, 
+	Template: StateTemplate?, 
+	Lifespan: number?, 
+	Callbacks: StateCallbacks?,
+	Authorization: AuthorizationRule?
+): (boolean)
+	if IsClient then
+		_Debug_Message(
+			"Warn",
+			"AddState - Cannot add states on client",
+			true,
+			nil
+		)
+
+		return false
+	end
+
+	if not ValidateInstance(Instance) then
+		_Debug_Message(
+			"Warn",
+			"AddState - Invalid instance provided",
+			true,
+			nil
+		)
+
+		return false
+	end
+
+	if not ValidateStateName(StateName) then
+		_Debug_Message(
+			"Warn",
+			"AddState - Invalid state name provided",
+			true,
+			nil
+		)
+
+		return false
+	end
+
+	if Lifespan and (type(Lifespan) ~= "number" or Lifespan <= 0) then
+		_Debug_Message(
+			"Warn",
+			"AddState - Lifespan must be a positive number",
+			true,
+			nil
+		)
+
+		return false
+	end
+
+	if not StateStorage[Instance] then
+		StateStorage[Instance] = {}
+
+		SetupInstanceCleanup(Instance)
+	end
+
+	if StateStorage[Instance][StateName] then
+		_Debug_Message(
+			"Warn",
+			`StateService:AddState - State "{StateName}"already exists for this instance`,
+			true,
+			nil
+		)
+
+		return false
+	end
+
+	local StateValue: StateValue
+
+	if Template ~= nil then
+		StateValue = DeepCopy(Template)
+	else
+		StateValue = true
+	end
+
+	local CurrentTime = tick()
+
+	local ExpiresAt: number? = nil
+
+	if Lifespan then
+		ExpiresAt = CurrentTime + Lifespan
+	end
+
+	local AuthorizedPlayersMap: {[Player]: boolean} = nil
+
+	if Authorization and Authorization.AuthorizedPlayers then
+		AuthorizedPlayersMap = {}
+
+		for _, Player in ipairs(Authorization.AuthorizedPlayers) do
+			AuthorizedPlayersMap[Player] = true
+		end
+	end
+
+	local StateData: StateData = {
+		Value = StateValue,
+		CreatedAt = CurrentTime,
+		Lifespan = Lifespan,
+		ExpiresAt = ExpiresAt,
+		OnRemoved = Callbacks and Callbacks.OnRemoved,
+		OnEdited = Callbacks and Callbacks.OnEdited,
+		OnCalled = Callbacks and Callbacks.OnCalled,
+		ClientReadable = Authorization and Authorization.ClientReadable or false,
+		AuthorizedPlayers = AuthorizedPlayersMap
+	}
+
+	StateStorage[Instance][StateName] = StateData
+
+	if StateData.OnCalled then
+		task.spawn(
+			function(): ()
+				local Success, Error: any = pcall(
+					StateData.OnCalled,
+					"AddState",
+					Instance,
+					StateName,
+					Template,
+					Lifespan,
+					Callbacks
+				)
+
+				if not Success then
+					_Debug_Message(
+						"Warn",
+						`StateService: OnCalled callback error: {Error}`,
+						true,
+						nil
+					)
+				end
+			end
+		)
+	end
+
+	return true
+end
+
+function StateService:GetState(
+	Instance: Instance, 
+	StateName: string
+): (StateData?)
+	if not ValidateInstance(Instance) then
+		_Debug_Message(
+			"Warn",
+			"GetState - Invalid instance provided",
+			true,
+			nil
+		)
+
+		return nil
+	end
+
+	if not ValidateStateName(StateName) then
+		_Debug_Message(
+			"Warn",
+			"GetState - Invalid state name provided",
+			true,
+			nil
+		)
+
+		return nil
+	end
+
+	if IsClient then
+		if not RemoteEvents.GetAuthorizedState then
+			_Debug_Message(
+				"Warn",
+				"GetState - Remote events not available on client",
+				true,
+				nil
+			)
+
+			return nil
+		end
+
+		local Success, Result = pcall(
+			function(): (any)
+				return RemoteEvents.GetAuthorizedState:InvokeServer(
+					Instance,
+					StateName
+				)
+			end
+		)
+
+		if Success then
+			return Result
+		else
+			_Debug_Message(
+				"Warn",
+				`GetState - Failed to get state from server: {Result}`,
+				true,
+				nil
+			)
+
+			return nil
+		end
+	end
+
+	CleanupExpiredStates()
+
+	if not StateStorage[Instance] then
+		return nil
+	end
+
+	local StateData = StateStorage[Instance][StateName]
+
+	if not StateData then
+		return nil
+	end
+
+	if StateData.ExpiresAt and tick() >= StateData.ExpiresAt then
+		if StateData.OnRemoved then
+			task.spawn(
+				function(): ()
+					local Success, Error: any = pcall(
+						StateData.OnRemoved,
+						StateData.Value,
+						true
+					)
+
+					if not Success then
+						_Debug_Message(
+							"Warn",
+							`StateService: OnRemoved callback error: {Error}`,
+							true,
+							nil
+						)
+					end
+				end
+			)
+		end
+
+		if StateData.ClientReadable and RemoteEvents.StateRemoved then
+			RemoteEvents.StateRemoved:FireAllClients(
+				Instance,
+				StateName,
+				true
+			)
+		end
+
+		StateStorage[Instance][StateName] = nil
+
+		return nil
+	end
+
+	if StateData.OnCalled then
+		task.spawn(
+			function(): ()
+				local Success, Error: any = pcall(
+					StateData.OnCalled,
+					"GetState",
+					Instance,
+					StateName
+				)
+
+				if not Success then
+					_Debug_Message(
+						"Warn",
+						`StateService: OnCalled callback error: {Error}`,
+						true,
+						nil
+					)
+				end
+			end
+		)
+	end
+
+	return StateData
+end
+
+function StateService:HasState(
+	Instance: Instance, 
+	StateName: string
+): (boolean)
+	if IsClient then
+		if not RemoteEvents.HasAuthorizedState then
+			_Debug_Message(
+				"Warn",
+				"HasState - Remote events not available on client",
+				true,
+				nil
+			)
+
+			return false
+		end
+
+		local Success, Result = pcall(
+			function(): (any)
+				return RemoteEvents.HasAuthorizedState:InvokeServer(
+					Instance,
+					StateName
+				)
+			end
+		)
+
+		return Success and Result or false
+	end
+
+	return self:GetState(
+		Instance,
+		StateName
+	) ~= nil
+end
+
+function StateService:EditState(
+	Instance: Instance, 
+	StateName: string, 
+	NewValue: StateValue, 
+	Override: boolean?
+): (boolean)
+	if IsClient then
+		_Debug_Message(
+			"Warn",
+			"EditState - Cannot edit states on client",
+			true,
+			nil
+		)
+
+		return false
+	end
+
+	if not ValidateInstance(Instance) then
+		_Debug_Message(
+			"Warn",
+			"EditState - Invalid instance provided",
+			true,
+			nil
+		)
+
+		return false
+	end
+
+	if not ValidateStateName(StateName) then
+		_Debug_Message(
+			"Warn",
+			"EditState - Invalid state name provided",
+			true,
+			nil
+		)
+
+		return false
+	end
+
+	local StateData = self:GetState(
+		Instance,
+		StateName
+	)
+
+	if not StateData then
+		_Debug_Message(
+			"Warn",
+			`StateService:EditState - State "{StateName}"does not exist for this instance`,
+			true,
+			nil
+		)
+
+		return false
+	end
+
+	local OldValue = DeepCopy(StateData.Value)
+
+	if Override == true or type(StateData.Value) ~= "table" or type(NewValue) ~= "table" then
+		StateData.Value = DeepCopy(NewValue)
+	else
+		if type(StateData.Value) == "table" and type(NewValue) == "table"then
+			for Key, Value in NewValue do
+				StateData.Value[Key] = DeepCopy(Value)
+			end
+		else
+			StateData.Value = DeepCopy(NewValue)
+		end
+	end
+
+	if StateData.OnEdited then
+		task.spawn(
+			function(): ()
+				local Success, Error = pcall(
+					StateData.OnEdited,
+					OldValue,
+					StateData.Value
+				)
+
+				if not Success then
+					_Debug_Message(
+						"Warn",
+						`StateService: OnEdited callback error: {Error}`,
+						true,
+						nil
+					)
+				end
+			end
+		)
+	end
+
+	if StateData.OnCalled then
+		task.spawn(
+			function(): ()
+				local Success, Error = pcall(
+					StateData.OnCalled,
+					"EditState",
+					Instance,
+					StateName,
+					NewValue,
+					Override
+				)
+
+				if not Success then
+					_Debug_Message(
+						"Warn",
+						`StateService: OnCalled callback error: {Error}`,
+						true,
+						nil
+					)
+				end
+			end
+		)
+	end
+
+	if StateData.ClientReadable and RemoteEvents.StateChanged then
+		if StateData.AuthorizedPlayers then
+			for Player, _ in StateData.AuthorizedPlayers do
+				if Player.Parent then
+					RemoteEvents.StateChanged:FireClient(
+						Player,
+						Instance,
+						StateName,
+						CreateClientSafeStateData(StateData)
+					)
+				end
+			end
+		else
+			RemoteEvents.StateChanged:FireAllClients(
+				Instance,
+				StateName,
+				CreateClientSafeStateData(StateData)
+			)
+		end
+	end
+
+	return true
+end
+
+function StateService:RemoveState(
+	Instance: Instance, 
+	StateName: string
+): (boolean)
+	if IsClient then
+		_Debug_Message(
+			"Warn",
+			"RemoveState - Cannot remove states on client",
+			true,
+			nil
+		)
+
+		return false
+	end
+
+	if not ValidateInstance(Instance) then
+		_Debug_Message(
+			"Warn",
+			"RemoveState - Invalid instance provided",
+			true,
+			nil
+		)
+
+		return false
+	end
+
+	if not ValidateStateName(StateName) then
+		_Debug_Message(
+			"Warn",
+			"RemoveState - Invalid state name provided",
+			true,
+			nil
+		)
+
+		return false
+	end
+
+	if not StateStorage[Instance] or not StateStorage[Instance][StateName] then
+		_Debug_Message(
+			"Warn",
+			`StateService:RemoveState - State "{StateName}"does not exist for this instance`,
+			true,
+			nil
+		)
+
+		return false
+	end
+
+	local StateData = StateStorage[Instance][StateName]
+
+	-- Trigger OnRemoved callback BEFORE removing the state
+	if StateData.OnRemoved then
+		task.spawn(
+			function(): ()
+				local Success, Error: any = pcall(
+					StateData.OnRemoved,
+					StateData.Value,
+					false
+				)
+
+				if not Success then
+					_Debug_Message(
+						"Warn",
+						`StateService: OnRemoved callback error: {Error}`,
+						true,
+						nil
+					)
+				end
+			end
+		)
+	end
+
+	if StateData.OnCalled then
+		task.spawn(
+			function(): ()
+				local Success, Error: any = pcall(
+					StateData.OnCalled,
+					"RemoveState",
+					Instance,
+					StateName
+				)
+
+				if not Success then
+					_Debug_Message(
+						"Warn",
+						`StateService: OnCalled callback error: {Error}`,
+						true,
+						nil
+					)
+				end
+			end
+		)
+	end
+
+	if StateData.ClientReadable and RemoteEvents.StateRemoved then
+		if StateData.AuthorizedPlayers then
+			for Player, _ in StateData.AuthorizedPlayers do
+				if Player.Parent then
+					RemoteEvents.StateRemoved:FireClient(
+						Player,
+						Instance,
+						StateName,
+						false
+					)
+				end
+			end
+		else
+			RemoteEvents.StateRemoved:FireAllClients(
+				Instance,
+				StateName,
+				false
+			)
+		end
+	end
+
+	StateStorage[Instance][StateName] = nil
+
+	if next(StateStorage[Instance]) == nil then
+		StateStorage[Instance] = nil
+
+		if CleanupConnections[Instance] then
+			CleanupConnections[Instance]:Disconnect()
+			CleanupConnections[Instance] = nil
+		end
+	end
+
+	return true
+end
+
+function StateService:GetAllStates(Instance: Instance): ({[string]: StateData})
+	if IsClient then
+		if not RemoteEvents.GetAuthorizedStates then
+			_Debug_Message(
+				"Warn",
+				"GetAllStates - Remote events not available on client",
+				true,
+				nil
+			)
+
+			return {}
+		end
+
+		local Success, Result = pcall(
+			function(): (any)
+				return RemoteEvents.GetAuthorizedStates:InvokeServer(Instance)
+			end
+		)
+
+		return Success and Result or {}
+	end
+
+	if not ValidateInstance(Instance) then
+		_Debug_Message(
+			"Warn",
+			"GetAllStates - Invalid instance provided",
+			true,
+			nil
+		)
+
+		return {}
+	end
+
+	CleanupExpiredStates()
+
+	if not StateStorage[Instance] then
+		return {}
+	end
+
+	local Result = {}
+
+	for StateName, StateData in StateStorage[Instance] do
+		if not StateData.ExpiresAt or tick() < StateData.ExpiresAt then
+			Result[StateName] = StateData
+		else
+			if StateData.OnRemoved then
+				task.spawn(
+					function(): ()
+						local Success, Error: any = pcall(
+							StateData.OnRemoved,
+							StateData.Value,
+							true
+						)
+
+						if not Success then
+							_Debug_Message(
+								"Warn",
+								`StateService: OnRemoved callback error: {Error}`,
+								true,
+								nil
+							)
+						end
+					end
+				)
+			end
+
+			StateStorage[Instance][StateName] = nil
+		end
+	end
+
+	return Result
+end
+
+function StateService:ClearAllStates(Instance: Instance): (number)
+	if IsClient then
+		_Debug_Message(
+			"Warn",
+			"ClearAllStates - Cannot clear states on client",
+			true,
+			nil
+		)
+
+		return 0
+	end
+
+	if not ValidateInstance(Instance) then
+		_Debug_Message(
+			"Warn",
+			"ClearAllStates - Invalid instance provided",
+			true,
+			nil
+		)
+
+		return 0
+	end
+
+	if not StateStorage[Instance] then
+		return 0
+	end
+
+	local RemovedCount = 0
+
+	for StateName, StateData in StateStorage[Instance] do
+		if StateData.OnRemoved then
+			task.spawn(
+				function(): ()
+					local Success, Error: any = pcall(
+						StateData.OnRemoved,
+						StateData.Value,
+						false
+					)
+
+					if not Success then
+						_Debug_Message(
+							"Warn",
+							`StateService: OnRemoved callback error: {Error}`,
+							true,
+							nil
+						)
+					end
+				end
+			)
+		end
+
+		if StateData.ClientReadable and RemoteEvents.StateRemoved then
+			if StateData.AuthorizedPlayers then
+				for Player, _ in StateData.AuthorizedPlayers do
+					if Player.Parent then
+						RemoteEvents.StateRemoved:FireClient(
+							Player,
+							Instance,
+							StateName,
+							false
+						)
+					end
+				end
+			else
+				RemoteEvents.StateRemoved:FireAllClients(
+					Instance,
+					StateName,
+					false
+				)
+			end
+		end
+
+		RemovedCount += 1
+	end
+
+	StateStorage[Instance] = nil
+
+	if CleanupConnections[Instance] then
+		CleanupConnections[Instance]:Disconnect()
+		CleanupConnections[Instance] = nil
+	end
+
+	return RemovedCount
+end
+
+function StateService:SetStateCallbacks(
+	Instance: Instance, 
+	StateName: string, 
+	Callbacks: StateCallbacks
+): (boolean)
+	if IsClient then
+		_Debug_Message(
+			"Warn",
+			"SetStateCallbacks - Cannot set callbacks on client",
+			true,
+			nil
+		)
+
+		return false
+	end
+
+	local StateData = self:GetState(
+		Instance,
+		StateName
+	)
+
+	if not StateData then
+		_Debug_Message(
+			"Warn",
+			`StateService:SetStateCallbacks - State "{StateName}"does not exist for this instance`,
+			true,
+			nil
+		)
+
+		return false
+	end
+
+	StateData.OnRemoved = Callbacks.OnRemoved
+	StateData.OnEdited = Callbacks.OnEdited
+	StateData.OnCalled = Callbacks.OnCalled
+
+	return true
+end
+
+function StateService:SetStateAuthorization(
+	Instance: Instance,
+	StateName: string,
+	Authorization: AuthorizationRule
+): (boolean)
+	if IsClient then
+		_Debug_Message(
+			"Warn",
+			"SetStateAuthorization - Cannot set authorization on client",
+			true,
+			nil
+		)
+
+		return false
+	end
+
+	local StateData = self:GetState(
+		Instance,
+		StateName
+	)
+
+	if not StateData then
+		_Debug_Message(
+			"Warn",
+			`StateService:SetStateAuthorization - State "{StateName}"does not exist for this instance`,
+			true,
+			nil
+		)
+
+		return false
+	end
+
+	StateData.ClientReadable = Authorization.ClientReadable or false
+
+	if Authorization.AuthorizedPlayers then
+		StateData.AuthorizedPlayers = {}
+
+		for _, Player in ipairs(Authorization.AuthorizedPlayers) do
+			StateData.AuthorizedPlayers[Player] = true
+		end
+	else
+		StateData.AuthorizedPlayers = nil :: any -- I hate this about --!strict sometimes.
+	end
+
+	return true
+end
+
+function StateService:GetInstanceCount(): (number)
+	if IsClient then
+		_Debug_Message(
+			"Warn",
+			"GetInstanceCount - Not available on client",
+			true,
+			nil
+		)
+
+		return 0
+	end
+
+	local Count = 0
+
+	for _ in StateStorage do
+		Count += 1
+	end
+
+	return Count
+end
+
+function StateService:GetTotalStateCount(): (number)
+	if IsClient then
+		_Debug_Message(
+			"Warn",
+			"GetTotalStateCount - Not available on client",
+			true,
+			nil
+		)
+
+		return 0
+	end
+
+	local Count = 0
+
+	for _, States in StateStorage do
+		for _ in States do
+			Count += 1
+		end
+	end
+
+	return Count
+end
+
+if IsServer and RemoteEvents.GetAuthorizedState then
+	RemoteEvents.GetAuthorizedState.OnServerInvoke = function(
+		Player: Player, 
+		Instance: Instance, 
+		StateName: string
+	): (any)
+		local StateData = StateService:GetState(
+			Instance,
+			StateName
+		)
+
+		if not StateData or not IsPlayerAuthorized(Player, StateData) then
+			return nil
+		end
+
+		return CreateClientSafeStateData(StateData)
+	end
+
+	RemoteEvents.HasAuthorizedState.OnServerInvoke = function(
+		Player: Player, 
+		Instance: Instance, 
+		StateName: string
+	): (boolean)
+		local StateData = StateService:GetState(
+			Instance,
+			StateName
+		)
+
+		return StateData ~= nil and IsPlayerAuthorized(
+			Player,
+			StateData
+		)
+	end
+
+	RemoteEvents.GetAuthorizedStates.OnServerInvoke = function(
+		Player: Player, 
+		Instance: Instance
+	): ({[any]: any})
+		local AllStates = StateService:GetAllStates(Instance)
+
+		local AuthorizedStates = {}
+
+		for StateName, StateData in AllStates do
+			if IsPlayerAuthorized(Player, StateData) then
+				AuthorizedStates[StateName] = CreateClientSafeStateData(StateData)
+			end
+		end
+
+		return AuthorizedStates
+	end
+end
+
+if IsServer then
+	RunService.Heartbeat:Connect(CleanupExpiredStates)
+
+	Players.PlayerRemoving:Connect(
+		function(Player): ()
+			StateService:ClearAllStates(Player)
+		end
+	)
+end
+
+return StateService]]></ProtectedString>
+							<int64 name="SourceAssetId">-1</int64>
+							<BinaryString name="Tags"></BinaryString>
+							<UniqueId name="UniqueId">56e1d4cbe674c98e089ed9e600004539</UniqueId>
+						</Properties>
+						<Item class="PackageLink" referent="RBX26B2EEE2F9274CFEA5CBFE2F2CB3208E">
+							<Properties>
+								<BinaryString name="AttributesSerialize"></BinaryString>
+								<bool name="AutoUpdate">false</bool>
+								<SecurityCapabilities name="Capabilities">0</SecurityCapabilities>
+								<string name="DefaultName"></string>
+								<bool name="DefinesCapabilities">false</bool>
+								<UniqueId name="HistoryId">00000000000000000000000000000000</UniqueId>
+								<int name="ModifiedState">-1</int>
+								<string name="Name">PackageLink</string>
+								<Content name="PackageIdSerialize"><url>rbxassetid://116221683919264</url></Content>
+								<BinaryString name="SerializedDefaultAttributes"></BinaryString>
+								<int64 name="SourceAssetId">-1</int64>
+								<BinaryString name="Tags"></BinaryString>
+								<UniqueId name="UniqueId">56e1d4cbe674c98e089ed9e60000453a</UniqueId>
+								<int64 name="VersionIdSerialize">3</int64>
+							</Properties>
+						</Item>
+					</Item>
+				</Item>
+			</Item>
+			<Item class="Folder" referent="RBX76B6C6CA86C84A5CAFC76EA08CEEA942">
+				<Properties>
+					<BinaryString name="AttributesSerialize"></BinaryString>
+					<SecurityCapabilities name="Capabilities">0</SecurityCapabilities>
+					<bool name="DefinesCapabilities">false</bool>
+					<UniqueId name="HistoryId">00000000000000000000000000000000</UniqueId>
+					<string name="Name">ServerScriptService</string>
+					<int64 name="SourceAssetId">-1</int64>
+					<BinaryString name="Tags"></BinaryString>
+					<UniqueId name="UniqueId">56e1d4cbe674c98e089ed9e60000453e</UniqueId>
+				</Properties>
+				<Item class="Folder" referent="RBXB9171A0297FB490CA9243EB98DFAD405">
+					<Properties>
+						<BinaryString name="AttributesSerialize"></BinaryString>
+						<SecurityCapabilities name="Capabilities">0</SecurityCapabilities>
+						<bool name="DefinesCapabilities">false</bool>
+						<UniqueId name="HistoryId">00000000000000000000000000000000</UniqueId>
+						<string name="Name">Scripts</string>
+						<int64 name="SourceAssetId">-1</int64>
+						<BinaryString name="Tags"></BinaryString>
+						<UniqueId name="UniqueId">56e1d4cbe674c98e089ed9e60000453f</UniqueId>
+					</Properties>
+					<Item class="Script" referent="RBX405E6CD085624F7EBC42B695FBA60EF8">
+						<Properties>
+							<BinaryString name="AttributesSerialize"></BinaryString>
+							<SecurityCapabilities name="Capabilities">0</SecurityCapabilities>
+							<bool name="DefinesCapabilities">false</bool>
+							<bool name="Disabled">false</bool>
+							<UniqueId name="HistoryId">00000000000000000000000000000000</UniqueId>
+							<Content name="LinkedSource"><null></null></Content>
+							<string name="Name">StateServiceServer</string>
+							<token name="RunContext">1</token>
+							<string name="ScriptGuid">{673FE41E-EE45-4C24-B88C-6B192BA4517F}</string>
+							<ProtectedString name="Source"><![CDATA[--!strict
+local Players = game:GetService("Players")
+local ReplicatedStorage = game:GetService("ReplicatedStorage")
+
+local StateService = require(ReplicatedStorage.Modules.StateService)
+
+StateService:AddState(
+	workspace,
+	"GameStats",
+	{
+		PlayersOnline = 0
+	},
+	nil,
+	{
+		OnEdited = function(
+			OldValue,
+			NewValue
+		): ()
+			print("Game stats updated - PlayersOnline:", NewValue.PlayersOnline)
+		end
+	}, {
+		ClientReadable = true
+	}
+)
+
+Players.PlayerAdded:Connect(
+	function(Player: Player): ()
+		-- Create PRIVATE player profile
+		StateService:AddState(
+			Player,
+			"PlayerData",
+			{
+				Example = "Hello World!"
+			},
+			nil,
+			{
+				OnRemoved = function(
+					Value,
+					ExpiredByLifespan
+				): ()
+					print(Player.Name .. "'s data removed:", ExpiredByLifespan and "expired" or "manual")
+
+					print("Saving coins:", Value.coins, "Level:", Value.level)
+				end,
+				OnEdited = function(
+					OldValue,
+					NewValue
+				): ()
+					if OldValue.coins ~= NewValue.coins then
+						print(Player.Name .. "'s coins changed from", OldValue.coins, "to", NewValue.coins)
+					end
+
+					if OldValue.level ~= NewValue.level then
+						print(Player.Name .. " leveled up to", NewValue.level)
+					end
+				end,
+				OnCalled = function(
+					Caller,
+					...
+				): ()
+					print("Player data accessed via:", Caller, "for player:", Player.Name)
+				end
+			},
+			{
+				ClientReadable = true,
+				AuthorizedPlayers = {
+					Player
+				}
+			}
+		)
+
+		-- Create PUBLIC player profile
+		StateService:AddState(
+			Player,
+			"PublicProfile",
+			{
+				DisplayName = Player.DisplayName
+			},
+			nil,
+			nil,
+			{
+				ClientReadable = true
+			}
+		)
+
+		local GameStats = StateService:GetState(
+			workspace,
+			"GameStats"
+		)
+
+		if GameStats then
+			(StateService :: any):EditState(
+				workspace,
+				"GameStats",
+				{
+					PlayersOnline = #Players:GetPlayers()
+				}
+			)
+		end
+	end
+)
+
+Players.PlayerRemoving:Connect(
+	function(Player: Player): ()
+		local GameStats = StateService:GetState(
+			workspace,
+			"GameStats"
+		)
+
+		if GameStats then
+			(StateService :: any):EditState(
+				workspace,
+				"GameStats",
+				{
+					PlayersOnline = math.max(
+						0,
+						#Players:GetPlayers() - 1
+					)
+				}
+			)
+		end
+	end
+)]]></ProtectedString>
+							<int64 name="SourceAssetId">-1</int64>
+							<BinaryString name="Tags"></BinaryString>
+							<UniqueId name="UniqueId">56e1d4cbe674c98e089ed9e600004540</UniqueId>
+						</Properties>
+					</Item>
+				</Item>
+			</Item>
+			<Item class="Folder" referent="RBXBBFCC434FFA84D29A6B1DDD85876744A">
+				<Properties>
+					<BinaryString name="AttributesSerialize"></BinaryString>
+					<SecurityCapabilities name="Capabilities">0</SecurityCapabilities>
+					<bool name="DefinesCapabilities">false</bool>
+					<UniqueId name="HistoryId">00000000000000000000000000000000</UniqueId>
+					<string name="Name">StarterPlayer</string>
+					<int64 name="SourceAssetId">-1</int64>
+					<BinaryString name="Tags"></BinaryString>
+					<UniqueId name="UniqueId">56e1d4cbe674c98e089ed9e600004542</UniqueId>
+				</Properties>
+				<Item class="Folder" referent="RBX32D40D2F88D74D54BED1B930DF177A88">
+					<Properties>
+						<BinaryString name="AttributesSerialize"></BinaryString>
+						<SecurityCapabilities name="Capabilities">0</SecurityCapabilities>
+						<bool name="DefinesCapabilities">false</bool>
+						<UniqueId name="HistoryId">00000000000000000000000000000000</UniqueId>
+						<string name="Name">StarterPlayerScripts</string>
+						<int64 name="SourceAssetId">-1</int64>
+						<BinaryString name="Tags"></BinaryString>
+						<UniqueId name="UniqueId">56e1d4cbe674c98e089ed9e600004543</UniqueId>
+					</Properties>
+					<Item class="LocalScript" referent="RBXDB61EB820B0B45EFB7244610A9CCD06C">
+						<Properties>
+							<BinaryString name="AttributesSerialize"></BinaryString>
+							<SecurityCapabilities name="Capabilities">0</SecurityCapabilities>
+							<bool name="DefinesCapabilities">false</bool>
+							<bool name="Disabled">false</bool>
+							<UniqueId name="HistoryId">00000000000000000000000000000000</UniqueId>
+							<Content name="LinkedSource"><null></null></Content>
+							<string name="Name">StateServiceClient</string>
+							<token name="RunContext">0</token>
+							<string name="ScriptGuid">{3704C322-442E-44E4-AB8A-AFE6DB10A20E}</string>
+							<ProtectedString name="Source"><![CDATA[--!strict
+local Players = game:GetService("Players")
+local ReplicatedStorage = game:GetService("ReplicatedStorage")
+
+local Player = Players.LocalPlayer
+
+local Modules_RS = ReplicatedStorage:WaitForChild("Modules")
+
+local StateService = require(
+	Modules_RS:WaitForChild(
+		"StateService",
+		60
+	) -- WaitForChild is crucial for the client.
+)
+
+print(StateService:GetState(Player, "PlayerData")) 
+-- ^ Should print out the PlayerData due to being authorized by the server.]]></ProtectedString>
+							<int64 name="SourceAssetId">-1</int64>
+							<BinaryString name="Tags"></BinaryString>
+							<UniqueId name="UniqueId">56e1d4cbe674c98e089ed9e600004544</UniqueId>
+						</Properties>
+					</Item>
+				</Item>
+			</Item>
+			<Item class="Script" referent="RBXFD7AB7FA810C42728451EBAD743DD8CB">
+				<Properties>
+					<BinaryString name="AttributesSerialize"></BinaryString>
+					<SecurityCapabilities name="Capabilities">0</SecurityCapabilities>
+					<bool name="DefinesCapabilities">false</bool>
+					<bool name="Disabled">false</bool>
+					<UniqueId name="HistoryId">00000000000000000000000000000000</UniqueId>
+					<Content name="LinkedSource"><null></null></Content>
+					<string name="Name">README</string>
+					<token name="RunContext">2</token>
+					<string name="ScriptGuid">{FC93AF9F-7093-4AF4-9AC9-6351DA88CBDA}</string>
+					<ProtectedString name="Source"><![CDATA[_=[[
+
+	Hey! Thank you for using StateService!
+
+	To set it up, follow the instructions below:
+		It's very simple to set up:
+			Move each folder into the directory that matches its name and ungroup it.
+		Additional Information:
+			You don't have to keep the Scripts, LocalScripts, and ModuleScripts in the provided folder.
+			You can simply edit the Server and Client script paths to match the locations where you moved them!
+
+	After you're done reading what's above this comment, you can now safely delete this script.
+
+]]
+
+script:Destroy() -- Added just in-case you forgot to delete this script.]]></ProtectedString>
+					<int64 name="SourceAssetId">-1</int64>
+					<BinaryString name="Tags"></BinaryString>
+					<UniqueId name="UniqueId">56e1d4cbe674c98e089ed9e600004550</UniqueId>
+				</Properties>
+			</Item>
+		</Item>
+	</Item>
+	<Item class="HttpService" referent="RBXA20A7469E373472E96DADA6EED2C55E3">
+		<Properties>
+			<BinaryString name="AttributesSerialize"></BinaryString>
+			<SecurityCapabilities name="Capabilities">0</SecurityCapabilities>
+			<bool name="DefinesCapabilities">false</bool>
+			<UniqueId name="HistoryId">00000000000000000000000000000000</UniqueId>
+			<bool name="HttpEnabled">false</bool>
+			<string name="Name">HttpService</string>
+			<int64 name="SourceAssetId">-1</int64>
+			<BinaryString name="Tags"></BinaryString>
+			<UniqueId name="UniqueId">21f360a667af9968089e011800000390</UniqueId>
+		</Properties>
+	</Item>
+	<Item class="DataStoreService" referent="RBX248AA06B561545F189639DB44C8DFEC2">
+		<Properties>
+			<BinaryString name="AttributesSerialize"></BinaryString>
+			<bool name="AutomaticRetry">true</bool>
+			<SecurityCapabilities name="Capabilities">0</SecurityCapabilities>
+			<bool name="DefinesCapabilities">false</bool>
+			<UniqueId name="HistoryId">00000000000000000000000000000000</UniqueId>
+			<bool name="LegacyNamingScheme">false</bool>
+			<string name="Name">DataStoreService</string>
+			<int64 name="SourceAssetId">-1</int64>
+			<BinaryString name="Tags"></BinaryString>
+			<UniqueId name="UniqueId">21f360a667af9968089e011800000393</UniqueId>
+		</Properties>
+	</Item>
+	<Item class="Lighting" referent="RBX0F6DED96E910467EB45791C23CFFF881">
+		<Properties>
+			<Color3 name="Ambient">
+				<R>1</R>
+				<G>1</G>
+				<B>1</B>
+			</Color3>
+			<BinaryString name="AttributesSerialize"><![CDATA[AgAAACYAAABSQlhfTGlnaHRpbmdUZWNobm9sb2d5VW5pZmllZE1pZ3JhdGlvbgMBIAAAAFJC
+WF9PcmlnaW5hbFRlY2hub2xvZ3lPbkZpbGVMb2FkBAEAAAA=]]></BinaryString>
+			<float name="Brightness">3</float>
+			<SecurityCapabilities name="Capabilities">0</SecurityCapabilities>
+			<Color3 name="ColorShift_Bottom">
+				<R>1</R>
+				<G>1</G>
+				<B>1</B>
+			</Color3>
+			<Color3 name="ColorShift_Top">
+				<R>1</R>
+				<G>1</G>
+				<B>1</B>
+			</Color3>
+			<bool name="DefinesCapabilities">false</bool>
+			<float name="EnvironmentDiffuseScale">1</float>
+			<float name="EnvironmentSpecularScale">1</float>
+			<float name="ExposureCompensation">0</float>
+			<token name="ExtendLightRangeTo120">0</token>
+			<Color3 name="FogColor">
+				<R>1</R>
+				<G>1</G>
+				<B>1</B>
+			</Color3>
+			<float name="FogEnd">100000</float>
+			<float name="FogStart">0</float>
+			<float name="GeographicLatitude">0</float>
+			<bool name="GlobalShadows">false</bool>
+			<UniqueId name="HistoryId">00000000000000000000000000000000</UniqueId>
+			<token name="LightingStyle">1</token>
+			<string name="Name">Lighting</string>
+			<Color3 name="OutdoorAmbient">
+				<R>1</R>
+				<G>1</G>
+				<B>1</B>
+			</Color3>
+			<bool name="Outlines">false</bool>
+			<bool name="PrioritizeLightingQuality">false</bool>
+			<float name="ShadowSoftness">0.200000003</float>
+			<int64 name="SourceAssetId">-1</int64>
+			<BinaryString name="Tags"></BinaryString>
+			<token name="Technology">1</token>
+			<string name="TimeOfDay">14:30:00</string>
+			<UniqueId name="UniqueId">21f360a667af9968089e011800000394</UniqueId>
+		</Properties>
+		<Item class="Sky" referent="RBX271889BB5E89429EA16AE8246BCFBEEE">
+			<Properties>
+				<BinaryString name="AttributesSerialize"></BinaryString>
+				<SecurityCapabilities name="Capabilities">0</SecurityCapabilities>
+				<bool name="CelestialBodiesShown">true</bool>
+				<bool name="DefinesCapabilities">false</bool>
+				<UniqueId name="HistoryId">00000000000000000000000000000000</UniqueId>
+				<float name="MoonAngularSize">11</float>
+				<Content name="MoonTextureId"><url>rbxassetid://6444320592</url></Content>
+				<string name="Name">Sky</string>
+				<Content name="SkyboxBk"><url>rbxassetid://6444884337</url></Content>
+				<Content name="SkyboxDn"><url>rbxassetid://6444884785</url></Content>
+				<Content name="SkyboxFt"><url>rbxassetid://6444884337</url></Content>
+				<Content name="SkyboxLf"><url>rbxassetid://6444884337</url></Content>
+				<Vector3 name="SkyboxOrientation">
+					<X>0</X>
+					<Y>0</Y>
+					<Z>0</Z>
+				</Vector3>
+				<Content name="SkyboxRt"><url>rbxassetid://6444884337</url></Content>
+				<Content name="SkyboxUp"><url>rbxassetid://6412503613</url></Content>
+				<int64 name="SourceAssetId">332039975</int64>
+				<int name="StarCount">3000</int>
+				<float name="SunAngularSize">11</float>
+				<Content name="SunTextureId"><url>rbxassetid://6196665106</url></Content>
+				<BinaryString name="Tags"></BinaryString>
+				<UniqueId name="UniqueId">21f360a667af9968089e0118000003a6</UniqueId>
+			</Properties>
+		</Item>
+	</Item>
+	<Item class="LodDataService" referent="RBX281353A5973A44B592D9C6F3F2F64915">
+		<Properties>
+			<BinaryString name="AttributesSerialize"></BinaryString>
+			<SecurityCapabilities name="Capabilities">0</SecurityCapabilities>
+			<bool name="DefinesCapabilities">false</bool>
+			<UniqueId name="HistoryId">00000000000000000000000000000000</UniqueId>
+			<string name="Name">Instance</string>
+			<int64 name="SourceAssetId">-1</int64>
+			<BinaryString name="Tags"></BinaryString>
+			<UniqueId name="UniqueId">21f360a667af9968089e011800000395</UniqueId>
+		</Properties>
+	</Item>
+	<Item class="ProximityPromptService" referent="RBX43E22C45D974443EAE9B1A003A6E46B3">
+		<Properties>
+			<BinaryString name="AttributesSerialize"></BinaryString>
+			<SecurityCapabilities name="Capabilities">0</SecurityCapabilities>
+			<bool name="DefinesCapabilities">false</bool>
+			<bool name="Enabled">true</bool>
+			<UniqueId name="HistoryId">00000000000000000000000000000000</UniqueId>
+			<int name="MaxPromptsVisible">16</int>
+			<string name="Name">ProximityPromptService</string>
+			<int64 name="SourceAssetId">-1</int64>
+			<BinaryString name="Tags"></BinaryString>
+			<UniqueId name="UniqueId">21f360a667af9968089e011800000396</UniqueId>
+		</Properties>
+	</Item>
+	<Item class="Teams" referent="RBXE0E177920E024FDB91F02F65A40D9F09">
+		<Properties>
+			<BinaryString name="AttributesSerialize"></BinaryString>
+			<SecurityCapabilities name="Capabilities">0</SecurityCapabilities>
+			<bool name="DefinesCapabilities">false</bool>
+			<UniqueId name="HistoryId">00000000000000000000000000000000</UniqueId>
+			<string name="Name">Teams</string>
+			<int64 name="SourceAssetId">-1</int64>
+			<BinaryString name="Tags"></BinaryString>
+			<UniqueId name="UniqueId">21f360a667af9968089e011800000397</UniqueId>
+		</Properties>
+	</Item>
+	<Item class="TestService" referent="RBX2C401BB21554423EBE4B40BD185548EB">
+		<Properties>
+			<BinaryString name="AttributesSerialize"></BinaryString>
+			<bool name="AutoRuns">true</bool>
+			<SecurityCapabilities name="Capabilities">0</SecurityCapabilities>
+			<bool name="DefinesCapabilities">false</bool>
+			<string name="Description"></string>
+			<bool name="ExecuteWithStudioRun">false</bool>
+			<UniqueId name="HistoryId">00000000000000000000000000000000</UniqueId>
+			<bool name="IsPhysicsEnvironmentalThrottled">true</bool>
+			<bool name="IsSleepAllowed">true</bool>
+			<string name="Name">TestService</string>
+			<int name="NumberOfPlayers">0</int>
+			<double name="SimulateSecondsLag">0</double>
+			<int64 name="SourceAssetId">-1</int64>
+			<BinaryString name="Tags"></BinaryString>
+			<bool name="ThrottlePhysicsToRealtime">true</bool>
+			<double name="Timeout">10</double>
+			<UniqueId name="UniqueId">21f360a667af9968089e011800000398</UniqueId>
+		</Properties>
+	</Item>
+	<Item class="UGCAvatarService" referent="RBX1CD8CD33158C407B9AC9333B98820DB6">
+		<Properties>
+			<BinaryString name="AttributesSerialize"></BinaryString>
+			<SecurityCapabilities name="Capabilities">0</SecurityCapabilities>
+			<bool name="DefinesCapabilities">false</bool>
+			<UniqueId name="HistoryId">00000000000000000000000000000000</UniqueId>
+			<string name="Name">UGCAvatarService</string>
+			<int64 name="SourceAssetId">-1</int64>
+			<BinaryString name="Tags"></BinaryString>
+			<UniqueId name="UniqueId">21f360a667af9968089e011800000399</UniqueId>
+		</Properties>
+	</Item>
+	<Item class="VideoService" referent="RBX71E69E6E1F5B48E188A331E877A4F67A">
+		<Properties>
+			<BinaryString name="AttributesSerialize"></BinaryString>
+			<SecurityCapabilities name="Capabilities">0</SecurityCapabilities>
+			<bool name="DefinesCapabilities">false</bool>
+			<UniqueId name="HistoryId">00000000000000000000000000000000</UniqueId>
+			<string name="Name">VideoService</string>
+			<int64 name="SourceAssetId">-1</int64>
+			<BinaryString name="Tags"></BinaryString>
+			<UniqueId name="UniqueId">21f360a667af9968089e0118000003c2</UniqueId>
+		</Properties>
+	</Item>
+	<Item class="VoiceChatService" referent="RBXAEF57AEE17804AD780C54A887BD74400">
+		<Properties>
+			<BinaryString name="AttributesSerialize"></BinaryString>
+			<SecurityCapabilities name="Capabilities">0</SecurityCapabilities>
+			<token name="DefaultDistanceAttenuation">0</token>
+			<bool name="DefinesCapabilities">false</bool>
+			<bool name="EnableDefaultVoice">true</bool>
+			<UniqueId name="HistoryId">00000000000000000000000000000000</UniqueId>
+			<string name="Name">VoiceChatService</string>
+			<int64 name="SourceAssetId">-1</int64>
+			<BinaryString name="Tags"></BinaryString>
+			<UniqueId name="UniqueId">21f360a667af9968089e01180000039b</UniqueId>
+			<token name="UseAudioApi">2</token>
+		</Properties>
+	</Item>
+	<SharedStrings>
+		<SharedString md5="yuZpQdnvvUBOTYh1jqZ2cA=="></SharedString>
+	</SharedStrings>
+</roblox>
