@@ -1,5 +1,7 @@
 StateService is an enterprise-grade state management for Roblox with server/client architecture, automatic cleanup, callbacks, and real-time updates.
 
+- For updates handled by Roblox, make sure to constantly update the package inside of the rbxmx file provided in the most recent release!
+
 **API Reference:** [API](/API)
 
 Special thanks to loleris for inspiring me to make this type of module.<br>
