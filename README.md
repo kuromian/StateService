@@ -9,6 +9,7 @@ Most preferably: ReplicatedStorage, ReplicatedFirst, ServerStorage, ServerScript
 
 You can find the model on the Roblox Creator Marketplace here:
  - [https://create.roblox.com/store/asset/121946448234703](https://create.roblox.com/store/asset/121946448234703)\
+
 You can find the example place on Roblox here:
  - [https://www.roblox.com/games/76942703791553/StateService-Example](https://www.roblox.com/games/76942703791553)
 
